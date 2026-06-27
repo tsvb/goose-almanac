@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Container } from "./container";
 import { SearchBox } from "./search-box";
 import { ThemeToggle } from "./theme-toggle";
+import { MobileNav } from "./mobile-nav";
 import { Feather } from "./marks";
 
 const NAV = [
@@ -35,6 +36,7 @@ export function SiteHeader() {
         <div className="flex items-center gap-2">
           <SearchBox />
           <ThemeToggle />
+          <MobileNav />
         </div>
       </Container>
     </header>

@@ -1,3 +1,11 @@
 import type { NextConfig } from "next";
-const nextConfig: NextConfig = {};
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const nextConfig: NextConfig = {
+  // Pin the file-tracing root to this project (a stray lockfile in a parent
+  // directory otherwise makes Next infer the wrong workspace root).
+  outputFileTracingRoot: path.dirname(fileURLToPath(import.meta.url)),
+};
+
 export default nextConfig;

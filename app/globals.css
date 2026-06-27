@@ -89,6 +89,12 @@
     background: var(--gold);
     color: #15110c;
   }
+  /* Keyboard focus — visible gold ring, never on mouse click */
+  :where(a, button, input, [tabindex]):focus-visible {
+    outline: 2px solid var(--gold);
+    outline-offset: 2px;
+    border-radius: 3px;
+  }
   a {
     color: inherit;
   }
