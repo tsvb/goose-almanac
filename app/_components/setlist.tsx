@@ -2,38 +2,7 @@ import { Flame } from "./marks";
 import { clsx } from "./clsx";
 import { trackSeconds, formatDuration } from "@/lib/queries/format";
 import type { SetlistEntry } from "@/lib/queries/shows";
-
-const ROMAN = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII"];
-
-// elgoose convention: set_type is "Set" or "One Set"; set_number is "1".."n"
-// for sets and "e" / "e2" for encores.
-function setLabel(type: string | null, num: string | null): string {
-  const n = (num ?? "").trim().toLowerCase();
-  if (type === "Soundcheck") return "Soundcheck";
-  if (type === "One Set") return "Set";
-  if (n.startsWith("e")) {
-    const idx = parseInt(n.slice(1), 10);
-    return Number.isFinite(idx) && idx > 1 ? `Encore ${ROMAN[idx] ?? idx}` : "Encore";
-  }
-  const setNo = parseInt(n, 10);
-  if (Number.isFinite(setNo)) return `Set ${ROMAN[setNo] ?? setNo}`;
-  return type ?? "Set";
-}
-
-const isSegue = (t: string | null) => !!t && t.includes(">");
-
-type Group = { key: string; label: string; entries: SetlistEntry[] };
-
-function groupSets(entries: SetlistEntry[]): Group[] {
-  const groups: Group[] = [];
-  for (const e of entries) {
-    const key = `${e.setType}|${e.setNumber}`;
-    const last = groups[groups.length - 1];
-    if (last && last.key === key) last.entries.push(e);
-    else groups.push({ key, label: setLabel(e.setType, e.setNumber), entries: [e] });
-  }
-  return groups;
-}
+import { groupSets, isSegue } from "./setlist/shared";
 
 export function Setlist({ entries }: { entries: SetlistEntry[] }) {
   if (entries.length === 0) {
