@@ -19,6 +19,11 @@ the modern live-performance record maintained at [elgoose.net](https://elgoose.n
 
 Each phase has its own design spec under [`docs/superpowers/specs/`](docs/superpowers/specs/).
 
+## Live site & deployment
+
+Runs on **Vercel** (Next.js) reading from **Neon** (managed Postgres), refreshed nightly by a
+GitHub Action. See [`docs/DEPLOY.md`](docs/DEPLOY.md) for the full runbook.
+
 ## Getting started
 
 See [`docs/SETUP.md`](docs/SETUP.md). In short: `npm install`, `npm run db:up`,
