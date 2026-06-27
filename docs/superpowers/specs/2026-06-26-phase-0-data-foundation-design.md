@@ -154,7 +154,14 @@ Run after `sync`; exits non-zero on any failure. Checks:
   `performance.song_id` resolves to a `song`; every `show.venue_id` resolves to a `venue`.
 - **Spot-checks (golden records):** `2022-06-24` Radio City returns 15 performances with
   the "first set played acoustic" note; at least one known segue (`" > "`) and one
-  jam-chart row exist; earliest show is `2012-01-12`.
+  jam-chart row exist; earliest *Goose* show is `2014-09-27`.
+
+> **Build note (corrected during implementation):** elgoose's bare list endpoints cap at
+> 4000 rows — the sync passes `limit=100000` to pull the full ~7,400 performances. Some
+> songs referenced by setlists are missing from `songs.json` (legacy ids), so the sync
+> backfills songs from setlist rows. Earliest Goose show is 2014-09-27 (2012-01-12 is a
+> non-Goose record); performances floor is 6000 (true count ~7,416). See
+> [data-landscape research](../../research/2026-06-26-data-landscape.md).
 - **No orphans / no duplicate positions** within a show+set.
 
 ## Testing strategy (test-first)

@@ -5,6 +5,18 @@ _Researched 2026-06-26. Facts verified against live endpoints where noted._
 This file preserves the source-of-truth research that informs every phase of the
 project. Update it as we learn more or as sources change.
 
+> **Build-time corrections (verified while building Phase 0, 2026-06-26):**
+> - **Bare list endpoints cap at 4000 rows.** `setlists.json` (and other `{method}.json`
+>   calls) return at most 4000 rows by default; pass `?limit=100000` to get the full set
+>   (~9,421 setlist rows total, ~7,416 for Goose). The sync does this.
+> - **`songs.json` is incomplete.** It returns 613 songs with ids 400–1028, but setlists
+>   reference legacy ids outside that range (e.g. `song_id=1` = "Foxy Lady"). The sync
+>   backfills missing songs from the setlist rows.
+> - **Earliest *Goose* (artist_id=1) show is `2014-09-27`,** not 2012-01-12. The 2012 date
+>   is the earliest record across *all* artists in elgoose (a non-Goose/related act). The
+>   `?artist_id=1` query param is ignored by the API; only the path form `/artist_id/1`
+>   filters server-side. We filter client-side.
+
 ## Summary / bottom line
 
 - **The spine is the elgoose.net v2 API** — free, keyless, JSON, deeply structured.

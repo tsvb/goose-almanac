@@ -11,13 +11,19 @@ the modern live-performance record maintained at [elgoose.net](https://elgoose.n
 
 | Phase | Feature | Status |
 |-------|---------|--------|
-| **0** | **Data Foundation** — sync elgoose → our own database, verified | 🔨 in progress |
+| **0** | **Data Foundation** — sync elgoose → our own database, verified | ✅ done |
 | 1 | Show Browsing & Discovery — browse shows by year/tour/venue/map, rich setlist pages, "On This Day", upcoming shows | planned |
 | 2 | Song Stats & History — per-song pages, gaps/bustouts, debuts, Spotify discography | planned |
 | 3 | Jam & Set-Flow Analytics — jam charts, segue networks, era-aware analysis | planned |
 | 4 | Personal Fan Tracking — "shows I've seen", personal stats, song life-list | planned |
 
 Each phase has its own design spec under [`docs/superpowers/specs/`](docs/superpowers/specs/).
+
+## Getting started
+
+See [`docs/SETUP.md`](docs/SETUP.md). In short: `npm install`, `npm run db:up`,
+`npm run db:migrate`, `npm run sync`, `npm run verify`. Phase 0 currently syncs
+~853 shows, ~614 songs, 591 venues, and ~7,400 performances into local Postgres.
 
 ## Tech
 
