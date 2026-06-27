@@ -26,4 +26,13 @@ describe("SetlistFunctional", () => {
     expect(html).toContain("›"); // segue marker
     expect(html).toContain("18:40");
   });
+
+  it("renders filter controls and all rows initially", () => {
+    const html = renderToStaticMarkup(
+      <SetlistFunctional entries={[entry({ song: "Tumble" }), entry({ song: "Yeti", position: 2 })]} />,
+    );
+    expect(html).toContain("Filter songs");
+    expect(html).toContain("Tumble");
+    expect(html).toContain("Yeti");
+  });
 });
