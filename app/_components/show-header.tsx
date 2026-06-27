@@ -5,7 +5,7 @@ import { dateParts, locationLine, formatDuration, trackSeconds } from "@/lib/que
 import type { ShowDetail, SetlistEntry } from "@/lib/queries/shows";
 import type { Experience } from "@/lib/experience";
 
-function useStats(date: string, setlist: SetlistEntry[]) {
+function computeStats(date: string, setlist: SetlistEntry[]) {
   const dp = dateParts(date);
   const setNumbers = new Set(
     setlist.map((e) => (e.setNumber ?? "").trim().toLowerCase()).filter(Boolean),
@@ -20,7 +20,7 @@ function useStats(date: string, setlist: SetlistEntry[]) {
 export function ShowHeader({
   show, date, setlist, experience,
 }: { show: ShowDetail; date: string; setlist: SetlistEntry[]; experience: Experience }) {
-  const { dp, encores, setCount, totalSecs, known } = useStats(date, setlist);
+  const { dp, encores, setCount, totalSecs, known } = computeStats(date, setlist);
   const loc = locationLine(show.city, show.state, show.country);
   const durationLogged = known >= setlist.length / 2 && totalSecs > 0 ? formatDuration(totalSecs) : null;
 

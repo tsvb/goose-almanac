@@ -110,12 +110,14 @@ export default async function ShowPage({ params, searchParams }: Params) {
 
       {/* Body */}
       <Container size="prose" className="py-12">
-        {show.notes && (
+        {show.notes && (experience === "minimal" ? (
+          <p className="mb-6 text-muted"><span className="text-ink">Notes:</span> {show.notes}</p>
+        ) : (
           <aside className="mb-10 rounded-lg border-l-2 border-gold bg-surface/60 px-5 py-4">
             <span className="eyebrow">From the notes</span>
             <p className="mt-2 leading-relaxed text-ink">{show.notes}</p>
           </aside>
-        )}
+        ))}
 
         <Setlist entries={setlist} experience={experience} />
         {experience === "minimal" && (
@@ -129,30 +131,43 @@ export default async function ShowPage({ params, searchParams }: Params) {
       </Container>
 
       {/* Prev / next */}
-      <nav className="border-t border-line">
-        <Container className="grid gap-3 py-8 sm:grid-cols-2">
-          {neighbors.prev ? (
-            <Link href={showHref(neighbors.prev.date)} className="group flex flex-col rounded-lg border border-line bg-surface p-5 transition hover:border-gold/55 hover:bg-surface-2">
-              <span className="flex items-center gap-1.5 font-mono text-[0.7rem] uppercase tracking-wider text-faint">
-                <ArrowLeft className="h-3.5 w-3.5 transition group-hover:-translate-x-0.5" /> Previous night
-              </span>
-              <span className="mt-2 font-display text-lg text-ink group-hover:text-gold">{formatShortDate(neighbors.prev.date)}</span>
-              <span className="text-sm text-muted">{neighbors.prev.venue}</span>
-            </Link>
-          ) : (
-            <div />
-          )}
-          {neighbors.next && (
-            <Link href={showHref(neighbors.next.date)} className="group flex flex-col items-end rounded-lg border border-line bg-surface p-5 text-right transition hover:border-gold/55 hover:bg-surface-2">
-              <span className="flex items-center gap-1.5 font-mono text-[0.7rem] uppercase tracking-wider text-faint">
-                Next night <ArrowRight className="h-3.5 w-3.5 transition group-hover:translate-x-0.5" />
-              </span>
-              <span className="mt-2 font-display text-lg text-ink group-hover:text-gold">{formatShortDate(neighbors.next.date)}</span>
-              <span className="text-sm text-muted">{neighbors.next.venue}</span>
-            </Link>
-          )}
-        </Container>
-      </nav>
+      {experience === "minimal" ? (
+        <nav className="border-t border-line">
+          <Container className="flex flex-wrap justify-between gap-4 py-6 text-sm">
+            {neighbors.prev ? (
+              <Link href={showHref(neighbors.prev.date)}>← {formatShortDate(neighbors.prev.date)}{neighbors.prev.venue ? ` · ${neighbors.prev.venue}` : ""}</Link>
+            ) : <span />}
+            {neighbors.next ? (
+              <Link href={showHref(neighbors.next.date)}>{formatShortDate(neighbors.next.date)}{neighbors.next.venue ? ` · ${neighbors.next.venue}` : ""} →</Link>
+            ) : <span />}
+          </Container>
+        </nav>
+      ) : (
+        <nav className="border-t border-line">
+          <Container className="grid gap-3 py-8 sm:grid-cols-2">
+            {neighbors.prev ? (
+              <Link href={showHref(neighbors.prev.date)} className="group flex flex-col rounded-lg border border-line bg-surface p-5 transition hover:border-gold/55 hover:bg-surface-2">
+                <span className="flex items-center gap-1.5 font-mono text-[0.7rem] uppercase tracking-wider text-faint">
+                  <ArrowLeft className="h-3.5 w-3.5 transition group-hover:-translate-x-0.5" /> Previous night
+                </span>
+                <span className="mt-2 font-display text-lg text-ink group-hover:text-gold">{formatShortDate(neighbors.prev.date)}</span>
+                <span className="text-sm text-muted">{neighbors.prev.venue}</span>
+              </Link>
+            ) : (
+              <div />
+            )}
+            {neighbors.next && (
+              <Link href={showHref(neighbors.next.date)} className="group flex flex-col items-end rounded-lg border border-line bg-surface p-5 text-right transition hover:border-gold/55 hover:bg-surface-2">
+                <span className="flex items-center gap-1.5 font-mono text-[0.7rem] uppercase tracking-wider text-faint">
+                  Next night <ArrowRight className="h-3.5 w-3.5 transition group-hover:translate-x-0.5" />
+                </span>
+                <span className="mt-2 font-display text-lg text-ink group-hover:text-gold">{formatShortDate(neighbors.next.date)}</span>
+                <span className="text-sm text-muted">{neighbors.next.venue}</span>
+              </Link>
+            )}
+          </Container>
+        </nav>
+      )}
     </article>
   );
 }
