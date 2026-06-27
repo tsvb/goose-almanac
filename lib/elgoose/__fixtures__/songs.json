@@ -1,0 +1,5523 @@
+{
+ "error": false,
+ "error_message": "",
+ "data": [
+  {
+   "id": 400,
+   "name": "Turned Clouds",
+   "slug": "turned-clouds",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "1000-01-01 00:00:00",
+   "updated_at": "2024-03-11 16:20:28"
+  },
+  {
+   "id": 402,
+   "name": "Into the Myst",
+   "slug": "into-the-myst",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "1000-01-01 00:00:00",
+   "updated_at": "2024-04-18 15:16:53"
+  },
+  {
+   "id": 403,
+   "name": "Arcadia",
+   "slug": "arcadia",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "1000-01-01 00:00:00",
+   "updated_at": "2023-07-07 15:43:16"
+  },
+  {
+   "id": 404,
+   "name": "Time to Flee",
+   "slug": "time-to-flee",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "1000-01-01 00:00:00",
+   "updated_at": "2025-06-13 15:35:42"
+  },
+  {
+   "id": 405,
+   "name": "Wysteria Lane",
+   "slug": "wysteria-lane",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "1000-01-01 00:00:00",
+   "updated_at": "2023-08-15 16:48:58"
+  },
+  {
+   "id": 406,
+   "name": "Lead the Way",
+   "slug": "lead-the-way",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "1000-01-01 00:00:00",
+   "updated_at": "2023-09-26 19:19:24"
+  },
+  {
+   "id": 407,
+   "name": "Interlude I",
+   "slug": "interlude-i",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "1000-01-01 00:00:00",
+   "updated_at": "1000-01-01 00:00:00"
+  },
+  {
+   "id": 408,
+   "name": "Hot Tea",
+   "slug": "hot-tea",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "1000-01-01 00:00:00",
+   "updated_at": "2021-08-10 12:43:05"
+  },
+  {
+   "id": 409,
+   "name": "Interlude II",
+   "slug": "interlude-ii",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "1000-01-01 00:00:00",
+   "updated_at": "1000-01-01 00:00:00"
+  },
+  {
+   "id": 410,
+   "name": "Indian River",
+   "slug": "indian-river",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "1000-01-01 00:00:00",
+   "updated_at": "2023-07-24 19:59:44"
+  },
+  {
+   "id": 411,
+   "name": "Jive I",
+   "slug": "jive-i",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "1000-01-01 00:00:00",
+   "updated_at": "2023-07-24 20:00:20"
+  },
+  {
+   "id": 412,
+   "name": "Rosewood Heart",
+   "slug": "rosewood-heart",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "1000-01-01 00:00:00",
+   "updated_at": "2023-08-15 16:48:17"
+  },
+  {
+   "id": 413,
+   "name": "Jive II",
+   "slug": "jive-ii",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "1000-01-01 00:00:00",
+   "updated_at": "2023-07-24 20:17:19"
+  },
+  {
+   "id": 414,
+   "name": "All I Need",
+   "slug": "all-i-need",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "1000-01-01 00:00:00",
+   "updated_at": "2023-12-20 21:28:58"
+  },
+  {
+   "id": 415,
+   "name": "Butter Rum",
+   "slug": "butter-rum",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "1000-01-01 00:00:00",
+   "updated_at": "2023-08-15 16:49:38"
+  },
+  {
+   "id": 416,
+   "name": "Yeti",
+   "slug": "yeti",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "1000-01-01 00:00:00",
+   "updated_at": "2023-07-07 14:19:01"
+  },
+  {
+   "id": 418,
+   "name": "Tumble",
+   "slug": "tumble",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "1000-01-01 00:00:00",
+   "updated_at": "2021-05-19 23:48:34"
+  },
+  {
+   "id": 419,
+   "name": "Disco Inferno",
+   "slug": "disco-inferno",
+   "isoriginal": 0,
+   "original_artist": "The Trammps",
+   "created_at": "1000-01-01 00:00:00",
+   "updated_at": "1000-01-01 00:00:00"
+  },
+  {
+   "id": 420,
+   "name": "Creatures",
+   "slug": "creatures",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "1000-01-01 00:00:00",
+   "updated_at": "2023-07-24 23:45:32"
+  },
+  {
+   "id": 421,
+   "name": "So Ready",
+   "slug": "so-ready",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "1000-01-01 00:00:00",
+   "updated_at": "1000-01-01 00:00:00"
+  },
+  {
+   "id": 422,
+   "name": "Slow Ready",
+   "slug": "slow-ready",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "1000-01-01 00:00:00",
+   "updated_at": "1000-01-01 00:00:00"
+  },
+  {
+   "id": 423,
+   "name": "Free Space Jam",
+   "slug": "free-space-jam",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "1000-01-01 00:00:00",
+   "updated_at": "1000-01-01 00:00:00"
+  },
+  {
+   "id": 424,
+   "name": "I'm Writing A Novel",
+   "slug": "im-writing-a-novel",
+   "isoriginal": 0,
+   "original_artist": "Father John Misty",
+   "created_at": "1000-01-01 00:00:00",
+   "updated_at": "2023-12-03 19:33:11"
+  },
+  {
+   "id": 425,
+   "name": "The Whales",
+   "slug": "the-whales",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "1000-01-01 00:00:00",
+   "updated_at": "2025-06-13 19:25:28"
+  },
+  {
+   "id": 426,
+   "name": "Can't Get You Out Of My Head",
+   "slug": "cant-get-you-out-of-my-head",
+   "isoriginal": 0,
+   "original_artist": "Kylie Minogue",
+   "created_at": "1000-01-01 00:00:00",
+   "updated_at": "2023-10-28 05:24:25"
+  },
+  {
+   "id": 427,
+   "name": "Mustang Sally",
+   "slug": "mustang-sally",
+   "isoriginal": 0,
+   "original_artist": "Wilson Pickett",
+   "created_at": "1000-01-01 00:00:00",
+   "updated_at": "2023-07-24 20:02:18"
+  },
+  {
+   "id": 428,
+   "name": "Weird Fishes / Arpeggi",
+   "slug": "weird-fishes-arpeggi",
+   "isoriginal": 0,
+   "original_artist": "Radiohead",
+   "created_at": "1000-01-01 00:00:00",
+   "updated_at": "2024-12-07 00:59:29"
+  },
+  {
+   "id": 429,
+   "name": "Bob Don",
+   "slug": "bob-don",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "1000-01-01 00:00:00",
+   "updated_at": "2024-05-02 15:39:43"
+  },
+  {
+   "id": 430,
+   "name": "What's Up?",
+   "slug": "whats-up",
+   "isoriginal": 0,
+   "original_artist": "4 Non Blondes",
+   "created_at": "1000-01-01 00:00:00",
+   "updated_at": "2024-12-07 01:03:42"
+  },
+  {
+   "id": 431,
+   "name": "Rock The Casbah",
+   "slug": "rock-the-casbah",
+   "isoriginal": 0,
+   "original_artist": "The Clash",
+   "created_at": "1000-01-01 00:00:00",
+   "updated_at": "2026-04-09 15:54:38"
+  },
+  {
+   "id": 432,
+   "name": "726",
+   "slug": "726",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2020-09-09 22:29:08",
+   "updated_at": "2025-05-19 21:35:58"
+  },
+  {
+   "id": 433,
+   "name": "Also Sprach Zarathustra",
+   "slug": "also-sprach-zarathustra",
+   "isoriginal": 0,
+   "original_artist": "Deodato",
+   "created_at": "2020-09-09 22:30:28",
+   "updated_at": "2025-05-19 21:40:44"
+  },
+  {
+   "id": 434,
+   "name": "A Fifth Of Beethoven",
+   "slug": "a-fifth-of-beethoven-2",
+   "isoriginal": 0,
+   "original_artist": "Walter Murphy",
+   "created_at": "2020-09-09 22:30:48",
+   "updated_at": "2025-05-19 21:22:45"
+  },
+  {
+   "id": 435,
+   "name": "A Western Sun",
+   "slug": "a-western-sun",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2020-09-09 22:31:13",
+   "updated_at": "2023-07-25 20:04:18"
+  },
+  {
+   "id": 436,
+   "name": "Achy Breaky Heart",
+   "slug": "achy-breaky-heart",
+   "isoriginal": 0,
+   "original_artist": "Billy Ray Cyrus",
+   "created_at": "2020-09-09 22:31:41",
+   "updated_at": "2025-05-19 21:37:22"
+  },
+  {
+   "id": 437,
+   "name": "Ain't Life Grand",
+   "slug": "aint-life-grand",
+   "isoriginal": 0,
+   "original_artist": "Widespread Panic",
+   "created_at": "2020-09-09 22:31:55",
+   "updated_at": "2025-05-19 21:39:00"
+  },
+  {
+   "id": 438,
+   "name": "Arrow",
+   "slug": "arrow",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2020-09-09 22:32:12",
+   "updated_at": "2022-09-13 17:19:47"
+  },
+  {
+   "id": 439,
+   "name": "Atlas",
+   "slug": "atlas",
+   "isoriginal": 0,
+   "original_artist": "The Wood Brothers",
+   "created_at": "2020-09-09 22:32:25",
+   "updated_at": "2023-07-24 20:05:49"
+  },
+  {
+   "id": 440,
+   "name": "Billie Jean",
+   "slug": "billie-jean",
+   "isoriginal": 0,
+   "original_artist": "Michael Jackson",
+   "created_at": "2020-09-09 22:32:40",
+   "updated_at": "2025-05-19 22:06:11"
+  },
+  {
+   "id": 441,
+   "name": "Boogie On Reggae Woman",
+   "slug": "boogie-on-reggae-woman",
+   "isoriginal": 0,
+   "original_artist": "Stevie Wonder",
+   "created_at": "2020-09-09 22:33:11",
+   "updated_at": "2023-07-25 20:05:14"
+  },
+  {
+   "id": 442,
+   "name": "Boogie Wonderland",
+   "slug": "boogie-wonderland",
+   "isoriginal": 0,
+   "original_artist": "Earth, Wind & Fire and The Emotions",
+   "created_at": "2020-09-09 22:33:56",
+   "updated_at": "2020-10-05 20:44:39"
+  },
+  {
+   "id": 443,
+   "name": "Brown-Eyed Women",
+   "slug": "brown-eyed-women",
+   "isoriginal": 0,
+   "original_artist": "Grateful Dead",
+   "created_at": "2020-09-09 22:34:11",
+   "updated_at": "2023-07-24 23:40:34"
+  },
+  {
+   "id": 444,
+   "name": "Cantaloupe Island",
+   "slug": "cantaloupe-island",
+   "isoriginal": 0,
+   "original_artist": "Herbie Hancock",
+   "created_at": "2020-09-09 22:34:30",
+   "updated_at": "2020-09-09 22:34:30"
+  },
+  {
+   "id": 445,
+   "name": "Carol Of The Bells",
+   "slug": "carol-of-the-bells",
+   "isoriginal": 0,
+   "original_artist": "Mykola Leontovych",
+   "created_at": "2020-09-09 22:34:58",
+   "updated_at": "2023-07-24 23:38:03"
+  },
+  {
+   "id": 446,
+   "name": "Caution",
+   "slug": "caution",
+   "isoriginal": 0,
+   "original_artist": "Bob Marley",
+   "created_at": "2020-09-09 22:35:09",
+   "updated_at": "2023-07-24 19:59:00"
+  },
+  {
+   "id": 447,
+   "name": "Chank",
+   "slug": "chank",
+   "isoriginal": 0,
+   "original_artist": "John Scofield",
+   "created_at": "2020-09-09 22:35:21",
+   "updated_at": "2020-09-09 22:35:21"
+  },
+  {
+   "id": 448,
+   "name": "Christmas Card From A Hooker In Minneapolis",
+   "slug": "christmas-card-from-a-hooker-in-minneapolis-2",
+   "isoriginal": 0,
+   "original_artist": "Tom Waits",
+   "created_at": "2020-09-09 22:35:45",
+   "updated_at": "2023-07-25 20:05:49"
+  },
+  {
+   "id": 449,
+   "name": "Christmas Must Be Tonight",
+   "slug": "christmas-must-be-tonight",
+   "isoriginal": 0,
+   "original_artist": "The Band",
+   "created_at": "2020-09-09 22:36:07",
+   "updated_at": "2020-09-09 22:36:07"
+  },
+  {
+   "id": 450,
+   "name": "Christmas Wrapping",
+   "slug": "christmas-wrapping",
+   "isoriginal": 0,
+   "original_artist": "The Waitresses",
+   "created_at": "2020-09-09 22:36:43",
+   "updated_at": "2020-09-09 22:36:43"
+  },
+  {
+   "id": 451,
+   "name": "Cleanin' Up The Town",
+   "slug": "cleanin-up-the-town",
+   "isoriginal": 0,
+   "original_artist": "The Bus Boys",
+   "created_at": "2020-09-09 22:37:22",
+   "updated_at": "2020-09-09 22:37:22"
+  },
+  {
+   "id": 452,
+   "name": "Cold Rain And Snow",
+   "slug": "cold-rain-and-snow",
+   "isoriginal": 0,
+   "original_artist": "Grateful Dead",
+   "created_at": "2020-09-09 22:37:36",
+   "updated_at": "2023-07-24 19:54:20"
+  },
+  {
+   "id": 453,
+   "name": "Compared To What",
+   "slug": "compared-to-what-2",
+   "isoriginal": 0,
+   "original_artist": "Gene McDaniels",
+   "created_at": "2020-09-09 22:37:50",
+   "updated_at": "2021-04-20 10:49:57"
+  },
+  {
+   "id": 454,
+   "name": "Covington Jam",
+   "slug": "covington-jam",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2020-09-09 22:38:00",
+   "updated_at": "2020-09-09 22:38:00"
+  },
+  {
+   "id": 455,
+   "name": "Crosseyed & Painless",
+   "slug": "crosseyed",
+   "isoriginal": 0,
+   "original_artist": "Talking Heads",
+   "created_at": "2020-09-09 22:38:47",
+   "updated_at": "2023-07-25 20:06:04"
+  },
+  {
+   "id": 456,
+   "name": "Dancing In The Moonlight",
+   "slug": "dancing-in-the-moonlight",
+   "isoriginal": 0,
+   "original_artist": "King Harvest",
+   "created_at": "2020-09-09 22:39:06",
+   "updated_at": "2023-08-15 16:51:33"
+  },
+  {
+   "id": 457,
+   "name": "Danger Zone",
+   "slug": "danger-zone",
+   "isoriginal": 0,
+   "original_artist": "Kenny Loggins",
+   "created_at": "2020-09-09 22:39:15",
+   "updated_at": "2023-07-25 00:02:12"
+  },
+  {
+   "id": 458,
+   "name": "Day-O",
+   "slug": "day-o",
+   "isoriginal": 0,
+   "original_artist": "Harry Belafonte",
+   "created_at": "2020-09-09 22:39:37",
+   "updated_at": "2020-09-09 22:39:37"
+  },
+  {
+   "id": 459,
+   "name": "Doc Brown",
+   "slug": "doc-brown",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2020-09-09 22:40:02",
+   "updated_at": "2023-08-22 16:36:18"
+  },
+  {
+   "id": 460,
+   "name": "Don't Do It",
+   "slug": "dont-do-it",
+   "isoriginal": 0,
+   "original_artist": "The Band",
+   "created_at": "2020-09-09 22:40:20",
+   "updated_at": "2023-07-24 23:47:18"
+  },
+  {
+   "id": 461,
+   "name": "Doobie Song",
+   "slug": "doobie-song",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2020-09-09 22:40:30",
+   "updated_at": "2024-03-11 16:20:59"
+  },
+  {
+   "id": 462,
+   "name": "Drive",
+   "slug": "drive",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2020-09-09 22:40:39",
+   "updated_at": "2022-09-13 17:30:30"
+  },
+  {
+   "id": 463,
+   "name": "Echo of a Rose",
+   "slug": "echo-of-a-rose-2",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2020-09-09 22:40:52",
+   "updated_at": "2023-07-25 20:06:45"
+  },
+  {
+   "id": 464,
+   "name": "Electric Avenue",
+   "slug": "electric-avenue",
+   "isoriginal": 0,
+   "original_artist": "Eddy Grant",
+   "created_at": "2020-09-09 22:41:06",
+   "updated_at": "2023-07-25 20:06:56"
+  },
+  {
+   "id": 465,
+   "name": "Elizabeth",
+   "slug": "elizabeth",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2020-09-09 22:41:18",
+   "updated_at": "2023-07-25 20:07:04"
+  },
+  {
+   "id": 466,
+   "name": "Elmeg The Wise",
+   "slug": "elmeg-the-wise-2",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2020-09-09 22:41:40",
+   "updated_at": "2023-07-25 20:07:12"
+  },
+  {
+   "id": 467,
+   "name": "Elmer Theme",
+   "slug": "elmer-theme",
+   "isoriginal": 0,
+   "original_artist": "Elmer Bernstein",
+   "created_at": "2020-09-09 22:41:58",
+   "updated_at": "2020-09-09 22:41:58"
+  },
+  {
+   "id": 468,
+   "name": "Eminence Front",
+   "slug": "eminence-front",
+   "isoriginal": 0,
+   "original_artist": "The Who",
+   "created_at": "2020-09-09 22:42:09",
+   "updated_at": "2024-07-30 21:55:32"
+  },
+  {
+   "id": 469,
+   "name": "Escape (The Piña Colada Song)",
+   "slug": "escape-the-pia-colada-song",
+   "isoriginal": 0,
+   "original_artist": "Rupert Holmes",
+   "created_at": "2020-09-09 22:42:56",
+   "updated_at": "2023-07-25 20:07:22"
+  },
+  {
+   "id": 470,
+   "name": "Every Little Thing She Does Is Magic",
+   "slug": "every-little-thing-she-does-is-magic",
+   "isoriginal": 0,
+   "original_artist": "The Police",
+   "created_at": "2020-09-09 23:09:54",
+   "updated_at": "2023-07-25 20:07:35"
+  },
+  {
+   "id": 471,
+   "name": "Everywhere",
+   "slug": "everywhere",
+   "isoriginal": 0,
+   "original_artist": "Michelle Branch",
+   "created_at": "2020-09-09 23:10:06",
+   "updated_at": "2020-09-09 23:10:06"
+  },
+  {
+   "id": 472,
+   "name": "I2I",
+   "slug": "i2i",
+   "isoriginal": 0,
+   "original_artist": "Tevin Campbell",
+   "created_at": "2020-09-09 23:10:21",
+   "updated_at": "2025-01-01 16:04:06"
+  },
+  {
+   "id": 473,
+   "name": "Factory Fiction",
+   "slug": "factory-fiction",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2020-09-09 23:10:33",
+   "updated_at": "2024-07-03 23:26:23"
+  },
+  {
+   "id": 474,
+   "name": "Feel Like Making Love",
+   "slug": "feel-like-making-love",
+   "isoriginal": 0,
+   "original_artist": "Bad Company",
+   "created_at": "2020-09-09 23:10:46",
+   "updated_at": "2020-09-09 23:10:46"
+  },
+  {
+   "id": 475,
+   "name": "Feliz Navidad",
+   "slug": "feliz-navidad",
+   "isoriginal": 0,
+   "original_artist": "Jose Feliciano",
+   "created_at": "2020-09-09 23:11:04",
+   "updated_at": "2020-09-09 23:11:04"
+  },
+  {
+   "id": 476,
+   "name": "Fire On The Mountain",
+   "slug": "fire-on-the-mountain",
+   "isoriginal": 0,
+   "original_artist": "Grateful Dead",
+   "created_at": "2020-09-09 23:11:24",
+   "updated_at": "2023-07-25 20:08:01"
+  },
+  {
+   "id": 477,
+   "name": "Fish In The Sea",
+   "slug": "fish-in-the-sea",
+   "isoriginal": 0,
+   "original_artist": "Fat Freddy's Drop",
+   "created_at": "2020-09-09 23:11:58",
+   "updated_at": "2024-03-11 16:22:11"
+  },
+  {
+   "id": 478,
+   "name": "Flodown",
+   "slug": "flodown",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2020-09-09 23:12:10",
+   "updated_at": "2022-09-13 17:36:07"
+  },
+  {
+   "id": 479,
+   "name": "Get The Funk Out Ma Face",
+   "slug": "get-the-funk-out-ma-face",
+   "isoriginal": 0,
+   "original_artist": "Brothers Johnson",
+   "created_at": "2020-09-09 23:12:46",
+   "updated_at": "2023-07-25 20:08:13"
+  },
+  {
+   "id": 480,
+   "name": "Ghostbusters",
+   "slug": "ghostbusters",
+   "isoriginal": 0,
+   "original_artist": "Ray Parker Jr.",
+   "created_at": "2020-09-09 23:13:11",
+   "updated_at": "2020-09-09 23:13:11"
+  },
+  {
+   "id": 481,
+   "name": "Ghostbusters Rap",
+   "slug": "ghostbusters-rap",
+   "isoriginal": 0,
+   "original_artist": "Run DMC",
+   "created_at": "2020-09-09 23:13:21",
+   "updated_at": "2023-08-15 16:51:54"
+  },
+  {
+   "id": 482,
+   "name": "Green River",
+   "slug": "green-river",
+   "isoriginal": 0,
+   "original_artist": "Creedence Clearwater Revival",
+   "created_at": "2020-09-09 23:14:28",
+   "updated_at": "2023-07-24 23:43:29"
+  },
+  {
+   "id": 483,
+   "name": "Gone Gone Good",
+   "slug": "gone-gone-good",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2020-09-09 23:15:27",
+   "updated_at": "2020-09-09 23:15:27"
+  },
+  {
+   "id": 484,
+   "name": "Gringo",
+   "slug": "gringo",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2020-09-09 23:15:37",
+   "updated_at": "2020-09-09 23:15:37"
+  },
+  {
+   "id": 485,
+   "name": "Hard To Handle",
+   "slug": "hard-to-handle",
+   "isoriginal": 0,
+   "original_artist": "Otis Redding",
+   "created_at": "2020-09-09 23:15:54",
+   "updated_at": "2023-07-24 19:54:35"
+  },
+  {
+   "id": 486,
+   "name": "Heart's On Fire",
+   "slug": "hearts-on-fire",
+   "isoriginal": 0,
+   "original_artist": "Passenger",
+   "created_at": "2020-09-09 23:16:06",
+   "updated_at": "2023-07-24 20:08:03"
+  },
+  {
+   "id": 487,
+   "name": "(Your Love Keeps Lifting Me) Higher and Higher",
+   "slug": "your-love-keeps-lifting-me-higher-and-higher",
+   "isoriginal": 0,
+   "original_artist": "Jackie Wilson",
+   "created_at": "2020-09-09 23:16:22",
+   "updated_at": "2025-05-19 20:00:02"
+  },
+  {
+   "id": 488,
+   "name": "Hollywood Nights",
+   "slug": "hollywood-nights",
+   "isoriginal": 0,
+   "original_artist": "Bob Seger & The Silver Bullet Band",
+   "created_at": "2020-09-09 23:20:22",
+   "updated_at": "2020-09-09 23:20:22"
+  },
+  {
+   "id": 489,
+   "name": "Home",
+   "slug": "home",
+   "isoriginal": 0,
+   "original_artist": "Edward Sharp & The Magnetic Zeros",
+   "created_at": "2020-09-09 23:28:28",
+   "updated_at": "2020-09-09 23:28:28"
+  },
+  {
+   "id": 490,
+   "name": "Honeybee",
+   "slug": "honeybee",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2020-09-09 23:28:41",
+   "updated_at": "2025-06-24 17:55:33"
+  },
+  {
+   "id": 491,
+   "name": "Feeling Hot Hot Hot",
+   "slug": "feeling-hot-hot-hot",
+   "isoriginal": 0,
+   "original_artist": "The Merrymen",
+   "created_at": "2020-09-09 23:28:57",
+   "updated_at": "2024-03-11 16:22:57"
+  },
+  {
+   "id": 492,
+   "name": "Hot Night",
+   "slug": "hot-night",
+   "isoriginal": 0,
+   "original_artist": "Laura Branigan",
+   "created_at": "2020-09-09 23:29:17",
+   "updated_at": "2020-09-09 23:29:17"
+  },
+  {
+   "id": 493,
+   "name": "I Shot The Sheriff",
+   "slug": "i-shot-the-sheriff",
+   "isoriginal": 0,
+   "original_artist": "Bob Marley",
+   "created_at": "2020-09-09 23:29:40",
+   "updated_at": "2023-07-24 19:56:44"
+  },
+  {
+   "id": 494,
+   "name": "I Touch Myself",
+   "slug": "i-touch-myself",
+   "isoriginal": 0,
+   "original_artist": "Divinyls",
+   "created_at": "2020-09-09 23:31:09",
+   "updated_at": "2020-09-09 23:31:09"
+  },
+  {
+   "id": 495,
+   "name": "I Wish",
+   "slug": "i-wish",
+   "isoriginal": 0,
+   "original_artist": "Stevie Wonder",
+   "created_at": "2020-09-09 23:31:22",
+   "updated_at": "2023-07-24 23:50:24"
+  },
+  {
+   "id": 496,
+   "name": "I'm Alright",
+   "slug": "im-alright",
+   "isoriginal": 0,
+   "original_artist": "Kenny Loggins",
+   "created_at": "2020-09-09 23:32:57",
+   "updated_at": "2020-10-14 02:17:27"
+  },
+  {
+   "id": 497,
+   "name": "In Memory Of Elizabeth Reed",
+   "slug": "in-memory-of-elizabeth-reed-2",
+   "isoriginal": 0,
+   "original_artist": "The Allman Brothers Band",
+   "created_at": "2020-09-09 23:33:43",
+   "updated_at": "2023-07-25 20:08:51"
+  },
+  {
+   "id": 498,
+   "name": "In Your Eyes",
+   "slug": "in-your-eyes",
+   "isoriginal": 0,
+   "original_artist": "Peter Gabriel",
+   "created_at": "2020-09-09 23:33:58",
+   "updated_at": "2020-09-09 23:33:58"
+  },
+  {
+   "id": 499,
+   "name": "Inside Out",
+   "slug": "inside-out",
+   "isoriginal": 0,
+   "original_artist": "Spoon",
+   "created_at": "2020-09-09 23:34:14",
+   "updated_at": "2020-09-09 23:34:14"
+  },
+  {
+   "id": 500,
+   "name": "It Burns Within",
+   "slug": "it-burns-within",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2020-09-09 23:34:30",
+   "updated_at": "2023-07-24 20:00:03"
+  },
+  {
+   "id": 501,
+   "name": "It's All Over Now, Baby Blue",
+   "slug": "its-all-over-now-baby-blue",
+   "isoriginal": 0,
+   "original_artist": "Bob Dylan",
+   "created_at": "2020-09-09 23:35:08",
+   "updated_at": "2023-07-25 20:09:03"
+  },
+  {
+   "id": 502,
+   "name": "Jive Lee",
+   "slug": "jive-lee",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2020-09-09 23:35:23",
+   "updated_at": "2020-09-09 23:35:23"
+  },
+  {
+   "id": 503,
+   "name": "Johnny B. Goode",
+   "slug": "johnny-b-goode",
+   "isoriginal": 0,
+   "original_artist": "Chuck Berry",
+   "created_at": "2020-09-09 23:38:17",
+   "updated_at": "2020-09-09 23:38:17"
+  },
+  {
+   "id": 504,
+   "name": "Kung Fu Fighting",
+   "slug": "kung-fu-fighting",
+   "isoriginal": 0,
+   "original_artist": "Carl Douglas",
+   "created_at": "2020-09-09 23:38:42",
+   "updated_at": "2023-07-25 00:04:36"
+  },
+  {
+   "id": 505,
+   "name": "Lady Marmalade",
+   "slug": "lady-marmalade",
+   "isoriginal": 0,
+   "original_artist": "Patti Labell",
+   "created_at": "2020-09-09 23:38:57",
+   "updated_at": "2020-09-09 23:38:57"
+  },
+  {
+   "id": 506,
+   "name": "Let's Dance",
+   "slug": "lets-dance",
+   "isoriginal": 0,
+   "original_artist": "David Bowie",
+   "created_at": "2020-09-09 23:39:15",
+   "updated_at": "2020-09-09 23:39:15"
+  },
+  {
+   "id": 507,
+   "name": "Linus And Lucy",
+   "slug": "linus-and-lucy-2",
+   "isoriginal": 0,
+   "original_artist": "Vince Guaraldi",
+   "created_at": "2020-09-09 23:39:47",
+   "updated_at": "2021-04-20 11:02:54"
+  },
+  {
+   "id": 508,
+   "name": "Liza Jane",
+   "slug": "liza-jane",
+   "isoriginal": 0,
+   "original_artist": "African American Folk Song",
+   "created_at": "2020-09-09 23:41:53",
+   "updated_at": "2020-09-09 23:41:53"
+  },
+  {
+   "id": 509,
+   "name": "Love Me Sexy",
+   "slug": "love-me-sexy",
+   "isoriginal": 0,
+   "original_artist": "Jackie Moon",
+   "created_at": "2020-09-09 23:46:44",
+   "updated_at": "2020-09-09 23:46:44"
+  },
+  {
+   "id": 510,
+   "name": "Love T.K.O.",
+   "slug": "love-tko",
+   "isoriginal": 0,
+   "original_artist": "Teddy Pendergrass",
+   "created_at": "2020-09-09 23:47:00",
+   "updated_at": "2020-09-09 23:47:00"
+  },
+  {
+   "id": 511,
+   "name": "Lovely Day",
+   "slug": "lovely-day",
+   "isoriginal": 0,
+   "original_artist": "Bill Withers",
+   "created_at": "2020-09-09 23:47:12",
+   "updated_at": "2020-09-09 23:47:12"
+  },
+  {
+   "id": 512,
+   "name": "Madhuvan",
+   "slug": "madhuvan",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2020-09-09 23:47:21",
+   "updated_at": "2023-07-24 20:01:05"
+  },
+  {
+   "id": 513,
+   "name": "Mas Que Nada",
+   "slug": "mas-que-nada",
+   "isoriginal": 0,
+   "original_artist": "Sergio Mendes",
+   "created_at": "2020-09-09 23:48:16",
+   "updated_at": "2024-11-19 01:32:49"
+  },
+  {
+   "id": 514,
+   "name": "Make The Move",
+   "slug": "make-the-move",
+   "isoriginal": 0,
+   "original_artist": "Kenny Loggins",
+   "created_at": "2020-09-09 23:48:30",
+   "updated_at": "2020-09-09 23:48:30"
+  },
+  {
+   "id": 515,
+   "name": "Me and Julio Down By The Schoolyard",
+   "slug": "me-and-julio-down-by-the-schoolyard",
+   "isoriginal": 0,
+   "original_artist": "Paul Simon",
+   "created_at": "2020-09-09 23:48:56",
+   "updated_at": "2024-12-07 18:01:16"
+  },
+  {
+   "id": 516,
+   "name": "Mele Kalikimaka",
+   "slug": "mele-kalikimaka",
+   "isoriginal": 0,
+   "original_artist": "Bing Crosby",
+   "created_at": "2020-09-09 23:52:32",
+   "updated_at": "2020-09-09 23:52:32"
+  },
+  {
+   "id": 517,
+   "name": "Mississippi Half-Step Uptown Toodeloo",
+   "slug": "mississippi-half-step-uptown-toodeloo",
+   "isoriginal": 0,
+   "original_artist": "Grateful Dead",
+   "created_at": "2020-09-09 23:52:53",
+   "updated_at": "2023-07-25 20:09:55"
+  },
+  {
+   "id": 518,
+   "name": "Mound",
+   "slug": "mound",
+   "isoriginal": 0,
+   "original_artist": "Phish",
+   "created_at": "2020-09-09 23:53:02",
+   "updated_at": "2020-09-09 23:53:02"
+  },
+  {
+   "id": 519,
+   "name": "Movin' Out (Anthony's Song)",
+   "slug": "movin-out-anthonys-song",
+   "isoriginal": 0,
+   "original_artist": "Billy Joel",
+   "created_at": "2020-09-09 23:53:11",
+   "updated_at": "2023-07-25 20:10:05"
+  },
+  {
+   "id": 520,
+   "name": "Mr. Night",
+   "slug": "mr-night",
+   "isoriginal": 0,
+   "original_artist": "Kenny Loggins",
+   "created_at": "2020-09-09 23:53:25",
+   "updated_at": "2020-09-09 23:53:25"
+  },
+  {
+   "id": 521,
+   "name": "My Generation",
+   "slug": "my-generation",
+   "isoriginal": 0,
+   "original_artist": "The Who",
+   "created_at": "2020-09-09 23:53:39",
+   "updated_at": "2020-09-09 23:53:39"
+  },
+  {
+   "id": 522,
+   "name": "Never Never Gonna Give Ya Up",
+   "slug": "never-never-gonna-give-ya-up",
+   "isoriginal": 0,
+   "original_artist": "Barry White",
+   "created_at": "2020-09-09 23:54:16",
+   "updated_at": "2020-09-09 23:54:16"
+  },
+  {
+   "id": 523,
+   "name": "New Speedway Boogie",
+   "slug": "new-speedway-boogie",
+   "isoriginal": 0,
+   "original_artist": "Grateful Dead",
+   "created_at": "2020-09-09 23:54:31",
+   "updated_at": "2023-07-25 20:10:23"
+  },
+  {
+   "id": 524,
+   "name": "Nights In White Satin",
+   "slug": "nights-in-white-satin",
+   "isoriginal": 0,
+   "original_artist": "The Moody Blues",
+   "created_at": "2020-09-09 23:54:50",
+   "updated_at": "2020-09-09 23:54:50"
+  },
+  {
+   "id": 525,
+   "name": "No Rain",
+   "slug": "no-rain",
+   "isoriginal": 0,
+   "original_artist": "Blind Melon",
+   "created_at": "2020-09-09 23:55:01",
+   "updated_at": "2020-09-09 23:55:01"
+  },
+  {
+   "id": 526,
+   "name": "On Our Own",
+   "slug": "on-our-own",
+   "isoriginal": 0,
+   "original_artist": "Bobby Brown",
+   "created_at": "2020-09-09 23:55:13",
+   "updated_at": "2020-09-09 23:55:13"
+  },
+  {
+   "id": 527,
+   "name": "One More Day",
+   "slug": "one-more-day",
+   "isoriginal": 0,
+   "original_artist": "The Wood Brothers",
+   "created_at": "2020-09-09 23:55:25",
+   "updated_at": "2023-07-24 23:32:59"
+  },
+  {
+   "id": 528,
+   "name": "One More Saturday Night",
+   "slug": "one-more-saturday-night",
+   "isoriginal": 0,
+   "original_artist": "Grateful Dead",
+   "created_at": "2020-09-09 23:55:41",
+   "updated_at": "2023-07-25 20:10:33"
+  },
+  {
+   "id": 529,
+   "name": "One Way Out",
+   "slug": "one-way-out",
+   "isoriginal": 0,
+   "original_artist": "The Allman Brothers Band",
+   "created_at": "2020-09-09 23:55:54",
+   "updated_at": "2020-09-09 23:55:54"
+  },
+  {
+   "id": 530,
+   "name": "Peaches En Regalia",
+   "slug": "peaches-en-regalia",
+   "isoriginal": 0,
+   "original_artist": "Frank Zappa",
+   "created_at": "2020-09-09 23:56:10",
+   "updated_at": "2024-07-30 21:54:48"
+  },
+  {
+   "id": 531,
+   "name": "Peggy-O",
+   "slug": "peggy-o",
+   "isoriginal": 0,
+   "original_artist": "Grateful Dead",
+   "created_at": "2020-09-09 23:56:18",
+   "updated_at": "2023-07-24 20:09:09"
+  },
+  {
+   "id": 532,
+   "name": "Pinche Gringo",
+   "slug": "pinche-gringo",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2020-09-09 23:56:39",
+   "updated_at": "2020-09-09 23:56:39"
+  },
+  {
+   "id": 533,
+   "name": "Praise You",
+   "slug": "praise-you",
+   "isoriginal": 0,
+   "original_artist": "Fatboy Slim",
+   "created_at": "2020-09-09 23:56:51",
+   "updated_at": "2020-09-09 23:56:51"
+  },
+  {
+   "id": 534,
+   "name": "Pumped Up Kicks",
+   "slug": "pumped-up-kicks",
+   "isoriginal": 0,
+   "original_artist": "Foster The People",
+   "created_at": "2020-09-09 23:57:12",
+   "updated_at": "2020-09-09 23:57:12"
+  },
+  {
+   "id": 535,
+   "name": "Raffle Ticket Jam",
+   "slug": "raffle-ticket-jam",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2020-09-09 23:57:24",
+   "updated_at": "2020-09-09 23:57:24"
+  },
+  {
+   "id": 536,
+   "name": "Red Bird",
+   "slug": "red-bird",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2020-09-09 23:57:32",
+   "updated_at": "2025-06-13 19:45:27"
+  },
+  {
+   "id": 537,
+   "name": "Red Red Wine",
+   "slug": "red-red-wine",
+   "isoriginal": 0,
+   "original_artist": "UB40",
+   "created_at": "2020-09-09 23:58:07",
+   "updated_at": "2020-09-09 23:58:07"
+  },
+  {
+   "id": 538,
+   "name": "Rosa Lee McFall",
+   "slug": "rosa-lee-mcfall",
+   "isoriginal": 0,
+   "original_artist": "Grateful Dead",
+   "created_at": "2020-10-05 19:45:49",
+   "updated_at": "2020-10-05 19:45:49"
+  },
+  {
+   "id": 539,
+   "name": "Rosetta",
+   "slug": "rosetta",
+   "isoriginal": 0,
+   "original_artist": "Earl Hines",
+   "created_at": "2020-10-05 19:46:10",
+   "updated_at": "2023-07-24 20:03:06"
+  },
+  {
+   "id": 540,
+   "name": "Run Around",
+   "slug": "run-around",
+   "isoriginal": 0,
+   "original_artist": "Blues Traveler",
+   "created_at": "2020-10-05 19:46:34",
+   "updated_at": "2020-10-05 19:46:34"
+  },
+  {
+   "id": 541,
+   "name": "Same Old Shenanigans",
+   "slug": "same-old-shenanigans",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2020-10-05 19:46:48",
+   "updated_at": "2024-06-19 14:27:59"
+  },
+  {
+   "id": 542,
+   "name": "Savin' The Day",
+   "slug": "savin-the-day",
+   "isoriginal": 0,
+   "original_artist": "Alessi Brothers",
+   "created_at": "2020-10-05 19:47:28",
+   "updated_at": "2020-10-05 19:47:28"
+  },
+  {
+   "id": 543,
+   "name": "Sco-Mule",
+   "slug": "sco-mule",
+   "isoriginal": 0,
+   "original_artist": "Government Mule ft. John Scofield",
+   "created_at": "2020-10-05 19:49:10",
+   "updated_at": "2020-10-05 19:49:10"
+  },
+  {
+   "id": 544,
+   "name": "Secret Agent Man",
+   "slug": "secret-agent-man",
+   "isoriginal": 0,
+   "original_artist": "Johnny Rivers",
+   "created_at": "2020-10-05 19:49:38",
+   "updated_at": "2020-10-05 19:49:38"
+  },
+  {
+   "id": 545,
+   "name": "Shama Lama Ding Dong",
+   "slug": "shama-lama-ding-dong",
+   "isoriginal": 0,
+   "original_artist": "Otis Day and The Knights",
+   "created_at": "2020-10-05 19:50:01",
+   "updated_at": "2023-07-25 20:11:30"
+  },
+  {
+   "id": 546,
+   "name": "She Drives Me Crazy",
+   "slug": "she-drives-me-crazy",
+   "isoriginal": 0,
+   "original_artist": "Fine Young Cannibals",
+   "created_at": "2020-10-05 19:50:15",
+   "updated_at": "2020-10-05 20:45:14"
+  },
+  {
+   "id": 547,
+   "name": "Shelter From The Storm",
+   "slug": "shelter-from-the-storm",
+   "isoriginal": 0,
+   "original_artist": "Bob Dylan",
+   "created_at": "2020-10-05 19:50:33",
+   "updated_at": "2020-10-05 19:50:33"
+  },
+  {
+   "id": 548,
+   "name": "Shoe Dog",
+   "slug": "shoe-dog",
+   "isoriginal": 0,
+   "original_artist": "John Scofield",
+   "created_at": "2020-10-05 19:50:42",
+   "updated_at": "2023-07-24 19:57:41"
+  },
+  {
+   "id": 549,
+   "name": "Short People",
+   "slug": "short-people",
+   "isoriginal": 0,
+   "original_artist": "Randy Newman",
+   "created_at": "2020-10-05 19:50:54",
+   "updated_at": "2020-10-05 19:50:54"
+  },
+  {
+   "id": 550,
+   "name": "Shout",
+   "slug": "shout",
+   "isoriginal": 0,
+   "original_artist": "The Isley Brothers",
+   "created_at": "2020-10-05 19:51:07",
+   "updated_at": "2023-07-24 20:03:39"
+  },
+  {
+   "id": 551,
+   "name": "Sleepwalk",
+   "slug": "sleepwalk",
+   "isoriginal": 0,
+   "original_artist": "Santo & Johnny",
+   "created_at": "2020-10-05 19:51:23",
+   "updated_at": "2020-10-05 19:51:23"
+  },
+  {
+   "id": 552,
+   "name": "Soul Bossa Nova",
+   "slug": "soul-bossa-nova",
+   "isoriginal": 0,
+   "original_artist": "Quincy Jones",
+   "created_at": "2020-10-05 19:51:57",
+   "updated_at": "2020-10-05 19:51:57"
+  },
+  {
+   "id": 553,
+   "name": "Soul Shakedown Party",
+   "slug": "soul-shakedown-party",
+   "isoriginal": 0,
+   "original_artist": "Bob Marley",
+   "created_at": "2020-10-05 19:52:10",
+   "updated_at": "2023-07-24 23:51:54"
+  },
+  {
+   "id": 554,
+   "name": "Sound Check Jam",
+   "slug": "sound-check-jam",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2020-10-05 19:52:33",
+   "updated_at": "2020-10-05 19:52:33"
+  },
+  {
+   "id": 555,
+   "name": "Spain",
+   "slug": "spain",
+   "isoriginal": 0,
+   "original_artist": "Chick Corea",
+   "created_at": "2020-10-05 19:52:43",
+   "updated_at": "2020-10-05 19:52:43"
+  },
+  {
+   "id": 556,
+   "name": "Spanish Moon",
+   "slug": "spanish-moon",
+   "isoriginal": 0,
+   "original_artist": "Little Feat",
+   "created_at": "2020-10-05 19:52:55",
+   "updated_at": "2023-07-24 23:52:59"
+  },
+  {
+   "id": 557,
+   "name": "Spirit Of The Dark Horse",
+   "slug": "spirit-of-the-dark-horse",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2020-10-05 19:53:10",
+   "updated_at": "2025-06-13 19:32:46"
+  },
+  {
+   "id": 558,
+   "name": "State Of The Art (A.E.I.O.U.)",
+   "slug": "state-of-the-art-aeiou",
+   "isoriginal": 0,
+   "original_artist": "Jim James",
+   "created_at": "2020-10-05 19:53:32",
+   "updated_at": "2023-07-25 20:11:43"
+  },
+  {
+   "id": 559,
+   "name": "Stormy Monday",
+   "slug": "stormy-monday",
+   "isoriginal": 0,
+   "original_artist": "The Allman Brothers Band",
+   "created_at": "2020-10-05 19:53:50",
+   "updated_at": "2020-10-05 19:53:50"
+  },
+  {
+   "id": 560,
+   "name": "Strokin'",
+   "slug": "strokin",
+   "isoriginal": 0,
+   "original_artist": "Clarence Carter",
+   "created_at": "2020-10-05 19:54:05",
+   "updated_at": "2020-10-05 19:54:05"
+  },
+  {
+   "id": 561,
+   "name": "Summertime Blues",
+   "slug": "summertime-blues",
+   "isoriginal": 0,
+   "original_artist": "Eddie Cochran",
+   "created_at": "2020-10-05 19:54:43",
+   "updated_at": "2020-10-05 19:54:43"
+  },
+  {
+   "id": 562,
+   "name": "Suzie Q",
+   "slug": "suzie-q",
+   "isoriginal": 0,
+   "original_artist": "Creedence Clearwater Revival",
+   "created_at": "2020-10-05 19:54:57",
+   "updated_at": "2020-10-05 19:54:57"
+  },
+  {
+   "id": 563,
+   "name": "Sweet Home Chicago",
+   "slug": "sweet-home-chicago",
+   "isoriginal": 0,
+   "original_artist": "The Blues Brothers",
+   "created_at": "2020-10-05 19:55:18",
+   "updated_at": "2020-10-05 19:55:18"
+  },
+  {
+   "id": 564,
+   "name": "Switchin'",
+   "slug": "switchin",
+   "isoriginal": 0,
+   "original_artist": "Wes Montgomery",
+   "created_at": "2020-10-05 19:55:29",
+   "updated_at": "2020-10-05 19:55:29"
+  },
+  {
+   "id": 565,
+   "name": "Take On Me",
+   "slug": "take-on-me",
+   "isoriginal": 0,
+   "original_artist": "A-Ha",
+   "created_at": "2020-10-05 19:55:40",
+   "updated_at": "2020-10-05 19:55:40"
+  },
+  {
+   "id": 566,
+   "name": "Tennessee Jed",
+   "slug": "tennessee-jed",
+   "isoriginal": 0,
+   "original_artist": "Grateful Dead",
+   "created_at": "2020-10-05 19:55:52",
+   "updated_at": "2023-07-24 19:58:15"
+  },
+  {
+   "id": 567,
+   "name": "The Big Bang",
+   "slug": "the-big-bang",
+   "isoriginal": 0,
+   "original_artist": "Johnny Mandel",
+   "created_at": "2020-10-05 19:56:06",
+   "updated_at": "2020-10-05 19:56:06"
+  },
+  {
+   "id": 569,
+   "name": "The Waking End",
+   "slug": "the-waking-end",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2020-10-05 19:56:32",
+   "updated_at": "2020-10-05 19:56:32"
+  },
+  {
+   "id": 570,
+   "name": "The Way It Is",
+   "slug": "the-way-it-is",
+   "isoriginal": 0,
+   "original_artist": "Bruce Hornsby",
+   "created_at": "2020-10-05 19:56:46",
+   "updated_at": "2020-10-05 19:56:46"
+  },
+  {
+   "id": 571,
+   "name": "These Boots Are Made For Walkin'",
+   "slug": "these-boots-are-made-for-walkin",
+   "isoriginal": 0,
+   "original_artist": "Nancy Sinatra",
+   "created_at": "2020-10-05 19:57:06",
+   "updated_at": "2020-10-05 19:57:06"
+  },
+  {
+   "id": 572,
+   "name": "This Old Sea",
+   "slug": "this-old-sea",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2020-10-05 19:57:13",
+   "updated_at": "2023-07-24 20:04:21"
+  },
+  {
+   "id": 573,
+   "name": "Tomorrow Never Knows",
+   "slug": "tomorrow-never-knows",
+   "isoriginal": 0,
+   "original_artist": "The Beatles",
+   "created_at": "2020-10-05 19:57:34",
+   "updated_at": "2023-09-16 14:29:27"
+  },
+  {
+   "id": 574,
+   "name": "Travelers",
+   "slug": "travelers",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2020-10-05 19:57:44",
+   "updated_at": "2025-06-13 15:34:03"
+  },
+  {
+   "id": 575,
+   "name": "Tried & Tempted",
+   "slug": "tried",
+   "isoriginal": 0,
+   "original_artist": "The Wood Brothers",
+   "created_at": "2020-10-05 19:57:58",
+   "updated_at": "2023-07-24 20:16:17"
+  },
+  {
+   "id": 576,
+   "name": "Trouble",
+   "slug": "trouble",
+   "isoriginal": 0,
+   "original_artist": "Elvis Presley",
+   "created_at": "2020-10-05 19:58:08",
+   "updated_at": "2021-07-06 22:55:03"
+  },
+  {
+   "id": 577,
+   "name": "Turkish Hills",
+   "slug": "turkish-hills",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2020-10-05 19:58:29",
+   "updated_at": "2025-06-13 15:31:32"
+  },
+  {
+   "id": 578,
+   "name": "Turn On Your Love Light",
+   "slug": "turn-on-your-love-light",
+   "isoriginal": 0,
+   "original_artist": "Bobby Blue Bland",
+   "created_at": "2020-10-05 19:58:46",
+   "updated_at": "2023-07-25 20:12:44"
+  },
+  {
+   "id": 579,
+   "name": "Two Tickets To Paradise",
+   "slug": "two-tickets-to-paradise",
+   "isoriginal": 0,
+   "original_artist": "Eddie Money",
+   "created_at": "2020-10-05 19:59:17",
+   "updated_at": "2020-10-05 19:59:17"
+  },
+  {
+   "id": 580,
+   "name": "Up On Cripple Creek",
+   "slug": "up-on-cripple-creek",
+   "isoriginal": 0,
+   "original_artist": "The Band",
+   "created_at": "2020-10-05 19:59:34",
+   "updated_at": "2023-08-15 16:51:14"
+  },
+  {
+   "id": 581,
+   "name": "Use Me",
+   "slug": "use-me",
+   "isoriginal": 0,
+   "original_artist": "Bill Withers",
+   "created_at": "2020-10-05 19:59:52",
+   "updated_at": "2023-07-24 20:05:08"
+  },
+  {
+   "id": 582,
+   "name": "The W.S. Walcott Medicine Show",
+   "slug": "the-ws-walcott-medicine-show",
+   "isoriginal": 0,
+   "original_artist": "The Band",
+   "created_at": "2020-10-05 20:00:07",
+   "updated_at": "2023-07-25 20:12:03"
+  },
+  {
+   "id": 583,
+   "name": "Wake Up",
+   "slug": "wake-up",
+   "isoriginal": 0,
+   "original_artist": "Arcade Fire",
+   "created_at": "2020-10-05 20:00:15",
+   "updated_at": "2023-07-24 20:16:52"
+  },
+  {
+   "id": 584,
+   "name": "What I Got",
+   "slug": "what-i-got",
+   "isoriginal": 0,
+   "original_artist": "Sublime",
+   "created_at": "2020-10-05 20:00:46",
+   "updated_at": "2020-10-05 20:00:46"
+  },
+  {
+   "id": 585,
+   "name": "What The World Needs Now Is Love",
+   "slug": "what-the-world-needs-now-is-love",
+   "isoriginal": 0,
+   "original_artist": "Sergio Mendes",
+   "created_at": "2020-10-05 20:01:03",
+   "updated_at": "2020-10-05 20:01:03"
+  },
+  {
+   "id": 586,
+   "name": "White Lights",
+   "slug": "white-lights",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2020-10-05 20:01:24",
+   "updated_at": "2025-06-13 15:28:58"
+  },
+  {
+   "id": 587,
+   "name": "Why Can't We Be Friends",
+   "slug": "why-cant-we-be-friends",
+   "isoriginal": 0,
+   "original_artist": "War",
+   "created_at": "2020-10-05 20:01:44",
+   "updated_at": "2020-10-05 20:01:44"
+  },
+  {
+   "id": 588,
+   "name": "Wild Night",
+   "slug": "wild-night",
+   "isoriginal": 0,
+   "original_artist": "Van Morrison",
+   "created_at": "2020-10-05 20:01:57",
+   "updated_at": "2023-07-24 20:05:29"
+  },
+  {
+   "id": 589,
+   "name": "Wrong Way",
+   "slug": "wrong-way",
+   "isoriginal": 0,
+   "original_artist": "Sublime",
+   "created_at": "2020-10-05 20:02:08",
+   "updated_at": "2020-10-05 20:02:08"
+  },
+  {
+   "id": 590,
+   "name": "Your Ocean",
+   "slug": "your-ocean",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2020-10-05 20:02:36",
+   "updated_at": "2023-07-24 23:37:30"
+  },
+  {
+   "id": 591,
+   "name": "Look Out Cleveland",
+   "slug": "look-out-cleveland",
+   "isoriginal": 0,
+   "original_artist": "The Band",
+   "created_at": "2020-10-05 23:19:13",
+   "updated_at": "2024-07-30 21:55:41"
+  },
+  {
+   "id": 592,
+   "name": "Me & My Uncle",
+   "slug": "me-and-my-uncle",
+   "isoriginal": 0,
+   "original_artist": "John Philips",
+   "created_at": "2020-10-05 23:49:05",
+   "updated_at": "2023-07-24 19:57:10"
+  },
+  {
+   "id": 593,
+   "name": "(Marie's The Name) His Latest Flame",
+   "slug": "maries-the-name-his-latest-flame",
+   "isoriginal": 0,
+   "original_artist": "Elvis Presley",
+   "created_at": "2020-10-06 00:22:34",
+   "updated_at": "2023-07-25 20:03:37"
+  },
+  {
+   "id": 594,
+   "name": "Howard Johnson's Got His Ho-Jo Working",
+   "slug": "howard-johnsons-got-his-ho-jo-working",
+   "isoriginal": 0,
+   "original_artist": "NRBQ",
+   "created_at": "2020-10-06 00:28:44",
+   "updated_at": "2023-07-25 20:08:40"
+  },
+  {
+   "id": 595,
+   "name": "Well, You Can Do It Without Me",
+   "slug": "well-you-can-do-it-without-me",
+   "isoriginal": 0,
+   "original_artist": "Father John Misty",
+   "created_at": "2020-10-06 00:30:15",
+   "updated_at": "2020-10-13 22:01:05"
+  },
+  {
+   "id": 596,
+   "name": "Love And Happiness",
+   "slug": "love-and-happiness",
+   "isoriginal": 0,
+   "original_artist": "Al Green",
+   "created_at": "2020-10-06 01:36:13",
+   "updated_at": "2020-10-06 01:36:13"
+  },
+  {
+   "id": 597,
+   "name": "Night Moves",
+   "slug": "night-moves",
+   "isoriginal": 0,
+   "original_artist": "Bob Seger & The Silver Bullet Band",
+   "created_at": "2020-10-06 01:37:16",
+   "updated_at": "2020-10-06 01:37:16"
+  },
+  {
+   "id": 598,
+   "name": "Ship Of Fools",
+   "slug": "ship-of-fools",
+   "isoriginal": 0,
+   "original_artist": "Grateful Dead",
+   "created_at": "2020-10-14 01:49:27",
+   "updated_at": "2020-10-14 01:49:27"
+  },
+  {
+   "id": 599,
+   "name": "Gun Street Girl",
+   "slug": "gun-street-girl",
+   "isoriginal": 0,
+   "original_artist": "Tom Waits",
+   "created_at": "2020-10-16 00:38:54",
+   "updated_at": "2020-10-16 00:38:54"
+  },
+  {
+   "id": 601,
+   "name": "Atlantic City",
+   "slug": "atlantic-city",
+   "isoriginal": 0,
+   "original_artist": "Bruce Springsteen",
+   "created_at": "2020-10-16 01:03:37",
+   "updated_at": "2025-05-19 21:54:45"
+  },
+  {
+   "id": 602,
+   "name": "AUATC",
+   "slug": "auatc",
+   "isoriginal": 0,
+   "original_artist": "Bon Iver",
+   "created_at": "2020-10-19 21:19:49",
+   "updated_at": "2025-05-19 21:25:27"
+  },
+  {
+   "id": 603,
+   "name": "Lily's Tiger",
+   "slug": "lilys-tiger",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2020-11-19 13:06:20",
+   "updated_at": "2023-07-07 14:06:08"
+  },
+  {
+   "id": 604,
+   "name": "The Empress Of Organos",
+   "slug": "the-empress-of-organos",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2020-11-19 13:07:08",
+   "updated_at": "2023-07-25 20:11:55"
+  },
+  {
+   "id": 605,
+   "name": "Earthling or Alien?",
+   "slug": "earthling-or-alien",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2020-11-19 13:07:33",
+   "updated_at": "2023-07-25 20:06:35"
+  },
+  {
+   "id": 606,
+   "name": "The Killing Moon",
+   "slug": "the-killing-moon",
+   "isoriginal": 0,
+   "original_artist": "Echo & The Bunnymen",
+   "created_at": "2020-11-20 22:07:09",
+   "updated_at": "2020-11-20 22:07:09"
+  },
+  {
+   "id": 607,
+   "name": "Head Over Heels",
+   "slug": "head-over-heels",
+   "isoriginal": 0,
+   "original_artist": "Tears For Fears",
+   "created_at": "2020-11-20 22:15:31",
+   "updated_at": "2020-11-20 22:16:46"
+  },
+  {
+   "id": 608,
+   "name": "Notorious",
+   "slug": "notorious",
+   "isoriginal": 0,
+   "original_artist": "Duran Duran",
+   "created_at": "2020-11-20 22:17:48",
+   "updated_at": "2020-11-20 22:17:48"
+  },
+  {
+   "id": 609,
+   "name": "Seekers on the Ridge pt I",
+   "slug": "seekers-on-the-ridge-pt-i",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2020-11-20 22:21:49",
+   "updated_at": "2025-06-13 19:37:38"
+  },
+  {
+   "id": 610,
+   "name": "Seekers on the Ridge pt II",
+   "slug": "seekers-on-the-ridge-pt-ii",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2020-11-20 22:22:16",
+   "updated_at": "2025-06-13 19:36:37"
+  },
+  {
+   "id": 611,
+   "name": "Mad World",
+   "slug": "mad-world",
+   "isoriginal": 0,
+   "original_artist": "Tears For Fears",
+   "created_at": "2020-11-20 22:38:02",
+   "updated_at": "2020-11-20 22:38:02"
+  },
+  {
+   "id": 612,
+   "name": "Love Is A Battlefield",
+   "slug": "love-is-a-battlefield",
+   "isoriginal": 0,
+   "original_artist": "Pat Benatar",
+   "created_at": "2020-12-21 00:58:07",
+   "updated_at": "2020-12-21 00:58:07"
+  },
+  {
+   "id": 613,
+   "name": "You and Whose Army",
+   "slug": "you-and-whose-army",
+   "isoriginal": 0,
+   "original_artist": "Radiohead",
+   "created_at": "2020-12-21 01:01:46",
+   "updated_at": "2020-12-21 01:01:46"
+  },
+  {
+   "id": 614,
+   "name": "Brokedown Palace",
+   "slug": "brokedown-palace",
+   "isoriginal": 0,
+   "original_artist": "Grateful Dead",
+   "created_at": "2021-02-10 20:38:12",
+   "updated_at": "2021-02-10 20:38:12"
+  },
+  {
+   "id": 615,
+   "name": "Angel Band",
+   "slug": "angel-band",
+   "isoriginal": 0,
+   "original_artist": "Traditional",
+   "created_at": "2021-02-10 20:52:53",
+   "updated_at": "2025-05-19 21:47:39"
+  },
+  {
+   "id": 616,
+   "name": "Killer Tofu",
+   "slug": "killer-tofu",
+   "isoriginal": 0,
+   "original_artist": "The Beets",
+   "created_at": "2021-02-10 20:54:24",
+   "updated_at": "2021-02-10 20:54:24"
+  },
+  {
+   "id": 617,
+   "name": "(You're The) Devil In Disguise",
+   "slug": "youre-the-devil-in-disguise",
+   "isoriginal": 0,
+   "original_artist": "Elvis Presley",
+   "created_at": "2021-02-10 20:57:59",
+   "updated_at": "2023-07-25 20:04:06"
+  },
+  {
+   "id": 618,
+   "name": "Ob-La-Di, Ob-La-Da",
+   "slug": "ob-la-di-ob-la-da",
+   "isoriginal": 0,
+   "original_artist": "The Beatles",
+   "created_at": "2021-02-10 20:59:13",
+   "updated_at": "2021-02-10 20:59:13"
+  },
+  {
+   "id": 619,
+   "name": "Hang Me, Oh Hang Me",
+   "slug": "hang-me-oh-hang-me",
+   "isoriginal": 0,
+   "original_artist": "Dave Van Ronk",
+   "created_at": "2021-02-10 21:15:06",
+   "updated_at": "2021-02-10 21:15:06"
+  },
+  {
+   "id": 620,
+   "name": "Jack-A-Roe",
+   "slug": "jack-a-roe",
+   "isoriginal": 0,
+   "original_artist": "Traditional",
+   "created_at": "2021-02-10 21:16:34",
+   "updated_at": "2021-02-10 21:16:34"
+  },
+  {
+   "id": 621,
+   "name": "Simple Man",
+   "slug": "simple-man",
+   "isoriginal": 0,
+   "original_artist": "Lynyrd Skynyrd",
+   "created_at": "2021-02-10 21:21:06",
+   "updated_at": "2021-02-10 21:21:06"
+  },
+  {
+   "id": 622,
+   "name": "Louise",
+   "slug": "louise",
+   "isoriginal": 0,
+   "original_artist": "Bonnie Raitt",
+   "created_at": "2021-02-11 22:00:51",
+   "updated_at": "2021-02-11 22:00:51"
+  },
+  {
+   "id": 623,
+   "name": "Silver Dagger",
+   "slug": "silver-dagger",
+   "isoriginal": 0,
+   "original_artist": "Joan Baez",
+   "created_at": "2021-02-11 22:01:20",
+   "updated_at": "2021-02-11 22:01:20"
+  },
+  {
+   "id": 624,
+   "name": "Hoki Fish",
+   "slug": "hoki-fish",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2021-02-11 22:04:03",
+   "updated_at": "2024-01-22 18:02:18"
+  },
+  {
+   "id": 625,
+   "name": "Tequila",
+   "slug": "tequila",
+   "isoriginal": 0,
+   "original_artist": "The Champs",
+   "created_at": "2021-02-15 23:44:52",
+   "updated_at": "2021-02-15 23:44:52"
+  },
+  {
+   "id": 626,
+   "name": "Maze",
+   "slug": "maze",
+   "isoriginal": 0,
+   "original_artist": "Phish",
+   "created_at": "2021-02-17 20:27:27",
+   "updated_at": "2021-02-17 20:27:27"
+  },
+  {
+   "id": 627,
+   "name": "Axel F",
+   "slug": "axel-f",
+   "isoriginal": 0,
+   "original_artist": "Harold Faltermeyer",
+   "created_at": "2021-02-18 20:04:43",
+   "updated_at": "2021-02-18 20:04:43"
+  },
+  {
+   "id": 628,
+   "name": "Interlude III",
+   "slug": "interlude-iii",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2021-03-15 22:02:19",
+   "updated_at": "2021-03-15 22:02:19"
+  },
+  {
+   "id": 629,
+   "name": "Luke's Theme (Star Wars Theme)",
+   "slug": "lukes-theme-star-wars-theme",
+   "isoriginal": 0,
+   "original_artist": "John Williams",
+   "created_at": "2021-03-15 23:58:45",
+   "updated_at": "2021-03-15 23:58:45"
+  },
+  {
+   "id": 630,
+   "name": "Shakedown Street",
+   "slug": "shakedown-street",
+   "isoriginal": 0,
+   "original_artist": "Grateful Dead",
+   "created_at": "2021-03-16 00:16:52",
+   "updated_at": "2021-03-16 00:16:52"
+  },
+  {
+   "id": 631,
+   "name": "Revival",
+   "slug": "revival",
+   "isoriginal": 0,
+   "original_artist": "Zach Williams",
+   "created_at": "2021-03-16 01:47:28",
+   "updated_at": "2021-03-16 01:47:28"
+  },
+  {
+   "id": 632,
+   "name": "Wasted Words",
+   "slug": "wasted-words",
+   "isoriginal": 0,
+   "original_artist": "The Allman Brothers Band",
+   "created_at": "2021-03-17 02:25:57",
+   "updated_at": "2021-03-17 02:25:57"
+  },
+  {
+   "id": 633,
+   "name": "Psycho Killer",
+   "slug": "psc",
+   "isoriginal": 0,
+   "original_artist": "Talking Heads",
+   "created_at": "2021-03-17 22:03:58",
+   "updated_at": "2021-03-17 22:03:58"
+  },
+  {
+   "id": 634,
+   "name": "First Tube",
+   "slug": "first-tube",
+   "isoriginal": 0,
+   "original_artist": "Phish",
+   "created_at": "2021-03-17 22:04:56",
+   "updated_at": "2021-03-17 22:04:56"
+  },
+  {
+   "id": 635,
+   "name": "I Will Survive",
+   "slug": "i-will-survive",
+   "isoriginal": 0,
+   "original_artist": "Gloria Gaynor",
+   "created_at": "2021-03-17 22:08:54",
+   "updated_at": "2023-07-25 00:04:14"
+  },
+  {
+   "id": 636,
+   "name": "(satellite)",
+   "slug": "satellite",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2021-03-22 18:36:57",
+   "updated_at": "2025-05-19 20:00:44"
+  },
+  {
+   "id": 637,
+   "name": "(dawn)",
+   "slug": "dawn",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2021-03-22 18:37:07",
+   "updated_at": "2025-05-19 19:53:49"
+  },
+  {
+   "id": 638,
+   "name": "(7hunder)",
+   "slug": "7hunder",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2021-03-22 18:37:14",
+   "updated_at": "2025-05-19 20:00:27"
+  },
+  {
+   "id": 639,
+   "name": "The Labyrinth",
+   "slug": "the-labyrinth",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2021-03-22 18:37:24",
+   "updated_at": "2021-03-22 18:37:24"
+  },
+  {
+   "id": 640,
+   "name": "River Lullaby",
+   "slug": "river-lullaby",
+   "isoriginal": 0,
+   "original_artist": "Amy Grant",
+   "created_at": "2021-04-11 04:05:57",
+   "updated_at": "2021-04-11 04:05:57"
+  },
+  {
+   "id": 641,
+   "name": "Franklin's Tower",
+   "slug": "franklins-tower",
+   "isoriginal": 0,
+   "original_artist": "Grateful Dead",
+   "created_at": "2021-05-19 21:05:05",
+   "updated_at": "2021-05-19 21:05:05"
+  },
+  {
+   "id": 642,
+   "name": "Light Up Your Eyes",
+   "slug": "light-up-your-eyes",
+   "isoriginal": 0,
+   "original_artist": "Vasudo",
+   "created_at": "2021-05-19 21:05:35",
+   "updated_at": "2021-05-19 21:05:35"
+  },
+  {
+   "id": 643,
+   "name": "Dixie Chicken",
+   "slug": "dixie-chicken",
+   "isoriginal": 0,
+   "original_artist": "Little Feat",
+   "created_at": "2021-05-19 21:05:51",
+   "updated_at": "2021-05-19 21:05:51"
+  },
+  {
+   "id": 644,
+   "name": "Always Something",
+   "slug": "always-something",
+   "isoriginal": 0,
+   "original_artist": "Vasudo",
+   "created_at": "2021-05-19 21:06:17",
+   "updated_at": "2021-05-19 21:06:17"
+  },
+  {
+   "id": 645,
+   "name": "Hot Love & The Lazy Poet",
+   "slug": "hot-love",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2021-05-19 21:06:33",
+   "updated_at": "2024-04-18 15:12:37"
+  },
+  {
+   "id": 646,
+   "name": "Turbulence & The Night Rays",
+   "slug": "turbulence",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2021-05-19 21:06:54",
+   "updated_at": "2024-01-22 17:46:32"
+  },
+  {
+   "id": 647,
+   "name": "Your Direction",
+   "slug": "your-direction",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2021-05-19 21:07:16",
+   "updated_at": "2025-04-14 17:34:16"
+  },
+  {
+   "id": 648,
+   "name": "Your Song",
+   "slug": "your-song",
+   "isoriginal": 0,
+   "original_artist": "Vasudo",
+   "created_at": "2021-05-19 21:07:32",
+   "updated_at": "2021-05-19 21:07:32"
+  },
+  {
+   "id": 649,
+   "name": "Pachamama",
+   "slug": "pachamama",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2021-05-19 21:07:57",
+   "updated_at": "2024-04-18 18:47:27"
+  },
+  {
+   "id": 650,
+   "name": "The Night They Drove Old Dixie Down",
+   "slug": "the-night-they-drove-old-dixie-down",
+   "isoriginal": 0,
+   "original_artist": "The Band",
+   "created_at": "2021-05-19 21:08:16",
+   "updated_at": "2021-05-19 21:08:16"
+  },
+  {
+   "id": 651,
+   "name": "The Shape I'm In",
+   "slug": "the-shape-im-in",
+   "isoriginal": 0,
+   "original_artist": "The Band",
+   "created_at": "2021-05-19 21:08:31",
+   "updated_at": "2021-05-19 21:08:31"
+  },
+  {
+   "id": 652,
+   "name": "Birds Of A Feather",
+   "slug": "birds-of-a-feather",
+   "isoriginal": 0,
+   "original_artist": "Phish",
+   "created_at": "2021-05-19 22:42:23",
+   "updated_at": "2025-05-19 22:08:19"
+  },
+  {
+   "id": 653,
+   "name": "Picking Up The Pieces",
+   "slug": "picking-up-the-pieces",
+   "isoriginal": 0,
+   "original_artist": "Vasudo",
+   "created_at": "2021-05-19 22:44:49",
+   "updated_at": "2021-05-19 22:44:49"
+  },
+  {
+   "id": 654,
+   "name": "Mountain Way",
+   "slug": "mountain-way",
+   "isoriginal": 0,
+   "original_artist": "Vasudo",
+   "created_at": "2021-05-19 22:55:43",
+   "updated_at": "2021-05-19 22:55:43"
+  },
+  {
+   "id": 655,
+   "name": "Statesboro Blues",
+   "slug": "statesboro-blues",
+   "isoriginal": 0,
+   "original_artist": "The Allman Brothers Band",
+   "created_at": "2021-05-19 22:56:12",
+   "updated_at": "2021-05-19 22:56:12"
+  },
+  {
+   "id": 656,
+   "name": "Back On The Train",
+   "slug": "back-on-the-train",
+   "isoriginal": 0,
+   "original_artist": "Phish",
+   "created_at": "2021-05-19 22:56:40",
+   "updated_at": "2025-05-19 21:58:29"
+  },
+  {
+   "id": 657,
+   "name": "When It Was Easy",
+   "slug": "when-it-was-easy",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2021-05-19 23:01:39",
+   "updated_at": "2024-04-18 21:02:16"
+  },
+  {
+   "id": 658,
+   "name": "The Weight",
+   "slug": "the-weight",
+   "isoriginal": 0,
+   "original_artist": "The Band",
+   "created_at": "2021-05-19 23:02:01",
+   "updated_at": "2021-05-19 23:02:01"
+  },
+  {
+   "id": 659,
+   "name": "U.S. Blues",
+   "slug": "us-blues",
+   "isoriginal": 0,
+   "original_artist": "Grateful Dead",
+   "created_at": "2021-05-19 23:13:30",
+   "updated_at": "2021-05-19 23:13:30"
+  },
+  {
+   "id": 660,
+   "name": "I Shall Be Released",
+   "slug": "i-shall-be-released",
+   "isoriginal": 0,
+   "original_artist": "The Band",
+   "created_at": "2021-05-19 23:17:16",
+   "updated_at": "2021-05-19 23:17:16"
+  },
+  {
+   "id": 661,
+   "name": "Mama Tried",
+   "slug": "mama-tried",
+   "isoriginal": 0,
+   "original_artist": "Merle Haggard",
+   "created_at": "2021-05-19 23:18:03",
+   "updated_at": "2021-05-19 23:18:03"
+  },
+  {
+   "id": 662,
+   "name": "Funky Bitch",
+   "slug": "funky-bitch",
+   "isoriginal": 0,
+   "original_artist": "Son Seals",
+   "created_at": "2021-05-19 23:19:44",
+   "updated_at": "2023-07-24 23:49:26"
+  },
+  {
+   "id": 663,
+   "name": "Jed Stone",
+   "slug": "jed-stone",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2021-05-19 23:27:11",
+   "updated_at": "2025-06-24 17:44:09"
+  },
+  {
+   "id": 664,
+   "name": "Salinas",
+   "slug": "salinas",
+   "isoriginal": 0,
+   "original_artist": "Vasudo",
+   "created_at": "2021-05-19 23:34:36",
+   "updated_at": "2021-05-19 23:34:36"
+  },
+  {
+   "id": 665,
+   "name": "Rollem",
+   "slug": "rollem",
+   "isoriginal": 0,
+   "original_artist": "Vasudo",
+   "created_at": "2021-05-19 23:37:46",
+   "updated_at": "2021-05-19 23:37:46"
+  },
+  {
+   "id": 666,
+   "name": "Stayin' Alive",
+   "slug": "stayin-alive",
+   "isoriginal": 0,
+   "original_artist": "Bee Gees",
+   "created_at": "2021-05-19 23:38:09",
+   "updated_at": "2021-05-19 23:38:09"
+  },
+  {
+   "id": 668,
+   "name": "Don't Stop 'Til You Get Enough",
+   "slug": "dont-stop-til-you-get-enough",
+   "isoriginal": 0,
+   "original_artist": "Michael Jackson",
+   "created_at": "2021-05-19 23:39:07",
+   "updated_at": "2021-05-19 23:39:07"
+  },
+  {
+   "id": 669,
+   "name": "Celebration",
+   "slug": "celebration",
+   "isoriginal": 0,
+   "original_artist": "Kool & The Gang",
+   "created_at": "2021-05-19 23:41:45",
+   "updated_at": "2021-05-19 23:41:45"
+  },
+  {
+   "id": 670,
+   "name": "America The Beautiful",
+   "slug": "america-the-beautiful",
+   "isoriginal": 0,
+   "original_artist": "Ray Charles",
+   "created_at": "2021-05-19 23:42:01",
+   "updated_at": "2025-05-19 21:43:01"
+  },
+  {
+   "id": 671,
+   "name": "Rakka",
+   "slug": "rakka",
+   "isoriginal": 0,
+   "original_artist": "Vasudo",
+   "created_at": "2021-05-19 23:59:40",
+   "updated_at": "2021-05-19 23:59:40"
+  },
+  {
+   "id": 672,
+   "name": "Only Love",
+   "slug": "only-love",
+   "isoriginal": 0,
+   "original_artist": "Vasudo",
+   "created_at": "2021-05-20 00:05:10",
+   "updated_at": "2021-05-20 00:05:10"
+  },
+  {
+   "id": 673,
+   "name": "Blood",
+   "slug": "blood",
+   "isoriginal": 0,
+   "original_artist": "Vasudo",
+   "created_at": "2021-05-20 00:18:08",
+   "updated_at": "2025-05-19 22:11:33"
+  },
+  {
+   "id": 674,
+   "name": "Honey Soul",
+   "slug": "honey-soul",
+   "isoriginal": 0,
+   "original_artist": "Vasudo",
+   "created_at": "2021-05-20 00:18:18",
+   "updated_at": "2021-05-20 00:18:18"
+  },
+  {
+   "id": 675,
+   "name": "The Star Spangled Banner",
+   "slug": "the-star-spangled-banner",
+   "isoriginal": 0,
+   "original_artist": "John Stafford Smith",
+   "created_at": "2021-05-20 01:03:52",
+   "updated_at": "2021-05-20 01:03:52"
+  },
+  {
+   "id": 676,
+   "name": "Welcome To Delta",
+   "slug": "welcome-to-delta",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2021-05-20 01:23:08",
+   "updated_at": "2021-05-20 01:23:08"
+  },
+  {
+   "id": 677,
+   "name": "Moby",
+   "slug": "moby",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2021-05-20 01:36:18",
+   "updated_at": "2021-05-20 01:36:18"
+  },
+  {
+   "id": 678,
+   "name": "Doctor My Eyes",
+   "slug": "doctor-my-eyes",
+   "isoriginal": 0,
+   "original_artist": "Jackson Browne",
+   "created_at": "2021-05-20 01:51:05",
+   "updated_at": "2021-05-20 01:51:05"
+  },
+  {
+   "id": 679,
+   "name": "Tribute To Gold",
+   "slug": "tribute-to-gold",
+   "isoriginal": 0,
+   "original_artist": "Duke Herrington",
+   "created_at": "2021-06-24 22:07:07",
+   "updated_at": "2021-06-24 22:07:07"
+  },
+  {
+   "id": 680,
+   "name": "I Can't Turn You Loose",
+   "slug": "i-cant-turn-you-loose",
+   "isoriginal": 0,
+   "original_artist": "Otis Redding",
+   "created_at": "2021-06-24 23:34:46",
+   "updated_at": "2021-06-24 23:34:46"
+  },
+  {
+   "id": 681,
+   "name": "Innocent Son",
+   "slug": "innocent-son",
+   "isoriginal": 0,
+   "original_artist": "Fleet Foxes",
+   "created_at": "2021-07-07 00:07:34",
+   "updated_at": "2021-07-07 00:07:34"
+  },
+  {
+   "id": 682,
+   "name": "Barracuda",
+   "slug": "barracuda",
+   "isoriginal": 0,
+   "original_artist": "Heart",
+   "created_at": "2021-07-07 00:29:40",
+   "updated_at": "2025-05-19 22:01:55"
+  },
+  {
+   "id": 683,
+   "name": "Magic School Bus Theme",
+   "slug": "magic-school-bus-theme",
+   "isoriginal": 0,
+   "original_artist": "Peter Lurye",
+   "created_at": "2021-07-31 22:32:03",
+   "updated_at": "2023-10-02 05:42:26"
+  },
+  {
+   "id": 684,
+   "name": "Bingo Tour Theme",
+   "slug": "bingo-tour-theme",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2021-07-31 23:16:41",
+   "updated_at": "2025-05-19 22:07:41"
+  },
+  {
+   "id": 685,
+   "name": "Please Forgive Me",
+   "slug": "please-forgive-me",
+   "isoriginal": 0,
+   "original_artist": "David Gray",
+   "created_at": "2021-09-03 22:51:10",
+   "updated_at": "2024-03-11 16:21:46"
+  },
+  {
+   "id": 686,
+   "name": "Bruised Orange (Chain Of Sorrow)",
+   "slug": "bruised-orange-chain-of-sorrow",
+   "isoriginal": 0,
+   "original_artist": "John Prine",
+   "created_at": "2021-09-04 00:28:22",
+   "updated_at": "2021-09-04 00:28:22"
+  },
+  {
+   "id": 687,
+   "name": "No Motif",
+   "slug": "no-motif",
+   "isoriginal": 0,
+   "original_artist": "ElephantProof",
+   "created_at": "2021-09-04 00:56:13",
+   "updated_at": "2021-09-04 00:56:13"
+  },
+  {
+   "id": 688,
+   "name": "Krampus' Workshop",
+   "slug": "krampus-workshop",
+   "isoriginal": 0,
+   "original_artist": "ElephantProof",
+   "created_at": "2021-09-04 00:56:24",
+   "updated_at": "2021-09-04 00:56:24"
+  },
+  {
+   "id": 689,
+   "name": "Hyphy",
+   "slug": "hyphy",
+   "isoriginal": 0,
+   "original_artist": "ElephantProof",
+   "created_at": "2021-09-04 00:56:34",
+   "updated_at": "2021-09-04 00:56:34"
+  },
+  {
+   "id": 690,
+   "name": "A Pinch Of Satan",
+   "slug": "a-pinch-of-satan",
+   "isoriginal": 0,
+   "original_artist": "",
+   "created_at": "2021-09-04 00:56:47",
+   "updated_at": "2021-09-04 00:56:47"
+  },
+  {
+   "id": 691,
+   "name": "Baby Come Over Here",
+   "slug": "baby-come-over-here",
+   "isoriginal": 0,
+   "original_artist": "ElephantProof",
+   "created_at": "2021-09-04 00:57:15",
+   "updated_at": "2021-09-04 00:57:15"
+  },
+  {
+   "id": 692,
+   "name": "Robosweaters",
+   "slug": "robosweaters",
+   "isoriginal": 0,
+   "original_artist": "ElephantProof",
+   "created_at": "2021-09-04 00:57:29",
+   "updated_at": "2021-09-04 00:57:29"
+  },
+  {
+   "id": 693,
+   "name": "Elevation",
+   "slug": "elevation",
+   "isoriginal": 0,
+   "original_artist": "ElephantProof",
+   "created_at": "2021-09-04 00:57:36",
+   "updated_at": "2021-09-04 00:57:36"
+  },
+  {
+   "id": 694,
+   "name": "Dragonfly",
+   "slug": "dragonfly",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2021-09-05 20:33:59",
+   "updated_at": "2022-09-07 22:19:08"
+  },
+  {
+   "id": 696,
+   "name": "Europa",
+   "slug": "europa",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2021-09-05 20:34:16",
+   "updated_at": "2021-09-05 20:34:16"
+  },
+  {
+   "id": 697,
+   "name": "Camino",
+   "slug": "camino",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2021-09-05 20:34:28",
+   "updated_at": "2023-04-23 22:26:08"
+  },
+  {
+   "id": 699,
+   "name": "Forest",
+   "slug": "forest",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2021-09-05 20:34:42",
+   "updated_at": "2024-04-18 15:10:50"
+  },
+  {
+   "id": 700,
+   "name": "Forest II",
+   "slug": "forest-ii",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2021-09-05 20:34:48",
+   "updated_at": "2021-09-05 20:34:48"
+  },
+  {
+   "id": 701,
+   "name": "Moon",
+   "slug": "moon",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2021-09-05 20:35:18",
+   "updated_at": "2024-04-18 18:45:54"
+  },
+  {
+   "id": 702,
+   "name": "Moon II",
+   "slug": "moon-ii",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2021-09-05 20:35:25",
+   "updated_at": "2021-09-05 20:35:25"
+  },
+  {
+   "id": 703,
+   "name": "Moon III",
+   "slug": "moon-iii",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2021-09-05 20:35:30",
+   "updated_at": "2021-09-05 20:35:30"
+  },
+  {
+   "id": 704,
+   "name": "Moon IV",
+   "slug": "moon-iv",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2021-09-05 20:35:37",
+   "updated_at": "2021-09-05 20:35:37"
+  },
+  {
+   "id": 705,
+   "name": "Valkyrie",
+   "slug": "valkyrie",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2021-09-05 20:35:46",
+   "updated_at": "2021-09-05 20:35:46"
+  },
+  {
+   "id": 706,
+   "name": "Nebula I",
+   "slug": "nebula-i",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2021-09-05 20:35:52",
+   "updated_at": "2021-09-05 20:35:52"
+  },
+  {
+   "id": 707,
+   "name": "Nebula II",
+   "slug": "nebula-ii",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2021-09-05 20:36:00",
+   "updated_at": "2021-09-05 20:36:00"
+  },
+  {
+   "id": 708,
+   "name": "Nebula III",
+   "slug": "nebula-iii",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2021-09-05 20:36:08",
+   "updated_at": "2021-09-05 20:36:08"
+  },
+  {
+   "id": 709,
+   "name": "2021",
+   "slug": "2021",
+   "isoriginal": 0,
+   "original_artist": "Vampire Weekend",
+   "created_at": "2021-10-27 00:31:43",
+   "updated_at": "2025-05-19 21:26:56"
+  },
+  {
+   "id": 710,
+   "name": "The Old Man's Boat",
+   "slug": "the-old-mans-boat",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2021-10-27 00:33:43",
+   "updated_at": "2025-06-13 15:38:12"
+  },
+  {
+   "id": 711,
+   "name": "Life On The Shelf",
+   "slug": "life-on-the-shelf",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2021-11-03 01:32:35",
+   "updated_at": "2025-06-13 19:51:13"
+  },
+  {
+   "id": 712,
+   "name": "Dr. Darkness",
+   "slug": "dr-darkness",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2022-01-28 03:26:12",
+   "updated_at": "2023-09-27 04:01:41"
+  },
+  {
+   "id": 713,
+   "name": "Black Hot Soup",
+   "slug": "black-hot-soup",
+   "isoriginal": 0,
+   "original_artist": "",
+   "created_at": "2022-01-28 03:32:40",
+   "updated_at": "2022-01-28 03:32:40"
+  },
+  {
+   "id": 714,
+   "name": "Rockdale",
+   "slug": "rockdale",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2022-01-28 04:08:41",
+   "updated_at": "2022-01-28 04:08:41"
+  },
+  {
+   "id": 715,
+   "name": "David Bowie",
+   "slug": "david-bowie",
+   "isoriginal": 0,
+   "original_artist": "",
+   "created_at": "2022-01-28 04:10:19",
+   "updated_at": "2022-01-28 04:10:19"
+  },
+  {
+   "id": 716,
+   "name": "Draggin' the Line",
+   "slug": "draggin-the-line",
+   "isoriginal": 0,
+   "original_artist": "Tommy James",
+   "created_at": "2022-01-28 04:31:33",
+   "updated_at": "2024-12-07 18:13:52"
+  },
+  {
+   "id": 717,
+   "name": "I'm A Believer",
+   "slug": "im-a-believer",
+   "isoriginal": 0,
+   "original_artist": "The Monkees",
+   "created_at": "2022-01-28 04:32:12",
+   "updated_at": "2023-03-17 19:03:10"
+  },
+  {
+   "id": 718,
+   "name": "American Woman",
+   "slug": "american-woman",
+   "isoriginal": 0,
+   "original_artist": "The Guess Who",
+   "created_at": "2022-01-28 04:34:28",
+   "updated_at": "2022-07-23 04:05:48"
+  },
+  {
+   "id": 719,
+   "name": "Magic Carpet Ride",
+   "slug": "magic-carpet-ride",
+   "isoriginal": 0,
+   "original_artist": "Steppenwolf",
+   "created_at": "2022-01-28 04:34:54",
+   "updated_at": "2023-03-17 19:47:05"
+  },
+  {
+   "id": 720,
+   "name": "Whip It",
+   "slug": "whip-it",
+   "isoriginal": 0,
+   "original_artist": "Devo",
+   "created_at": "2022-01-28 04:35:07",
+   "updated_at": "2022-01-28 04:36:13"
+  },
+  {
+   "id": 721,
+   "name": "Just The Two Of Us",
+   "slug": "just-the-two-of-us",
+   "isoriginal": 0,
+   "original_artist": "Bill Withers",
+   "created_at": "2022-01-28 04:35:58",
+   "updated_at": "2023-03-17 19:46:52"
+  },
+  {
+   "id": 722,
+   "name": "Duel Of The Fates",
+   "slug": "duel-of-the-fates",
+   "isoriginal": 0,
+   "original_artist": "",
+   "created_at": "2022-01-28 05:09:10",
+   "updated_at": "2022-01-28 05:09:10"
+  },
+  {
+   "id": 723,
+   "name": "Pancakes",
+   "slug": "pancakes",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2022-01-29 04:03:25",
+   "updated_at": "2022-01-29 04:03:25"
+  },
+  {
+   "id": 724,
+   "name": "When The Saints Go Marching In",
+   "slug": "when-the-saints-go-marching-in",
+   "isoriginal": 0,
+   "original_artist": "",
+   "created_at": "2022-01-29 04:50:07",
+   "updated_at": "2022-01-29 04:50:07"
+  },
+  {
+   "id": 725,
+   "name": "Borne",
+   "slug": "borne",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2022-01-29 07:05:55",
+   "updated_at": "2022-09-13 17:24:06"
+  },
+  {
+   "id": 726,
+   "name": "Cheeseburger In Paradise",
+   "slug": "cheeseburger-in-paradise",
+   "isoriginal": 0,
+   "original_artist": "",
+   "created_at": "2022-01-29 07:31:09",
+   "updated_at": "2022-01-29 07:31:09"
+  },
+  {
+   "id": 727,
+   "name": "Atlas Dogs",
+   "slug": "atlas-dogs",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2022-01-29 10:13:13",
+   "updated_at": "2022-09-13 17:22:44"
+  },
+  {
+   "id": 728,
+   "name": "Sand",
+   "slug": "sand",
+   "isoriginal": 0,
+   "original_artist": "",
+   "created_at": "2022-02-03 04:22:07",
+   "updated_at": "2022-02-03 04:22:07"
+  },
+  {
+   "id": 729,
+   "name": "That's All",
+   "slug": "thats-all",
+   "isoriginal": 0,
+   "original_artist": "",
+   "created_at": "2022-02-03 05:28:14",
+   "updated_at": "2022-02-03 05:28:14"
+  },
+  {
+   "id": 730,
+   "name": "Circle Of Life",
+   "slug": "circle-of-life",
+   "isoriginal": 0,
+   "original_artist": "Elton John",
+   "created_at": "2022-02-03 06:08:29",
+   "updated_at": "2022-07-23 04:07:04"
+  },
+  {
+   "id": 731,
+   "name": "Moonrise",
+   "slug": "moonrise",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2022-02-04 07:34:05",
+   "updated_at": "2022-02-04 07:34:05"
+  },
+  {
+   "id": 732,
+   "name": "Dim Lights",
+   "slug": "dim-lights",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2022-02-04 07:37:26",
+   "updated_at": "2022-02-04 07:37:26"
+  },
+  {
+   "id": 733,
+   "name": "Arise",
+   "slug": "arise",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2022-02-04 07:38:03",
+   "updated_at": "2023-05-19 18:37:36"
+  },
+  {
+   "id": 735,
+   "name": "California Magic",
+   "slug": "california-magic",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2022-03-03 02:07:21",
+   "updated_at": "2023-08-15 15:53:32"
+  },
+  {
+   "id": 736,
+   "name": "Silver Rising",
+   "slug": "silver-rising",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2022-03-10 05:58:35",
+   "updated_at": "2025-06-13 19:34:32"
+  },
+  {
+   "id": 737,
+   "name": "Jeff Engborg",
+   "slug": "jeff-engborg",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2022-03-10 06:05:00",
+   "updated_at": "2022-03-10 06:05:00"
+  },
+  {
+   "id": 738,
+   "name": "Dripfield",
+   "slug": "dripfield",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2022-03-22 17:02:34",
+   "updated_at": "2022-09-13 17:30:06"
+  },
+  {
+   "id": 739,
+   "name": "Sinnerman",
+   "slug": "sinnerman",
+   "isoriginal": 0,
+   "original_artist": "Nina Simone",
+   "created_at": "2022-03-22 17:48:53",
+   "updated_at": "2023-03-17 19:46:38"
+  },
+  {
+   "id": 740,
+   "name": "Hungersite",
+   "slug": "hungersite",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2022-03-22 17:48:59",
+   "updated_at": "2022-03-22 17:48:59"
+  },
+  {
+   "id": 741,
+   "name": "Trevor Reads Poetry",
+   "slug": "trevor-reads-poetry",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2022-03-22 18:01:51",
+   "updated_at": "2022-03-22 18:01:51"
+  },
+  {
+   "id": 742,
+   "name": "Jaws Theme",
+   "slug": "jaws-theme",
+   "isoriginal": 0,
+   "original_artist": "",
+   "created_at": "2022-03-22 18:39:22",
+   "updated_at": "2022-03-22 18:39:22"
+  },
+  {
+   "id": 743,
+   "name": "Take A Lap Jam",
+   "slug": "take-a-lap-jam",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2022-03-22 21:07:59",
+   "updated_at": "2022-03-22 21:07:59"
+  },
+  {
+   "id": 744,
+   "name": "15 Minute Jam",
+   "slug": "15-minute-jam",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2022-03-22 21:08:06",
+   "updated_at": "2025-05-19 20:00:56"
+  },
+  {
+   "id": 745,
+   "name": "40 Squats Jam",
+   "slug": "40-squats-jam",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2022-03-22 21:08:16",
+   "updated_at": "2025-05-19 21:21:30"
+  },
+  {
+   "id": 746,
+   "name": "Rotation Jam",
+   "slug": "rotation-jam",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2022-03-22 21:09:05",
+   "updated_at": "2022-03-22 21:09:05"
+  },
+  {
+   "id": 747,
+   "name": "Happy Birthday",
+   "slug": "happy-birthday",
+   "isoriginal": 0,
+   "original_artist": "",
+   "created_at": "2022-03-22 21:11:05",
+   "updated_at": "2022-03-22 21:11:05"
+  },
+  {
+   "id": 748,
+   "name": "Drums",
+   "slug": "drums",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2022-03-22 21:12:23",
+   "updated_at": "2022-03-22 21:12:23"
+  },
+  {
+   "id": 749,
+   "name": "20 Minute Jam",
+   "slug": "20-minute-jam",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2022-03-22 21:12:33",
+   "updated_at": "2025-05-19 20:01:12"
+  },
+  {
+   "id": 750,
+   "name": "50 Crunches Jam",
+   "slug": "50-crunches-jam",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2022-03-22 21:12:42",
+   "updated_at": "2025-05-19 21:21:45"
+  },
+  {
+   "id": 751,
+   "name": "Beast Pose Jam",
+   "slug": "beast-pose-jam",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2022-03-22 21:12:59",
+   "updated_at": "2025-05-19 22:02:15"
+  },
+  {
+   "id": 752,
+   "name": "Reprise Opener",
+   "slug": "reprise-opener",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2022-03-22 21:14:45",
+   "updated_at": "2022-03-22 21:14:45"
+  },
+  {
+   "id": 753,
+   "name": "There Will Always Be",
+   "slug": "there-will-always-be",
+   "isoriginal": 0,
+   "original_artist": "",
+   "created_at": "2022-03-22 21:26:50",
+   "updated_at": "2022-03-22 21:26:50"
+  },
+  {
+   "id": 754,
+   "name": "High and Low",
+   "slug": "high-and-low",
+   "isoriginal": 0,
+   "original_artist": "",
+   "created_at": "2022-03-22 21:27:06",
+   "updated_at": "2022-03-22 21:27:06"
+  },
+  {
+   "id": 757,
+   "name": "Monks of Saigon",
+   "slug": "monks-of-saigon",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2022-03-23 19:22:47",
+   "updated_at": "2023-12-06 01:15:26"
+  },
+  {
+   "id": 758,
+   "name": "The Lion Below",
+   "slug": "the-lion-below",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2022-03-23 19:22:53",
+   "updated_at": "2023-12-05 00:05:40"
+  },
+  {
+   "id": 759,
+   "name": "Cielito Lindo",
+   "slug": "cielito-lindo",
+   "isoriginal": 0,
+   "original_artist": "Quirino Mendoza y Cortés",
+   "created_at": "2022-03-23 19:25:00",
+   "updated_at": "2024-01-22 14:34:20"
+  },
+  {
+   "id": 760,
+   "name": "Hallelujah",
+   "slug": "hallelujah",
+   "isoriginal": 0,
+   "original_artist": "Leonard Cohen",
+   "created_at": "2022-03-23 19:28:00",
+   "updated_at": "2023-06-10 16:20:44"
+  },
+  {
+   "id": 762,
+   "name": "Loose Ends",
+   "slug": "loose-ends",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2022-04-11 00:14:30",
+   "updated_at": "2024-10-13 15:55:37"
+  },
+  {
+   "id": 763,
+   "name": "Butterflies",
+   "slug": "butterflies",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2022-06-11 13:09:49",
+   "updated_at": "2022-09-13 17:27:50"
+  },
+  {
+   "id": 764,
+   "name": "Animal",
+   "slug": "animal",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2022-07-17 00:11:48",
+   "updated_at": "2025-05-19 21:48:07"
+  },
+  {
+   "id": 765,
+   "name": "It's My Life",
+   "slug": "its-my-life",
+   "isoriginal": 0,
+   "original_artist": "Talk Talk",
+   "created_at": "2022-08-18 02:59:11",
+   "updated_at": "2023-03-17 19:47:28"
+  },
+  {
+   "id": 766,
+   "name": "Bloodbuzz Ohio",
+   "slug": "bloodbuzz-ohio",
+   "isoriginal": 0,
+   "original_artist": "The National",
+   "created_at": "2022-08-19 04:04:03",
+   "updated_at": "2023-08-15 17:39:32"
+  },
+  {
+   "id": 767,
+   "name": "Milestone 2 (Skux Life)",
+   "slug": "milestone-2-skux-life",
+   "isoriginal": 0,
+   "original_artist": "Moniker",
+   "created_at": "2022-08-19 04:39:51",
+   "updated_at": "2022-08-19 04:39:51"
+  },
+  {
+   "id": 768,
+   "name": "Don't Be Cruel",
+   "slug": "dont-be-cruel",
+   "isoriginal": 0,
+   "original_artist": "Elvis Presley",
+   "created_at": "2022-08-21 05:38:21",
+   "updated_at": "2022-08-21 05:38:21"
+  },
+  {
+   "id": 769,
+   "name": "Smoke Two Joints",
+   "slug": "smoke-two-joints",
+   "isoriginal": 0,
+   "original_artist": "Sublime",
+   "created_at": "2022-09-07 21:36:56",
+   "updated_at": "2022-09-07 21:36:56"
+  },
+  {
+   "id": 770,
+   "name": "Together Not The Same",
+   "slug": "together-not-the-same",
+   "isoriginal": 0,
+   "original_artist": "Great Blue",
+   "created_at": "2022-09-07 21:37:22",
+   "updated_at": "2022-09-07 21:37:22"
+  },
+  {
+   "id": 771,
+   "name": "King Kong",
+   "slug": "king-kong",
+   "isoriginal": 0,
+   "original_artist": "Great Blue",
+   "created_at": "2022-09-07 21:37:42",
+   "updated_at": "2022-09-07 21:37:42"
+  },
+  {
+   "id": 772,
+   "name": "Apostrophe'",
+   "slug": "apostrophe",
+   "isoriginal": 0,
+   "original_artist": "Great Blue",
+   "created_at": "2022-09-07 21:37:53",
+   "updated_at": "2025-05-19 21:50:20"
+  },
+  {
+   "id": 773,
+   "name": "Reptar",
+   "slug": "reptar",
+   "isoriginal": 0,
+   "original_artist": "Great Blue",
+   "created_at": "2022-09-07 21:38:02",
+   "updated_at": "2022-09-07 21:38:02"
+  },
+  {
+   "id": 774,
+   "name": "Camp Cut-Coulie",
+   "slug": "camp-cut-coulie",
+   "isoriginal": 0,
+   "original_artist": "Great Blue",
+   "created_at": "2022-09-07 21:38:15",
+   "updated_at": "2022-09-07 21:38:15"
+  },
+  {
+   "id": 775,
+   "name": "I Saw Her Standing There",
+   "slug": "i-saw-her-standing-there",
+   "isoriginal": 0,
+   "original_artist": "The Beatles",
+   "created_at": "2022-09-07 21:38:29",
+   "updated_at": "2022-09-07 21:38:29"
+  },
+  {
+   "id": 776,
+   "name": "Can't Have Both",
+   "slug": "cant-have-both",
+   "isoriginal": 0,
+   "original_artist": "Great Blue",
+   "created_at": "2022-09-07 21:39:04",
+   "updated_at": "2022-09-07 21:39:04"
+  },
+  {
+   "id": 777,
+   "name": "Hotel Vibe",
+   "slug": "hotel-vibe",
+   "isoriginal": 0,
+   "original_artist": "Great Blue",
+   "created_at": "2022-09-07 21:39:12",
+   "updated_at": "2022-09-07 21:39:34"
+  },
+  {
+   "id": 778,
+   "name": "Banana Jam",
+   "slug": "banana-ja",
+   "isoriginal": 0,
+   "original_artist": "Great Blue",
+   "created_at": "2022-09-07 21:39:48",
+   "updated_at": "2022-09-07 21:39:48"
+  },
+  {
+   "id": 779,
+   "name": "Waiting In Vain",
+   "slug": "waiting-in-vain",
+   "isoriginal": 0,
+   "original_artist": "Bob Marley and The Wailers",
+   "created_at": "2022-09-07 21:40:08",
+   "updated_at": "2022-09-07 21:40:08"
+  },
+  {
+   "id": 780,
+   "name": "Creature",
+   "slug": "creature",
+   "isoriginal": 0,
+   "original_artist": "Great Blue",
+   "created_at": "2022-09-07 21:40:18",
+   "updated_at": "2022-09-07 21:40:18"
+  },
+  {
+   "id": 781,
+   "name": "Officer",
+   "slug": "officer",
+   "isoriginal": 0,
+   "original_artist": "Great Blue",
+   "created_at": "2022-09-07 21:40:27",
+   "updated_at": "2022-09-07 21:40:27"
+  },
+  {
+   "id": 782,
+   "name": "China Cat Sunflower",
+   "slug": "china-cat-sunflower",
+   "isoriginal": 0,
+   "original_artist": "The Grateful Dead",
+   "created_at": "2022-09-07 21:43:53",
+   "updated_at": "2022-09-07 21:43:53"
+  },
+  {
+   "id": 783,
+   "name": "I Know You Rider",
+   "slug": "i-know-you-rider",
+   "isoriginal": 0,
+   "original_artist": "Traditional",
+   "created_at": "2022-09-07 21:44:06",
+   "updated_at": "2022-09-07 21:44:06"
+  },
+  {
+   "id": 784,
+   "name": "The Other One",
+   "slug": "the-other-one",
+   "isoriginal": 0,
+   "original_artist": "The Grateful Dead",
+   "created_at": "2022-09-07 21:44:17",
+   "updated_at": "2022-09-07 21:44:17"
+  },
+  {
+   "id": 785,
+   "name": "Willy",
+   "slug": "willy",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2022-09-07 21:48:04",
+   "updated_at": "2024-04-18 21:41:27"
+  },
+  {
+   "id": 786,
+   "name": "Frankenstein",
+   "slug": "frankenstein",
+   "isoriginal": 0,
+   "original_artist": "Edgar Winter",
+   "created_at": "2022-09-07 21:48:21",
+   "updated_at": "2022-09-07 21:48:21"
+  },
+  {
+   "id": 787,
+   "name": "Misirlou",
+   "slug": "misirlou",
+   "isoriginal": 0,
+   "original_artist": "Dick Dale",
+   "created_at": "2022-09-07 21:51:38",
+   "updated_at": "2022-09-07 21:51:38"
+  },
+  {
+   "id": 788,
+   "name": "Rogue II",
+   "slug": "rogue-ii",
+   "isoriginal": 0,
+   "original_artist": "Rogue II",
+   "created_at": "2022-09-07 21:51:51",
+   "updated_at": "2022-09-07 21:51:51"
+  },
+  {
+   "id": 789,
+   "name": "Troll",
+   "slug": "troll",
+   "isoriginal": 0,
+   "original_artist": "Great Blue",
+   "created_at": "2022-09-07 21:55:37",
+   "updated_at": "2022-09-07 21:55:37"
+  },
+  {
+   "id": 790,
+   "name": "Seeker",
+   "slug": "seeker",
+   "isoriginal": 0,
+   "original_artist": "Great Blue",
+   "created_at": "2022-09-07 21:58:02",
+   "updated_at": "2022-09-07 21:58:02"
+  },
+  {
+   "id": 791,
+   "name": "C3PO",
+   "slug": "c3po-2",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2022-09-07 21:58:15",
+   "updated_at": "2024-04-18 21:06:40"
+  },
+  {
+   "id": 792,
+   "name": "Possum",
+   "slug": "possum",
+   "isoriginal": 0,
+   "original_artist": "Phish",
+   "created_at": "2022-09-07 21:58:22",
+   "updated_at": "2022-09-07 21:58:22"
+  },
+  {
+   "id": 793,
+   "name": "Lion in the Grass",
+   "slug": "lion-in-the-grass",
+   "isoriginal": 0,
+   "original_artist": "",
+   "created_at": "2022-09-07 21:58:31",
+   "updated_at": "2022-09-07 21:58:31"
+  },
+  {
+   "id": 794,
+   "name": "The Wave",
+   "slug": "the-wave",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2022-09-07 22:02:17",
+   "updated_at": "2024-04-18 21:40:27"
+  },
+  {
+   "id": 795,
+   "name": "Willy On Mars",
+   "slug": "willy-on-mars",
+   "isoriginal": 0,
+   "original_artist": "Great Blue",
+   "created_at": "2022-09-07 22:02:49",
+   "updated_at": "2022-09-07 22:02:49"
+  },
+  {
+   "id": 796,
+   "name": "Tokyo Jazz Fest",
+   "slug": "tokyo-jazz-fest",
+   "isoriginal": 0,
+   "original_artist": "Great Blue",
+   "created_at": "2022-09-07 22:03:18",
+   "updated_at": "2022-09-07 22:03:18"
+  },
+  {
+   "id": 797,
+   "name": "65",
+   "slug": "65",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2022-09-07 22:04:14",
+   "updated_at": "2024-03-03 18:45:19"
+  },
+  {
+   "id": 798,
+   "name": "La Grange",
+   "slug": "la-grange",
+   "isoriginal": 0,
+   "original_artist": "ZZ Top",
+   "created_at": "2022-09-07 22:04:23",
+   "updated_at": "2022-09-07 22:04:23"
+  },
+  {
+   "id": 799,
+   "name": "Blue Marbles",
+   "slug": "blue-marbles",
+   "isoriginal": 0,
+   "original_artist": "Great Blue",
+   "created_at": "2022-09-07 22:09:39",
+   "updated_at": "2022-09-07 22:09:39"
+  },
+  {
+   "id": 800,
+   "name": "Jeff Engborg Part II",
+   "slug": "jeff-engborg-part-ii",
+   "isoriginal": 0,
+   "original_artist": "",
+   "created_at": "2022-09-07 22:09:51",
+   "updated_at": "2022-09-07 22:09:51"
+  },
+  {
+   "id": 801,
+   "name": "Luigi's Raceway",
+   "slug": "luigis-raceway",
+   "isoriginal": 0,
+   "original_artist": "Nintendo",
+   "created_at": "2022-09-07 22:10:02",
+   "updated_at": "2022-09-07 22:10:02"
+  },
+  {
+   "id": 802,
+   "name": "Jam",
+   "slug": "jam",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2022-09-12 19:15:15",
+   "updated_at": "2022-09-12 19:15:15"
+  },
+  {
+   "id": 803,
+   "name": "Mini Mall Rap",
+   "slug": "mini-mall-rap",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2022-09-12 19:36:33",
+   "updated_at": "2022-11-07 00:25:04"
+  },
+  {
+   "id": 804,
+   "name": "Caravan",
+   "slug": "caravan",
+   "isoriginal": 0,
+   "original_artist": "Van Morrison",
+   "created_at": "2022-09-27 15:47:44",
+   "updated_at": "2023-07-24 23:48:25"
+  },
+  {
+   "id": 805,
+   "name": "Everything Must Go",
+   "slug": "everything-must-go",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2022-10-02 02:04:17",
+   "updated_at": "2023-07-25 20:07:45"
+  },
+  {
+   "id": 806,
+   "name": "Greensleeves",
+   "slug": "greensleeves",
+   "isoriginal": 0,
+   "original_artist": "Traditional",
+   "created_at": "2022-10-07 18:50:33",
+   "updated_at": "2022-10-07 18:50:33"
+  },
+  {
+   "id": 807,
+   "name": "So Fresh, So Clean",
+   "slug": "so-fresh-so-clean",
+   "isoriginal": 0,
+   "original_artist": "Outkast",
+   "created_at": "2022-10-09 17:44:46",
+   "updated_at": "2022-10-09 17:44:46"
+  },
+  {
+   "id": 808,
+   "name": "Born To Be Wild",
+   "slug": "born-to-be-wild",
+   "isoriginal": 0,
+   "original_artist": "Steppenwolf",
+   "created_at": "2022-10-16 04:12:53",
+   "updated_at": "2022-10-16 04:12:53"
+  },
+  {
+   "id": 809,
+   "name": "Thatch",
+   "slug": "thatch",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2022-11-14 13:17:32",
+   "updated_at": "2025-06-13 19:29:09"
+  },
+  {
+   "id": 810,
+   "name": "How Sweet It Is (To Be Loved By You)",
+   "slug": "how-sweet-it-is-to-be-loved-by-you",
+   "isoriginal": 0,
+   "original_artist": "James Taylor",
+   "created_at": "2022-11-21 16:33:23",
+   "updated_at": "2023-07-25 20:08:31"
+  },
+  {
+   "id": 811,
+   "name": "You Are So Beautiful",
+   "slug": "you-are-so-beautiful",
+   "isoriginal": 0,
+   "original_artist": "Joe Cocker",
+   "created_at": "2022-11-21 16:34:09",
+   "updated_at": "2022-11-21 16:34:09"
+  },
+  {
+   "id": 812,
+   "name": "Signed, Sealed, Delivered",
+   "slug": "signed-sealed-delivered",
+   "isoriginal": 0,
+   "original_artist": "Stevie Wonder",
+   "created_at": "2022-11-21 16:35:19",
+   "updated_at": "2022-11-21 16:35:19"
+  },
+  {
+   "id": 813,
+   "name": "Burning Down the House",
+   "slug": "burning-down-the-house",
+   "isoriginal": 0,
+   "original_artist": "Talking Heads",
+   "created_at": "2022-11-21 16:42:07",
+   "updated_at": "2022-11-21 16:42:07"
+  },
+  {
+   "id": 814,
+   "name": "Get Lucky",
+   "slug": "get-lucky",
+   "isoriginal": 0,
+   "original_artist": "Daft Punk",
+   "created_at": "2022-11-21 16:42:52",
+   "updated_at": "2022-11-21 16:42:52"
+  },
+  {
+   "id": 815,
+   "name": "Tarantella Napoletana",
+   "slug": "tarantella-napoletana",
+   "isoriginal": 0,
+   "original_artist": "Traditional",
+   "created_at": "2022-12-11 16:37:44",
+   "updated_at": "2022-12-11 16:37:44"
+  },
+  {
+   "id": 816,
+   "name": "Amongster",
+   "slug": "amongster",
+   "isoriginal": 0,
+   "original_artist": "Polica",
+   "created_at": "2022-12-15 15:28:47",
+   "updated_at": "2025-05-19 21:45:47"
+  },
+  {
+   "id": 817,
+   "name": "Mr. Action",
+   "slug": "mr-action",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2022-12-20 17:19:35",
+   "updated_at": "2025-06-13 19:49:21"
+  },
+  {
+   "id": 818,
+   "name": "Auld Lang Syne",
+   "slug": "auld-lang-syne",
+   "isoriginal": 0,
+   "original_artist": "Traditional",
+   "created_at": "2023-01-01 15:06:51",
+   "updated_at": "2025-05-19 21:55:57"
+  },
+  {
+   "id": 819,
+   "name": "This Year's Love",
+   "slug": "this-years-love",
+   "isoriginal": 0,
+   "original_artist": "David Gray",
+   "created_at": "2023-01-01 15:07:30",
+   "updated_at": "2023-01-01 15:07:30"
+  },
+  {
+   "id": 820,
+   "name": "Not Alone",
+   "slug": "not-alone",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2023-03-10 06:24:06",
+   "updated_at": "2025-06-13 19:46:56"
+  },
+  {
+   "id": 821,
+   "name": "Pick Up The Pieces",
+   "slug": "pick-up-the-pieces",
+   "isoriginal": 0,
+   "original_artist": "Average White Band",
+   "created_at": "2023-03-10 06:25:32",
+   "updated_at": "2023-03-10 06:25:32"
+  },
+  {
+   "id": 822,
+   "name": "Lead Up",
+   "slug": "lead-up",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2023-03-11 14:01:09",
+   "updated_at": "2023-03-11 14:01:09"
+  },
+  {
+   "id": 823,
+   "name": "Feel It Now",
+   "slug": "feel-it-now-2",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2023-03-12 12:56:01",
+   "updated_at": "2025-05-31 12:20:56"
+  },
+  {
+   "id": 824,
+   "name": "Meat",
+   "slug": "meat",
+   "isoriginal": 0,
+   "original_artist": "Phish",
+   "created_at": "2023-03-13 19:07:09",
+   "updated_at": "2023-03-13 19:07:09"
+  },
+  {
+   "id": 825,
+   "name": "Bubblehouse",
+   "slug": "bubblehouse",
+   "isoriginal": 0,
+   "original_artist": "Medeski, Martin, and Wood",
+   "created_at": "2023-03-21 02:18:11",
+   "updated_at": "2023-03-21 02:18:11"
+  },
+  {
+   "id": 826,
+   "name": "Hey Jude",
+   "slug": "hey-jude",
+   "isoriginal": 0,
+   "original_artist": "The Beatles",
+   "created_at": "2023-03-24 18:17:51",
+   "updated_at": "2023-03-24 18:17:51"
+  },
+  {
+   "id": 827,
+   "name": "Streets of Cairo",
+   "slug": "streets-of-cairo",
+   "isoriginal": 0,
+   "original_artist": "Traditional",
+   "created_at": "2023-03-27 05:51:41",
+   "updated_at": "2023-03-27 05:51:41"
+  },
+  {
+   "id": 828,
+   "name": "After Midnight",
+   "slug": "after-midnight",
+   "isoriginal": 0,
+   "original_artist": "Eric Clapton",
+   "created_at": "2023-03-29 03:54:04",
+   "updated_at": "2025-05-19 21:38:08"
+  },
+  {
+   "id": 829,
+   "name": "You Haven't Done Nothin'",
+   "slug": "you-havent-done-nothin",
+   "isoriginal": 0,
+   "original_artist": "Stevie Wonder",
+   "created_at": "2023-04-02 05:37:59",
+   "updated_at": "2023-04-02 05:37:59"
+  },
+  {
+   "id": 830,
+   "name": "Dancing in the Street",
+   "slug": "dancing-in-the-street",
+   "isoriginal": 0,
+   "original_artist": "Martha and the Vandellas",
+   "created_at": "2023-04-03 03:11:09",
+   "updated_at": "2023-04-03 03:11:09"
+  },
+  {
+   "id": 831,
+   "name": "25 Or 6 To 4",
+   "slug": "25-or-6-to-4",
+   "isoriginal": 0,
+   "original_artist": "Chicago",
+   "created_at": "2023-04-16 19:19:02",
+   "updated_at": "2025-05-19 21:21:10"
+  },
+  {
+   "id": 832,
+   "name": "Dark Star",
+   "slug": "dark-star",
+   "isoriginal": 0,
+   "original_artist": "Grateful Dead",
+   "created_at": "2023-04-20 06:42:21",
+   "updated_at": "2023-04-21 03:58:00"
+  },
+  {
+   "id": 833,
+   "name": "Stand By Me",
+   "slug": "stand-by-me",
+   "isoriginal": 0,
+   "original_artist": "Ben E. King",
+   "created_at": "2023-05-08 18:26:30",
+   "updated_at": "2023-05-08 18:26:30"
+  },
+  {
+   "id": 834,
+   "name": "Loving Cup",
+   "slug": "loving-cup",
+   "isoriginal": 0,
+   "original_artist": "The Rolling Stones",
+   "created_at": "2023-05-08 18:26:56",
+   "updated_at": "2023-07-24 23:51:04"
+  },
+  {
+   "id": 835,
+   "name": "Return To Sender",
+   "slug": "return-to-sender",
+   "isoriginal": 0,
+   "original_artist": "Elvis Presley",
+   "created_at": "2023-06-11 18:51:07",
+   "updated_at": "2023-06-11 18:51:07"
+  },
+  {
+   "id": 836,
+   "name": "Been All Around This World",
+   "slug": "been-all-around-this-world",
+   "isoriginal": 0,
+   "original_artist": "Jerry Garcia",
+   "created_at": "2023-06-11 18:51:32",
+   "updated_at": "2025-05-19 22:03:26"
+  },
+  {
+   "id": 837,
+   "name": "Hang Me",
+   "slug": "hang-me",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2023-06-11 18:51:49",
+   "updated_at": "2023-06-11 18:51:49"
+  },
+  {
+   "id": 838,
+   "name": "Fader",
+   "slug": "fader",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2023-06-11 21:33:58",
+   "updated_at": "2023-11-08 20:30:08"
+  },
+  {
+   "id": 839,
+   "name": "There Will Never Be Another You",
+   "slug": "there-will-never-be-another-you",
+   "isoriginal": 0,
+   "original_artist": "Harry Warren",
+   "created_at": "2023-06-12 13:17:27",
+   "updated_at": "2024-01-22 14:35:19"
+  },
+  {
+   "id": 840,
+   "name": "Arkansas Traveler",
+   "slug": "arkansas-traveler",
+   "isoriginal": 0,
+   "original_artist": "Traditional",
+   "created_at": "2023-06-28 02:32:23",
+   "updated_at": "2023-06-28 02:32:23"
+  },
+  {
+   "id": 841,
+   "name": "Midnight Rider",
+   "slug": "midnight-rider",
+   "isoriginal": 0,
+   "original_artist": "The Allman Brothers",
+   "created_at": "2023-06-29 21:20:47",
+   "updated_at": "2023-06-29 21:20:47"
+  },
+  {
+   "id": 842,
+   "name": "Crossfaded Mammoths",
+   "slug": "crossfaded-mammoths",
+   "isoriginal": 0,
+   "original_artist": "Great Blue",
+   "created_at": "2023-07-02 15:16:04",
+   "updated_at": "2023-07-02 15:16:04"
+  },
+  {
+   "id": 843,
+   "name": "Wild Summer Nights",
+   "slug": "wild-summer-nights",
+   "isoriginal": 0,
+   "original_artist": "John Cafferty",
+   "created_at": "2023-07-05 01:32:08",
+   "updated_at": "2023-07-05 01:32:08"
+  },
+  {
+   "id": 844,
+   "name": "Change the World by Eric Clapton",
+   "slug": "change-the-world-by-eric-clapton",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2023-08-15 15:54:59",
+   "updated_at": "2023-08-15 15:54:59"
+  },
+  {
+   "id": 845,
+   "name": "Crazy, Wasted, Tame It",
+   "slug": "crazy-wasted-tame-it",
+   "isoriginal": 0,
+   "original_artist": "Otis McDonald",
+   "created_at": "2023-08-15 15:55:27",
+   "updated_at": "2023-08-15 15:55:27"
+  },
+  {
+   "id": 846,
+   "name": "Hurbadurb",
+   "slug": "hurbadurb",
+   "isoriginal": 0,
+   "original_artist": "ElephantProof",
+   "created_at": "2023-08-15 15:56:23",
+   "updated_at": "2023-08-15 15:56:23"
+  },
+  {
+   "id": 847,
+   "name": "Hurbadurb 2",
+   "slug": "hurbadurb-2",
+   "isoriginal": 0,
+   "original_artist": "ElephantProof",
+   "created_at": "2023-08-15 15:56:34",
+   "updated_at": "2023-08-15 15:56:34"
+  },
+  {
+   "id": 848,
+   "name": "Pinch of Satan",
+   "slug": "pinch-of-satan",
+   "isoriginal": 0,
+   "original_artist": "ElephantProof",
+   "created_at": "2023-08-15 15:56:51",
+   "updated_at": "2023-08-15 15:56:51"
+  },
+  {
+   "id": 849,
+   "name": "Strut Fails",
+   "slug": "strut-fails",
+   "isoriginal": 0,
+   "original_artist": "ElephantProof",
+   "created_at": "2023-08-15 15:57:03",
+   "updated_at": "2023-08-15 15:57:03"
+  },
+  {
+   "id": 850,
+   "name": "Jetlag",
+   "slug": "jetlag",
+   "isoriginal": 0,
+   "original_artist": "ElephantProof",
+   "created_at": "2023-08-15 15:57:15",
+   "updated_at": "2023-08-15 15:57:15"
+  },
+  {
+   "id": 851,
+   "name": "Fallout",
+   "slug": "fallout",
+   "isoriginal": 0,
+   "original_artist": "ElephantProof",
+   "created_at": "2023-08-15 15:57:28",
+   "updated_at": "2023-08-15 15:57:28"
+  },
+  {
+   "id": 852,
+   "name": "Tell Me A Bedtime Story",
+   "slug": "tell-me-a-bedtime-story",
+   "isoriginal": 0,
+   "original_artist": "Quincy Jones",
+   "created_at": "2023-08-15 15:57:43",
+   "updated_at": "2023-08-15 15:57:43"
+  },
+  {
+   "id": 853,
+   "name": "Grapefruit",
+   "slug": "grapefruit",
+   "isoriginal": 0,
+   "original_artist": "ElephantProof",
+   "created_at": "2023-08-15 16:33:56",
+   "updated_at": "2023-08-15 16:33:56"
+  },
+  {
+   "id": 854,
+   "name": "Krampus",
+   "slug": "krampus",
+   "isoriginal": 0,
+   "original_artist": "ElephantProof",
+   "created_at": "2023-08-15 16:34:06",
+   "updated_at": "2023-08-15 16:34:06"
+  },
+  {
+   "id": 855,
+   "name": "Get The Bag",
+   "slug": "get-the-bag",
+   "isoriginal": 0,
+   "original_artist": "ElephantProof",
+   "created_at": "2023-08-15 16:34:17",
+   "updated_at": "2023-08-15 16:34:17"
+  },
+  {
+   "id": 856,
+   "name": "Toybomb",
+   "slug": "toybomb",
+   "isoriginal": 0,
+   "original_artist": "ElephantProof",
+   "created_at": "2023-08-15 16:34:28",
+   "updated_at": "2023-08-15 16:34:28"
+  },
+  {
+   "id": 857,
+   "name": "Dr. Jordy B",
+   "slug": "dr-jordy-b",
+   "isoriginal": 0,
+   "original_artist": "ElephantProof",
+   "created_at": "2023-08-15 16:34:48",
+   "updated_at": "2023-08-15 16:34:48"
+  },
+  {
+   "id": 858,
+   "name": "Robo Sweaters",
+   "slug": "robo-sweaters",
+   "isoriginal": 0,
+   "original_artist": "ElephantProof",
+   "created_at": "2023-08-15 16:35:04",
+   "updated_at": "2023-08-15 16:35:04"
+  },
+  {
+   "id": 859,
+   "name": "Scrapple",
+   "slug": "scrapple",
+   "isoriginal": 0,
+   "original_artist": "ElephantProof",
+   "created_at": "2023-08-15 16:35:15",
+   "updated_at": "2023-08-15 16:35:15"
+  },
+  {
+   "id": 860,
+   "name": "Losing It",
+   "slug": "losing-it",
+   "isoriginal": 0,
+   "original_artist": "Fisher",
+   "created_at": "2023-08-15 16:46:38",
+   "updated_at": "2023-08-15 16:46:38"
+  },
+  {
+   "id": 861,
+   "name": "Gypsy Woman",
+   "slug": "gypsy-woman",
+   "isoriginal": 0,
+   "original_artist": "ElephantProof",
+   "created_at": "2023-08-15 16:46:49",
+   "updated_at": "2023-08-15 16:46:49"
+  },
+  {
+   "id": 862,
+   "name": "Show Me Love",
+   "slug": "show-me-love",
+   "isoriginal": 0,
+   "original_artist": "ElephantProof",
+   "created_at": "2023-08-15 16:47:00",
+   "updated_at": "2023-08-15 16:47:00"
+  },
+  {
+   "id": 863,
+   "name": "Hyphie",
+   "slug": "hyphie",
+   "isoriginal": 0,
+   "original_artist": "ElephantProof",
+   "created_at": "2023-08-15 16:47:10",
+   "updated_at": "2023-08-15 16:47:10"
+  },
+  {
+   "id": 864,
+   "name": "All I Need",
+   "slug": "all-i-need-lp-giobbi",
+   "isoriginal": 0,
+   "original_artist": "LP Giobbi",
+   "created_at": "2023-09-15 01:19:51",
+   "updated_at": "2025-05-19 21:40:28"
+  },
+  {
+   "id": 865,
+   "name": "Long Tall Glasses",
+   "slug": "long-tall-glasses",
+   "isoriginal": 0,
+   "original_artist": "Leo Sayer",
+   "created_at": "2023-09-19 12:26:46",
+   "updated_at": "2023-09-19 12:26:46"
+  },
+  {
+   "id": 866,
+   "name": "Somebody's Watching Me",
+   "slug": "somebodys-watching-me",
+   "isoriginal": 0,
+   "original_artist": "Rockwell",
+   "created_at": "2023-09-20 13:08:37",
+   "updated_at": "2023-09-20 13:08:37"
+  },
+  {
+   "id": 867,
+   "name": "I Would Die 4 U",
+   "slug": "i-would-die-4-u",
+   "isoriginal": 0,
+   "original_artist": "Prince",
+   "created_at": "2023-10-07 02:15:05",
+   "updated_at": "2023-10-07 02:15:05"
+  },
+  {
+   "id": 868,
+   "name": "Revival",
+   "slug": "revival-allman",
+   "isoriginal": 0,
+   "original_artist": "The Allman Brothers Band",
+   "created_at": "2023-10-23 18:30:18",
+   "updated_at": "2023-10-23 18:30:18"
+  },
+  {
+   "id": 869,
+   "name": "Crazy Train",
+   "slug": "crazy-train",
+   "isoriginal": 0,
+   "original_artist": "Ozzy Osbourne",
+   "created_at": "2023-10-25 21:10:47",
+   "updated_at": "2023-10-25 21:10:47"
+  },
+  {
+   "id": 870,
+   "name": "Heartbreaker",
+   "slug": "heartbreaker",
+   "isoriginal": 0,
+   "original_artist": "Led Zeppelin",
+   "created_at": "2023-10-25 21:14:11",
+   "updated_at": "2023-10-25 21:14:11"
+  },
+  {
+   "id": 871,
+   "name": "A Go Go",
+   "slug": "a-go-go",
+   "isoriginal": 0,
+   "original_artist": "John Scofield",
+   "created_at": "2023-11-26 17:54:21",
+   "updated_at": "2025-05-19 21:23:44"
+  },
+  {
+   "id": 872,
+   "name": "The River",
+   "slug": "the-river",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2023-11-26 17:54:40",
+   "updated_at": "2023-11-26 17:54:40"
+  },
+  {
+   "id": 873,
+   "name": "Deal",
+   "slug": "deal",
+   "isoriginal": 0,
+   "original_artist": "Grateful Dead",
+   "created_at": "2023-11-26 17:54:54",
+   "updated_at": "2023-11-26 17:54:54"
+  },
+  {
+   "id": 874,
+   "name": "Within You Without You",
+   "slug": "within-you-without-you",
+   "isoriginal": 0,
+   "original_artist": "The Beatles",
+   "created_at": "2023-11-27 20:16:27",
+   "updated_at": "2023-11-27 20:16:27"
+  },
+  {
+   "id": 875,
+   "name": "Texas",
+   "slug": "texas",
+   "isoriginal": 0,
+   "original_artist": "The String Cheese Incident",
+   "created_at": "2023-11-27 20:37:32",
+   "updated_at": "2023-11-27 20:37:32"
+  },
+  {
+   "id": 876,
+   "name": "Let's Just Call It Louis",
+   "slug": "lets-just-call-it-louis",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2023-12-03 19:31:19",
+   "updated_at": "2023-12-03 19:31:19"
+  },
+  {
+   "id": 877,
+   "name": "Best Friend",
+   "slug": "best-friend",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2023-12-03 19:39:00",
+   "updated_at": "2023-12-03 19:39:00"
+  },
+  {
+   "id": 878,
+   "name": "E is the Key",
+   "slug": "e-is-the-key",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2023-12-03 19:40:19",
+   "updated_at": "2023-12-03 19:40:19"
+  },
+  {
+   "id": 879,
+   "name": "The Bears",
+   "slug": "the-bears",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2023-12-03 19:40:32",
+   "updated_at": "2023-12-03 19:40:32"
+  },
+  {
+   "id": 880,
+   "name": "Harry (Crashed)",
+   "slug": "harry-crashed",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2023-12-03 19:40:43",
+   "updated_at": "2023-12-03 19:40:43"
+  },
+  {
+   "id": 881,
+   "name": "Harley",
+   "slug": "harley",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2023-12-03 19:40:57",
+   "updated_at": "2023-12-03 19:40:57"
+  },
+  {
+   "id": 882,
+   "name": "Give Up The Funk",
+   "slug": "give-up-the-funk",
+   "isoriginal": 0,
+   "original_artist": "Parliament",
+   "created_at": "2023-12-07 10:54:38",
+   "updated_at": "2023-12-07 10:54:38"
+  },
+  {
+   "id": 883,
+   "name": "Mirrors",
+   "slug": "mirrors",
+   "isoriginal": 0,
+   "original_artist": "Justin Timberlake",
+   "created_at": "2023-12-09 01:39:21",
+   "updated_at": "2023-12-09 01:39:21"
+  },
+  {
+   "id": 884,
+   "name": "Man in the Mirror",
+   "slug": "man-in-the-mirror",
+   "isoriginal": 0,
+   "original_artist": "Michael Jackson",
+   "created_at": "2023-12-09 02:19:37",
+   "updated_at": "2023-12-09 02:19:37"
+  },
+  {
+   "id": 885,
+   "name": "Fire",
+   "slug": "fire",
+   "isoriginal": 0,
+   "original_artist": "Jimi Hendrix",
+   "created_at": "2023-12-09 02:55:50",
+   "updated_at": "2023-12-09 02:55:50"
+  },
+  {
+   "id": 886,
+   "name": "Sex On Fire",
+   "slug": "sex-on-fire",
+   "isoriginal": 0,
+   "original_artist": "Kings of Leon",
+   "created_at": "2023-12-09 03:29:05",
+   "updated_at": "2023-12-09 03:29:05"
+  },
+  {
+   "id": 887,
+   "name": "99 Red Balloons",
+   "slug": "99-red-balloons",
+   "isoriginal": 0,
+   "original_artist": "Nena",
+   "created_at": "2023-12-10 01:45:47",
+   "updated_at": "2025-05-19 21:22:26"
+  },
+  {
+   "id": 888,
+   "name": "Circles",
+   "slug": "circles",
+   "isoriginal": 0,
+   "original_artist": "Post Malone",
+   "created_at": "2023-12-10 01:46:08",
+   "updated_at": "2023-12-10 01:46:08"
+  },
+  {
+   "id": 889,
+   "name": "Big Blue",
+   "slug": "big-blue",
+   "isoriginal": 0,
+   "original_artist": "Vampire Weekend",
+   "created_at": "2023-12-10 06:53:16",
+   "updated_at": "2025-05-19 22:05:00"
+  },
+  {
+   "id": 890,
+   "name": "I’m Forever Blowing Bubbles",
+   "slug": "im-forever-blowing-bubbles",
+   "isoriginal": 0,
+   "original_artist": "John Kellette",
+   "created_at": "2023-12-10 06:53:54",
+   "updated_at": "2023-12-10 06:53:54"
+  },
+  {
+   "id": 891,
+   "name": "Jungle",
+   "slug": "jungle",
+   "isoriginal": 0,
+   "original_artist": "ELO",
+   "created_at": "2023-12-10 06:54:32",
+   "updated_at": "2023-12-10 06:54:32"
+  },
+  {
+   "id": 892,
+   "name": "Jungle Boogie",
+   "slug": "jungle-boogie",
+   "isoriginal": 0,
+   "original_artist": "Kool & The Gang",
+   "created_at": "2023-12-10 06:54:54",
+   "updated_at": "2023-12-10 06:54:54"
+  },
+  {
+   "id": 893,
+   "name": "Run Through The Jungle",
+   "slug": "run-through-the-jungle",
+   "isoriginal": 0,
+   "original_artist": "Creedence Clearwater Revival",
+   "created_at": "2023-12-10 06:55:22",
+   "updated_at": "2023-12-10 06:55:22"
+  },
+  {
+   "id": 894,
+   "name": "The Landlady",
+   "slug": "the-landlady",
+   "isoriginal": 0,
+   "original_artist": "Phish",
+   "created_at": "2024-01-09 13:28:44",
+   "updated_at": "2024-01-09 13:28:44"
+  },
+  {
+   "id": 895,
+   "name": "Oh Yeah",
+   "slug": "oh-yeah",
+   "isoriginal": 0,
+   "original_artist": "Yello",
+   "created_at": "2024-01-10 20:31:52",
+   "updated_at": "2024-01-10 20:31:52"
+  },
+  {
+   "id": 896,
+   "name": "Breakers Roar",
+   "slug": "breakers-roar",
+   "isoriginal": 0,
+   "original_artist": "Sturgill Simpson",
+   "created_at": "2024-01-12 23:48:15",
+   "updated_at": "2024-01-12 23:48:15"
+  },
+  {
+   "id": 897,
+   "name": "Brian and Robert",
+   "slug": "brian-and-robert",
+   "isoriginal": 0,
+   "original_artist": "Phish",
+   "created_at": "2024-01-23 19:29:36",
+   "updated_at": "2024-01-23 19:29:36"
+  },
+  {
+   "id": 898,
+   "name": "Teakwood Betz",
+   "slug": "teakwood-betz",
+   "isoriginal": 0,
+   "original_artist": "Perpetual Groove",
+   "created_at": "2024-01-26 20:27:31",
+   "updated_at": "2024-01-26 20:27:31"
+  },
+  {
+   "id": 899,
+   "name": "Drum",
+   "slug": "drum",
+   "isoriginal": 0,
+   "original_artist": "Scotty Stoughton",
+   "created_at": "2024-01-27 18:17:00",
+   "updated_at": "2024-01-27 18:17:00"
+  },
+  {
+   "id": 900,
+   "name": "Down to the River to Pray",
+   "slug": "down-to-the-river-to-pray",
+   "isoriginal": 0,
+   "original_artist": "African-American Spiritual",
+   "created_at": "2024-01-27 18:17:29",
+   "updated_at": "2024-01-27 18:17:29"
+  },
+  {
+   "id": 901,
+   "name": "Leo",
+   "slug": "leo",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2024-02-06 15:17:48",
+   "updated_at": "2024-02-06 15:17:48"
+  },
+  {
+   "id": 902,
+   "name": "Apollo",
+   "slug": "apollo",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2024-02-06 15:18:09",
+   "updated_at": "2025-05-19 21:48:49"
+  },
+  {
+   "id": 903,
+   "name": "Nebula",
+   "slug": "nebula",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2024-02-06 15:18:20",
+   "updated_at": "2024-02-06 15:18:20"
+  },
+  {
+   "id": 904,
+   "name": "Bakhu",
+   "slug": "bakhu",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2024-02-06 15:18:30",
+   "updated_at": "2025-05-19 21:59:58"
+  },
+  {
+   "id": 905,
+   "name": "Chiron",
+   "slug": "chiron",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2024-02-06 15:23:25",
+   "updated_at": "2024-02-06 15:23:25"
+  },
+  {
+   "id": 906,
+   "name": "Phoenix",
+   "slug": "phoenix",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2024-02-06 15:23:30",
+   "updated_at": "2024-02-06 15:23:30"
+  },
+  {
+   "id": 907,
+   "name": "Regulus",
+   "slug": "regulus",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2024-02-06 15:23:39",
+   "updated_at": "2024-02-06 15:23:39"
+  },
+  {
+   "id": 908,
+   "name": "Arrokoth",
+   "slug": "arrokoth",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2024-02-06 15:23:43",
+   "updated_at": "2024-02-06 15:23:43"
+  },
+  {
+   "id": 909,
+   "name": "Manu",
+   "slug": "manu",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2024-02-06 15:23:48",
+   "updated_at": "2024-02-06 15:23:48"
+  },
+  {
+   "id": 910,
+   "name": "Don’t Think Twice, It’s Alright",
+   "slug": "dont-think-twice-its-alright",
+   "isoriginal": 0,
+   "original_artist": "Bob Dylan",
+   "created_at": "2024-02-09 12:27:33",
+   "updated_at": "2024-02-09 12:27:33"
+  },
+  {
+   "id": 911,
+   "name": "No California",
+   "slug": "no-california",
+   "isoriginal": 0,
+   "original_artist": "Ilsey Juber",
+   "created_at": "2024-02-09 12:27:46",
+   "updated_at": "2024-02-09 12:27:46"
+  },
+  {
+   "id": 912,
+   "name": "Where Is My Wild Rose",
+   "slug": "where-is-my-wild-rose",
+   "isoriginal": 0,
+   "original_artist": "Chris Thompson",
+   "created_at": "2024-02-09 12:28:02",
+   "updated_at": "2024-02-09 12:28:02"
+  },
+  {
+   "id": 913,
+   "name": "Love More",
+   "slug": "love-more",
+   "isoriginal": 0,
+   "original_artist": "Sharon Van Etten",
+   "created_at": "2024-02-10 16:03:49",
+   "updated_at": "2024-02-10 16:03:49"
+  },
+  {
+   "id": 914,
+   "name": "True Love Waits",
+   "slug": "true-love-waits",
+   "isoriginal": 0,
+   "original_artist": "Radiohead",
+   "created_at": "2024-02-11 22:22:55",
+   "updated_at": "2024-02-11 22:22:55"
+  },
+  {
+   "id": 915,
+   "name": "Man of Constant Sorrow",
+   "slug": "man-of-constant-sorrow",
+   "isoriginal": 0,
+   "original_artist": "Dick Burnett",
+   "created_at": "2024-02-11 22:23:25",
+   "updated_at": "2024-02-11 22:23:25"
+  },
+  {
+   "id": 916,
+   "name": "Ronnie",
+   "slug": "ronnie",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2024-03-03 16:30:02",
+   "updated_at": "2024-03-03 16:30:02"
+  },
+  {
+   "id": 917,
+   "name": "Shelly",
+   "slug": "shelly",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2024-03-03 16:30:17",
+   "updated_at": "2024-03-03 16:30:17"
+  },
+  {
+   "id": 918,
+   "name": "Makisupa Policeman",
+   "slug": "makisupa-policeman",
+   "isoriginal": 0,
+   "original_artist": "Phish",
+   "created_at": "2024-03-03 16:30:30",
+   "updated_at": "2024-03-03 16:30:30"
+  },
+  {
+   "id": 919,
+   "name": "Franz Hanzerbeak",
+   "slug": "franz-hanzerbeak",
+   "isoriginal": 0,
+   "original_artist": "Tea Leaf Green",
+   "created_at": "2024-03-03 16:30:40",
+   "updated_at": "2024-03-03 17:12:08"
+  },
+  {
+   "id": 920,
+   "name": "Dirty Hippies",
+   "slug": "dirty-hippies",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2024-03-03 18:45:34",
+   "updated_at": "2024-04-18 21:08:04"
+  },
+  {
+   "id": 921,
+   "name": "Fat Spliffs",
+   "slug": "fat-spliffs",
+   "isoriginal": 0,
+   "original_artist": "Slightly Stoopid",
+   "created_at": "2024-03-03 19:03:52",
+   "updated_at": "2024-03-03 19:03:52"
+  },
+  {
+   "id": 922,
+   "name": "Garden Grove",
+   "slug": "garden-grove",
+   "isoriginal": 0,
+   "original_artist": "Sublime",
+   "created_at": "2024-03-03 19:04:09",
+   "updated_at": "2024-03-03 19:04:09"
+  },
+  {
+   "id": 923,
+   "name": "Smoke",
+   "slug": "smoke",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2024-03-03 19:04:26",
+   "updated_at": "2024-03-03 19:04:26"
+  },
+  {
+   "id": 924,
+   "name": "Higher Ground",
+   "slug": "higher-ground",
+   "isoriginal": 0,
+   "original_artist": "Red Hot Chili Peppers",
+   "created_at": "2024-03-04 15:13:31",
+   "updated_at": "2024-03-04 15:13:31"
+  },
+  {
+   "id": 925,
+   "name": "Charge!",
+   "slug": "charge",
+   "isoriginal": 0,
+   "original_artist": "Tommy Walker",
+   "created_at": "2024-03-04 17:25:25",
+   "updated_at": "2024-03-04 17:25:25"
+  },
+  {
+   "id": 926,
+   "name": "The Man With The Heavy Amp",
+   "slug": "the-man-with-the-heavy-amp",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2024-03-09 18:46:15",
+   "updated_at": "2024-03-09 18:46:15"
+  },
+  {
+   "id": 927,
+   "name": "Jackson",
+   "slug": "jackson",
+   "isoriginal": 0,
+   "original_artist": "Johnny Cash",
+   "created_at": "2024-03-09 18:46:30",
+   "updated_at": "2024-03-09 18:46:30"
+  },
+  {
+   "id": 928,
+   "name": "Undone (The Sweater Song)",
+   "slug": "undone-the-sweater-song",
+   "isoriginal": 0,
+   "original_artist": "Weezer",
+   "created_at": "2024-03-09 18:46:46",
+   "updated_at": "2024-03-09 18:46:46"
+  },
+  {
+   "id": 929,
+   "name": "Star Wars Theme",
+   "slug": "star-wars-theme",
+   "isoriginal": 0,
+   "original_artist": "John Williams",
+   "created_at": "2024-03-11 21:11:40",
+   "updated_at": "2024-03-11 21:11:40"
+  },
+  {
+   "id": 930,
+   "name": "SALT",
+   "slug": "salt",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2024-04-08 01:42:35",
+   "updated_at": "2026-06-15 10:01:37"
+  },
+  {
+   "id": 931,
+   "name": "Give It Time",
+   "slug": "give-it-time-2",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2024-04-10 02:17:28",
+   "updated_at": "2025-05-31 12:21:07"
+  },
+  {
+   "id": 932,
+   "name": "Jessica",
+   "slug": "jessica",
+   "isoriginal": 0,
+   "original_artist": "The Allman Brothers Band",
+   "created_at": "2024-04-11 16:42:36",
+   "updated_at": "2024-04-11 16:42:36"
+  },
+  {
+   "id": 933,
+   "name": "How It Ends",
+   "slug": "how-it-ends-2",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2024-04-11 16:42:51",
+   "updated_at": "2025-05-31 12:21:22"
+  },
+  {
+   "id": 934,
+   "name": "Cape Cod Kwassa Kwassa ",
+   "slug": "cape-cod-kwassa-kwassa",
+   "isoriginal": 0,
+   "original_artist": "Vampire Weekend",
+   "created_at": "2024-04-11 16:43:08",
+   "updated_at": "2024-07-30 21:54:11"
+  },
+  {
+   "id": 935,
+   "name": "Gen X Cops",
+   "slug": "gen-x-cops",
+   "isoriginal": 0,
+   "original_artist": "Vampire Weekend",
+   "created_at": "2024-04-11 16:57:37",
+   "updated_at": "2024-04-11 16:57:44"
+  },
+  {
+   "id": 936,
+   "name": "Cable Guy",
+   "slug": "cable-guy",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2024-04-18 21:07:04",
+   "updated_at": "2024-04-18 21:07:04"
+  },
+  {
+   "id": 937,
+   "name": "Hava Nagila",
+   "slug": "hava-nagila",
+   "isoriginal": 0,
+   "original_artist": "Traditional",
+   "created_at": "2024-05-17 15:19:09",
+   "updated_at": "2024-05-17 15:19:09"
+  },
+  {
+   "id": 938,
+   "name": "Clocks",
+   "slug": "clocks",
+   "isoriginal": 0,
+   "original_artist": "Coldplay",
+   "created_at": "2024-06-06 17:15:13",
+   "updated_at": "2024-06-06 17:15:13"
+  },
+  {
+   "id": 939,
+   "name": "Drone On Bb",
+   "slug": "drone-on-bb",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2024-06-08 19:25:21",
+   "updated_at": "2024-06-08 19:25:21"
+  },
+  {
+   "id": 940,
+   "name": "Last Train Home",
+   "slug": "last-train-home",
+   "isoriginal": 0,
+   "original_artist": "Pat Metheney",
+   "created_at": "2024-06-08 19:25:55",
+   "updated_at": "2024-06-08 19:25:55"
+  },
+  {
+   "id": 941,
+   "name": "All Blues",
+   "slug": "all-blues",
+   "isoriginal": 0,
+   "original_artist": "Miles Davis",
+   "created_at": "2024-06-16 14:23:22",
+   "updated_at": "2025-05-19 21:39:28"
+  },
+  {
+   "id": 942,
+   "name": "Still D.R.E.",
+   "slug": "still-dre",
+   "isoriginal": 0,
+   "original_artist": "Dr. Dre",
+   "created_at": "2024-08-02 15:42:00",
+   "updated_at": "2024-08-02 15:42:00"
+  },
+  {
+   "id": 943,
+   "name": "Draconian Meter Maid",
+   "slug": "draconian-meter-ma",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2024-09-02 00:14:41",
+   "updated_at": "2024-09-02 00:15:55"
+  },
+  {
+   "id": 945,
+   "name": "Big Modern!",
+   "slug": "big-modern-2",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2024-09-02 05:47:26",
+   "updated_at": "2025-05-19 21:59:31"
+  },
+  {
+   "id": 946,
+   "name": "One In, One Out",
+   "slug": "one-in-one-out",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2024-09-03 00:42:52",
+   "updated_at": "2024-09-04 18:55:53"
+  },
+  {
+   "id": 947,
+   "name": "MEDIA",
+   "slug": "media",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2024-09-04 01:14:59",
+   "updated_at": "2026-04-10 19:22:16"
+  },
+  {
+   "id": 948,
+   "name": "War Pigs",
+   "slug": "war-pigs",
+   "isoriginal": 0,
+   "original_artist": "Black Sabbath",
+   "created_at": "2024-10-02 11:40:04",
+   "updated_at": "2024-10-02 11:40:04"
+  },
+  {
+   "id": 949,
+   "name": "Chariots of Fire",
+   "slug": "chariots-of-fire",
+   "isoriginal": 0,
+   "original_artist": "Vangelis",
+   "created_at": "2024-10-25 01:10:57",
+   "updated_at": "2024-10-25 01:10:57"
+  },
+  {
+   "id": 950,
+   "name": "You Spin Me Round (Like A Record)",
+   "slug": "you-spin-me-round-like-a-record",
+   "isoriginal": 0,
+   "original_artist": "Dead or Alive",
+   "created_at": "2024-10-26 16:59:31",
+   "updated_at": "2024-10-26 16:59:31"
+  },
+  {
+   "id": 951,
+   "name": "Stranger Things",
+   "slug": "stranger-things",
+   "isoriginal": 0,
+   "original_artist": "S U R V I V E",
+   "created_at": "2024-10-31 22:56:48",
+   "updated_at": "2024-11-01 20:03:15"
+  },
+  {
+   "id": 952,
+   "name": "Maniac",
+   "slug": "maniac",
+   "isoriginal": 0,
+   "original_artist": "Michael Sembello",
+   "created_at": "2024-10-31 23:48:00",
+   "updated_at": "2024-10-31 23:48:00"
+  },
+  {
+   "id": 953,
+   "name": "Wipeout",
+   "slug": "wipeout",
+   "isoriginal": 0,
+   "original_artist": "Bob Berryhill",
+   "created_at": "2024-11-01 00:04:18",
+   "updated_at": "2024-11-01 00:04:18"
+  },
+  {
+   "id": 954,
+   "name": "You May Be Right",
+   "slug": "you-may-be-right",
+   "isoriginal": 0,
+   "original_artist": "Billy Joel",
+   "created_at": "2024-11-01 00:22:20",
+   "updated_at": "2024-11-01 00:22:20"
+  },
+  {
+   "id": 955,
+   "name": "Running Up That Hill",
+   "slug": "running-up-that-hill",
+   "isoriginal": 0,
+   "original_artist": "Kate Bush",
+   "created_at": "2024-11-01 01:10:01",
+   "updated_at": "2024-11-01 01:10:01"
+  },
+  {
+   "id": 956,
+   "name": "Everybody Wants To Rule The World",
+   "slug": "everybody-wants-to-rule-the-world",
+   "isoriginal": 0,
+   "original_artist": "Tears For Fears",
+   "created_at": "2024-11-01 01:41:01",
+   "updated_at": "2024-11-01 01:41:01"
+  },
+  {
+   "id": 957,
+   "name": "So I’m Growing Old On Magic Mountain",
+   "slug": "so-im-growing-old-on-magic-mountain",
+   "isoriginal": 0,
+   "original_artist": "Father John Misty",
+   "created_at": "2024-11-09 04:03:41",
+   "updated_at": "2024-11-09 04:03:41"
+  },
+  {
+   "id": 958,
+   "name": "Sirius",
+   "slug": "sirius",
+   "isoriginal": 0,
+   "original_artist": "The Alan Parsons Project",
+   "created_at": "2024-12-14 01:22:03",
+   "updated_at": "2024-12-14 01:22:03"
+  },
+  {
+   "id": 959,
+   "name": "Kashmir",
+   "slug": "kashmir-2",
+   "isoriginal": 0,
+   "original_artist": "Led Zeppelin",
+   "created_at": "2024-12-14 04:11:18",
+   "updated_at": "2025-06-13 13:23:00"
+  },
+  {
+   "id": 960,
+   "name": "Slip Slidin’ Away",
+   "slug": "slip-slidin-away",
+   "isoriginal": 0,
+   "original_artist": "Paul Simon",
+   "created_at": "2024-12-15 01:38:02",
+   "updated_at": "2024-12-15 01:38:02"
+  },
+  {
+   "id": 961,
+   "name": "Help on the Way",
+   "slug": "help-on-the-way",
+   "isoriginal": 0,
+   "original_artist": "Grateful Dead",
+   "created_at": "2024-12-15 05:03:13",
+   "updated_at": "2024-12-15 05:03:13"
+  },
+  {
+   "id": 962,
+   "name": "Slipknot!",
+   "slug": "slipknot-2",
+   "isoriginal": 0,
+   "original_artist": "Grateful Dead",
+   "created_at": "2024-12-15 05:06:57",
+   "updated_at": "2024-12-30 21:02:38"
+  },
+  {
+   "id": 964,
+   "name": "Don’t Leave Me This Way",
+   "slug": "dont-leave-me-this-way",
+   "isoriginal": 0,
+   "original_artist": "Harold Melvin & The Blue Notes",
+   "created_at": "2024-12-15 23:10:24",
+   "updated_at": "2024-12-15 23:10:24"
+  },
+  {
+   "id": 965,
+   "name": "Get Down Tonight",
+   "slug": "get-down-tonight",
+   "isoriginal": 0,
+   "original_artist": "KC and the Sunshine Band",
+   "created_at": "2024-12-15 23:10:39",
+   "updated_at": "2024-12-15 23:10:39"
+  },
+  {
+   "id": 966,
+   "name": "That's The Way (I Like It)",
+   "slug": "thats-the-way-i-like-it",
+   "isoriginal": 0,
+   "original_artist": "KC and the Sunshine Band",
+   "created_at": "2024-12-15 23:23:21",
+   "updated_at": "2024-12-15 23:23:21"
+  },
+  {
+   "id": 967,
+   "name": "The King",
+   "slug": "the-king",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2024-12-30 22:46:27",
+   "updated_at": "2024-12-30 22:46:27"
+  },
+  {
+   "id": 968,
+   "name": "Low Rider",
+   "slug": "low-rider",
+   "isoriginal": 0,
+   "original_artist": "War",
+   "created_at": "2024-12-31 04:40:45",
+   "updated_at": "2024-12-31 04:41:09"
+  },
+  {
+   "id": 969,
+   "name": "I Only Have Eyes For You",
+   "slug": "i-only-have-eyes-for-you",
+   "isoriginal": 0,
+   "original_artist": "The Flamingos",
+   "created_at": "2025-01-01 04:08:59",
+   "updated_at": "2025-01-01 21:59:49"
+  },
+  {
+   "id": 970,
+   "name": "Dustin Hoffman",
+   "slug": "dustin-hoffman",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2025-02-06 22:40:42",
+   "updated_at": "2025-06-24 17:51:45"
+  },
+  {
+   "id": 971,
+   "name": "Iguana Song",
+   "slug": "iguana-song",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2025-02-06 22:40:42",
+   "updated_at": "2025-06-13 15:24:48"
+  },
+  {
+   "id": 972,
+   "name": "Flood in Franklin Park",
+   "slug": "flood-in-franklin-park",
+   "isoriginal": 0,
+   "original_artist": "Grant Green",
+   "created_at": "2025-02-07 02:34:41",
+   "updated_at": "2025-02-07 02:34:41"
+  },
+  {
+   "id": 973,
+   "name": "Trick To Happy",
+   "slug": "trick-to-happy",
+   "isoriginal": 0,
+   "original_artist": "Bahamas",
+   "created_at": "2025-02-11 02:05:43",
+   "updated_at": "2025-02-11 02:06:04"
+  },
+  {
+   "id": 974,
+   "name": "Shine On You Crazy Diamond",
+   "slug": "shine-on-you-crazy-diamond",
+   "isoriginal": 0,
+   "original_artist": "Pink Floyd",
+   "created_at": "2025-02-11 16:47:36",
+   "updated_at": "2025-02-11 16:47:36"
+  },
+  {
+   "id": 975,
+   "name": "Pickled Peppers",
+   "slug": "pickled-peppers",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2025-02-28 13:10:11",
+   "updated_at": "2025-02-28 13:10:11"
+  },
+  {
+   "id": 976,
+   "name": "Bambi",
+   "slug": "bambi",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2025-02-28 13:10:35",
+   "updated_at": "2025-02-28 13:10:35"
+  },
+  {
+   "id": 977,
+   "name": "Robot Stop",
+   "slug": "robot-stop",
+   "isoriginal": 0,
+   "original_artist": "King Gizzard & The Lizard Wizard",
+   "created_at": "2025-02-28 13:10:57",
+   "updated_at": "2025-02-28 13:10:57"
+  },
+  {
+   "id": 978,
+   "name": "In Bloom",
+   "slug": "in-bloom",
+   "isoriginal": 0,
+   "original_artist": "Nirvana",
+   "created_at": "2025-05-09 01:31:36",
+   "updated_at": "2025-05-09 01:31:36"
+  },
+  {
+   "id": 979,
+   "name": "Torero",
+   "slug": "torero",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2025-05-09 01:32:25",
+   "updated_at": "2026-06-15 09:56:56"
+  },
+  {
+   "id": 980,
+   "name": "Ride Like The Wind",
+   "slug": "ride-like-the-wind",
+   "isoriginal": 0,
+   "original_artist": "Christopher Cross",
+   "created_at": "2025-05-09 02:05:36",
+   "updated_at": "2025-05-09 02:05:36"
+  },
+  {
+   "id": 981,
+   "name": "fast:slow",
+   "slug": "fastslow",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2025-05-10 05:58:33",
+   "updated_at": "2025-05-10 05:58:33"
+  },
+  {
+   "id": 982,
+   "name": "Moby Dick",
+   "slug": "moby-dick",
+   "isoriginal": 0,
+   "original_artist": "Led Zeppelin",
+   "created_at": "2025-06-01 00:43:04",
+   "updated_at": "2025-06-01 00:43:04"
+  },
+  {
+   "id": 983,
+   "name": "Workin' Day and Night",
+   "slug": "workin-day-and-night",
+   "isoriginal": 0,
+   "original_artist": "Michael Jackson",
+   "created_at": "2025-06-17 13:53:04",
+   "updated_at": "2025-06-17 13:53:04"
+  },
+  {
+   "id": 985,
+   "name": "Su Casa",
+   "slug": "su-casa",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2025-07-21 12:08:11",
+   "updated_at": "2025-12-21 15:37:05"
+  },
+  {
+   "id": 986,
+   "name": "Rocket Power Theme",
+   "slug": "rocket-power-theme",
+   "isoriginal": 0,
+   "original_artist": "The Wipeouters",
+   "created_at": "2025-07-21 16:00:56",
+   "updated_at": "2025-07-21 16:00:56"
+  },
+  {
+   "id": 987,
+   "name": "Royal",
+   "slug": "royal",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2025-08-07 09:09:21",
+   "updated_at": "2025-08-07 09:09:21"
+  },
+  {
+   "id": 988,
+   "name": "Madalena",
+   "slug": "madalena",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2025-08-14 01:16:51",
+   "updated_at": "2025-08-14 01:16:51"
+  },
+  {
+   "id": 989,
+   "name": ".....",
+   "slug": "dotdotdotdotdot",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2025-08-14 01:16:51",
+   "updated_at": "2025-08-14 01:17:05"
+  },
+  {
+   "id": 990,
+   "name": "Peach",
+   "slug": "peach",
+   "isoriginal": 0,
+   "original_artist": "Future Islands",
+   "created_at": "2025-09-20 21:34:46",
+   "updated_at": "2025-09-20 21:34:46"
+  },
+  {
+   "id": 991,
+   "name": "Chocolate Town",
+   "slug": "chocolate-town",
+   "isoriginal": 0,
+   "original_artist": "Ween",
+   "created_at": "2025-10-02 20:30:47",
+   "updated_at": "2025-10-02 20:30:47"
+  },
+  {
+   "id": 992,
+   "name": "Mercy, Mercy, Mercy",
+   "slug": "mercy-mercy-mercy",
+   "isoriginal": 0,
+   "original_artist": "Joe Zawinul",
+   "created_at": "2025-10-02 21:06:49",
+   "updated_at": "2025-10-02 21:07:43"
+  },
+  {
+   "id": 993,
+   "name": "The Lion Sleeps Tonight",
+   "slug": "the-lion-sleeps-tonight",
+   "isoriginal": 0,
+   "original_artist": "Solomon Linda",
+   "created_at": "2025-10-03 22:55:33",
+   "updated_at": "2025-10-03 22:55:33"
+  },
+  {
+   "id": 994,
+   "name": "Sunflower",
+   "slug": "sunflower",
+   "isoriginal": 0,
+   "original_artist": "Vampire Weekend",
+   "created_at": "2025-10-28 18:21:32",
+   "updated_at": "2025-10-28 18:21:32"
+  },
+  {
+   "id": 995,
+   "name": "Around The World",
+   "slug": "around-the-world",
+   "isoriginal": 0,
+   "original_artist": "Red Hot Chili Peppers",
+   "created_at": "2025-10-28 18:21:48",
+   "updated_at": "2025-10-28 18:21:48"
+  },
+  {
+   "id": 996,
+   "name": "Dramophone",
+   "slug": "dramophone",
+   "isoriginal": 0,
+   "original_artist": "Caravan Palace",
+   "created_at": "2025-12-12 20:36:42",
+   "updated_at": "2025-12-12 20:36:42"
+  },
+  {
+   "id": 997,
+   "name": "Bear",
+   "slug": "bear",
+   "isoriginal": 0,
+   "original_artist": "The Shouting Matches",
+   "created_at": "2025-12-12 21:20:52",
+   "updated_at": "2025-12-15 14:50:20"
+  },
+  {
+   "id": 998,
+   "name": "Pigs (Three Different Ones)",
+   "slug": "pigs-three-different-ones",
+   "isoriginal": 0,
+   "original_artist": "Pink Floyd",
+   "created_at": "2025-12-12 21:21:18",
+   "updated_at": "2025-12-12 21:21:18"
+  },
+  {
+   "id": 999,
+   "name": "Burn The Witch",
+   "slug": "burn-the-witch",
+   "isoriginal": 0,
+   "original_artist": "Radiohead",
+   "created_at": "2025-12-12 22:56:21",
+   "updated_at": "2025-12-12 22:56:21"
+  },
+  {
+   "id": 1000,
+   "name": "Dueling Banjos",
+   "slug": "dueling-banjos",
+   "isoriginal": 0,
+   "original_artist": "Eric Weissberg",
+   "created_at": "2025-12-12 23:09:48",
+   "updated_at": "2025-12-12 23:25:20"
+  },
+  {
+   "id": 1001,
+   "name": "Master & A Hound",
+   "slug": "master",
+   "isoriginal": 0,
+   "original_artist": "Gregory Alan Isakov",
+   "created_at": "2025-12-12 23:53:22",
+   "updated_at": "2025-12-12 23:53:22"
+  },
+  {
+   "id": 1002,
+   "name": "Sugar Mountain",
+   "slug": "sugar-mountain",
+   "isoriginal": 0,
+   "original_artist": "Neil Young",
+   "created_at": "2025-12-12 23:57:41",
+   "updated_at": "2025-12-12 23:57:41"
+  },
+  {
+   "id": 1003,
+   "name": "Wild Mountain Thyme",
+   "slug": "wild-mountain-thyme",
+   "isoriginal": 0,
+   "original_artist": "Traditional",
+   "created_at": "2025-12-13 19:52:38",
+   "updated_at": "2025-12-14 05:28:34"
+  },
+  {
+   "id": 1004,
+   "name": "Strange Overtones",
+   "slug": "strange-overt",
+   "isoriginal": 0,
+   "original_artist": "Brian Eno & David Byrne",
+   "created_at": "2025-12-13 20:40:28",
+   "updated_at": "2025-12-13 20:40:28"
+  },
+  {
+   "id": 1005,
+   "name": "Life Is A Carnival",
+   "slug": "life-is-a-carnival",
+   "isoriginal": 0,
+   "original_artist": "The Band",
+   "created_at": "2025-12-13 21:44:09",
+   "updated_at": "2025-12-13 21:44:09"
+  },
+  {
+   "id": 1006,
+   "name": "Cantina Band",
+   "slug": "cantina-band",
+   "isoriginal": 0,
+   "original_artist": "John Williams",
+   "created_at": "2025-12-14 18:02:06",
+   "updated_at": "2025-12-14 18:02:06"
+  },
+  {
+   "id": 1008,
+   "name": "Ultimate Riff",
+   "slug": "ultimate-riff",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2025-12-22 15:22:59",
+   "updated_at": "2026-04-07 15:32:32"
+  },
+  {
+   "id": 1009,
+   "name": "Your Hand In Mine",
+   "slug": "your-hand-in-mine",
+   "isoriginal": 0,
+   "original_artist": "Explosions in the Sky",
+   "created_at": "2026-02-09 18:39:51",
+   "updated_at": "2026-02-09 18:39:51"
+  },
+  {
+   "id": 1010,
+   "name": "Drippin'",
+   "slug": "drippin",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2026-02-16 16:04:38",
+   "updated_at": "2026-04-07 15:32:54"
+  },
+  {
+   "id": 1011,
+   "name": "Wilder",
+   "slug": "wilder",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2026-02-16 16:04:56",
+   "updated_at": "2026-04-07 15:33:09"
+  },
+  {
+   "id": 1012,
+   "name": "She Was My Lover",
+   "slug": "she-was-my-lover",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2026-02-16 16:05:05",
+   "updated_at": "2026-04-07 15:33:28"
+  },
+  {
+   "id": 1013,
+   "name": "(begin)",
+   "slug": "begin",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2026-04-07 07:57:52",
+   "updated_at": "2026-04-07 07:57:52"
+  },
+  {
+   "id": 1014,
+   "name": "Savenger",
+   "slug": "savenger",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2026-04-07 07:57:52",
+   "updated_at": "2026-06-15 09:52:47"
+  },
+  {
+   "id": 1015,
+   "name": "(you are here)",
+   "slug": "you-are-here",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2026-04-07 07:57:52",
+   "updated_at": "2026-06-15 09:48:01"
+  },
+  {
+   "id": 1016,
+   "name": "((savengersspell))",
+   "slug": "savengersspell",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2026-04-07 07:57:52",
+   "updated_at": "2026-04-07 07:57:52"
+  },
+  {
+   "id": 1017,
+   "name": "Good2B",
+   "slug": "good2b",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2026-04-07 07:58:24",
+   "updated_at": "2026-05-25 18:55:57"
+  },
+  {
+   "id": 1019,
+   "name": "(faena)",
+   "slug": "faena",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2026-04-07 07:58:24",
+   "updated_at": "2026-04-07 07:58:24"
+  },
+  {
+   "id": 1020,
+   "name": "POP",
+   "slug": "pop",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2026-04-07 07:58:24",
+   "updated_at": "2026-06-15 09:58:22"
+  },
+  {
+   "id": 1021,
+   "name": "(again)",
+   "slug": "again",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2026-04-07 07:58:24",
+   "updated_at": "2026-04-07 07:58:24"
+  },
+  {
+   "id": 1022,
+   "name": "Good Times // End Times",
+   "slug": "good-times-end-times",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2026-04-07 07:58:24",
+   "updated_at": "2026-06-15 10:02:53"
+  },
+  {
+   "id": 1023,
+   "name": "((nocturne))",
+   "slug": "nocturne",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2026-04-07 07:58:24",
+   "updated_at": "2026-06-15 09:45:22"
+  },
+  {
+   "id": 1024,
+   "name": "(((postplace)))",
+   "slug": "postplace",
+   "isoriginal": 1,
+   "original_artist": "Goose",
+   "created_at": "2026-04-07 07:58:24",
+   "updated_at": "2026-06-15 09:43:56"
+  },
+  {
+   "id": 1025,
+   "name": "Hey Joe",
+   "slug": "hey-joe",
+   "isoriginal": 0,
+   "original_artist": "Jimi Hendrix",
+   "created_at": "2026-05-08 01:28:44",
+   "updated_at": "2026-05-08 01:28:44"
+  },
+  {
+   "id": 1026,
+   "name": "Cortez The Killer",
+   "slug": "cortez-the-killer",
+   "isoriginal": 0,
+   "original_artist": "Neil Young",
+   "created_at": "2026-05-10 02:58:21",
+   "updated_at": "2026-05-10 02:58:21"
+  },
+  {
+   "id": 1027,
+   "name": "Rue's Whistle",
+   "slug": "rues-whistle",
+   "isoriginal": 0,
+   "original_artist": "The Hunger Games",
+   "created_at": "2026-05-17 19:27:37",
+   "updated_at": "2026-05-17 19:31:14"
+  },
+  {
+   "id": 1028,
+   "name": "Rhapsody In Blue",
+   "slug": "rhapsody-in-blue",
+   "isoriginal": 0,
+   "original_artist": "George Gershwin",
+   "created_at": "2026-05-25 04:22:41",
+   "updated_at": "2026-05-25 04:22:41"
+  }
+ ]
+}

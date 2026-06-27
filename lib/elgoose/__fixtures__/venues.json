@@ -1,0 +1,5916 @@
+{
+ "error": false,
+ "error_message": "",
+ "data": [
+  {
+   "venue_id": 1,
+   "venuename": "Madison Theater",
+   "city": "Covington",
+   "state": "KY",
+   "country": "USA",
+   "zip": "41011",
+   "capacity": 1200,
+   "slug": "madison-theater-covington-ky-usa"
+  },
+  {
+   "venue_id": 2,
+   "venuename": "Peach Music Festival",
+   "city": "Scranton",
+   "state": "PA",
+   "country": "USA",
+   "zip": "18507",
+   "capacity": 0,
+   "slug": "peach-music-festival-scranton-pa-usa"
+  },
+  {
+   "venue_id": 3,
+   "venuename": "Bowery Ballroom",
+   "city": "New York",
+   "state": "NY",
+   "country": "USA",
+   "zip": "10002",
+   "capacity": 575,
+   "slug": "bowery-ballroom-new-york-ny-usa"
+  },
+  {
+   "venue_id": 4,
+   "venuename": "Goose Community Rec Center",
+   "city": "Redding",
+   "state": "CT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 6,
+   "slug": "goose-community-rec-center-redding-ct-usa"
+  },
+  {
+   "venue_id": 5,
+   "venuename": "Yarmouth Drive-In",
+   "city": "West Yarmouth",
+   "state": "MA",
+   "country": "USA",
+   "zip": "02673",
+   "capacity": 0,
+   "slug": "yarmouth-drive-in-west-yarmouth-ma-usa"
+  },
+  {
+   "venue_id": 6,
+   "venuename": "South Farms",
+   "city": "Morris",
+   "state": "CT",
+   "country": "USA",
+   "zip": "06763",
+   "capacity": 0,
+   "slug": "south-farms-morris-ct-usa"
+  },
+  {
+   "venue_id": 7,
+   "venuename": "Northlands Live",
+   "city": "Swanzey",
+   "state": "NH",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "northlands-live-swanzey-nh-usa"
+  },
+  {
+   "venue_id": 9,
+   "venuename": "Viva Zapata",
+   "city": "Westport",
+   "state": "CT",
+   "country": "USA",
+   "zip": "06880",
+   "capacity": 75,
+   "slug": "viva-zapata-westport-ct-usa"
+  },
+  {
+   "venue_id": 10,
+   "venuename": "The Solarium",
+   "city": "Ridgefield",
+   "state": "CT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-solarium-ridgefield-ct-usa"
+  },
+  {
+   "venue_id": 11,
+   "venuename": "Barberry Hill Farm",
+   "city": "Madison",
+   "state": "CT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "barberry-hill-farm-madison-ct-usa"
+  },
+  {
+   "venue_id": 12,
+   "venuename": "T's House",
+   "city": "Somewhere",
+   "state": "CT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 10,
+   "slug": "ts-house-somewhere-ct-usa"
+  },
+  {
+   "venue_id": 13,
+   "venuename": "Delmar Hall",
+   "city": "St. Louis",
+   "state": "MO",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "delmar-hall-st-louis-mo-usa"
+  },
+  {
+   "venue_id": 14,
+   "venuename": "Riviera Theatre",
+   "city": "Chicago",
+   "state": "IL",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "riviera-theatre-chicago-il-usa"
+  },
+  {
+   "venue_id": 15,
+   "venuename": "The Intersection",
+   "city": "Grand Rapids",
+   "state": "MI",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-intersection-grand-rapids-mi-usa"
+  },
+  {
+   "venue_id": 16,
+   "venuename": "Agora Theater",
+   "city": "Cleveland",
+   "state": "OH",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "agora-theater-cleveland-oh-usa"
+  },
+  {
+   "venue_id": 17,
+   "venuename": "Rock Legends Cruise",
+   "city": "Port Canaveral",
+   "state": "FL",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "rock-legends-cruise-port-canaveral-fl-usa"
+  },
+  {
+   "venue_id": 18,
+   "venuename": "Wonder Ballroom",
+   "city": "Portland",
+   "state": "OR",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "wonder-ballroom-portland-or-usa"
+  },
+  {
+   "venue_id": 19,
+   "venuename": "Midtown Ballroom",
+   "city": "Bend",
+   "state": "OR",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "midtown-ballroom-bend-or-usa"
+  },
+  {
+   "venue_id": 20,
+   "venuename": "Neptune Theatre",
+   "city": "Seattle",
+   "state": "WA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "neptune-theatre-seattle-wa-usa"
+  },
+  {
+   "venue_id": 21,
+   "venuename": "Session Music Hall",
+   "city": "Eugene",
+   "state": "OR",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "session-music-hall-eugene-or-usa"
+  },
+  {
+   "venue_id": 22,
+   "venuename": "Crystal Bay Club",
+   "city": "Crystal Bay",
+   "state": "NV",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "crystal-bay-club-crystal-bay-nv-usa"
+  },
+  {
+   "venue_id": 23,
+   "venuename": "Legend Valley",
+   "city": "Thornville",
+   "state": "OH",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "legend-valley-thornville-oh-usa"
+  },
+  {
+   "venue_id": 24,
+   "venuename": "Jimmy's Seaside Tavern",
+   "city": "Stamford",
+   "state": "CT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "jimmys-seaside-tavern-stamford-ct-usa"
+  },
+  {
+   "venue_id": 25,
+   "venuename": "O'Neill's Irish Pub &amp; Restaurant",
+   "city": "Norwalk",
+   "state": "CT",
+   "country": "USA",
+   "zip": "06854",
+   "capacity": 0,
+   "slug": "oneills-irish-pub-amp-restaurant-norwalk-ct-usa"
+  },
+  {
+   "venue_id": 26,
+   "venuename": "Tavern On Seven",
+   "city": "Norwalk",
+   "state": "CT",
+   "country": "USA",
+   "zip": "06851",
+   "capacity": 0,
+   "slug": "tavern-on-seven-norwalk-ct-usa"
+  },
+  {
+   "venue_id": 27,
+   "venuename": "BRYAC Black Rock",
+   "city": "Bridgeport",
+   "state": "CT",
+   "country": "USA",
+   "zip": "06605",
+   "capacity": 0,
+   "slug": "bryac-black-rock-bridgeport-ct-usa"
+  },
+  {
+   "venue_id": 28,
+   "venuename": "The Acoustic",
+   "city": "Bridgeport",
+   "state": "CT",
+   "country": "USA",
+   "zip": "06605",
+   "capacity": 0,
+   "slug": "the-acoustic-bridgeport-ct-usa"
+  },
+  {
+   "venue_id": 29,
+   "venuename": "Bradford's Grill &amp; Tavern",
+   "city": "Norwalk",
+   "state": "CT",
+   "country": "USA",
+   "zip": "06854",
+   "capacity": 0,
+   "slug": "bradfords-grill-amp-tavern-norwalk-ct-usa"
+  },
+  {
+   "venue_id": 30,
+   "venuename": "Stella Blues",
+   "city": "New Haven",
+   "state": "CT",
+   "country": "USA",
+   "zip": "06510",
+   "capacity": 0,
+   "slug": "stella-blues-new-haven-ct-usa"
+  },
+  {
+   "venue_id": 32,
+   "venuename": "Garcia's at The Capitol Theatre",
+   "city": "Port Chester",
+   "state": "NY",
+   "country": "USA",
+   "zip": "10573",
+   "capacity": 0,
+   "slug": "garcias-at-the-capitol-theatre-port-chester-ny-usa"
+  },
+  {
+   "venue_id": 33,
+   "venuename": "The Capitol Theatre",
+   "city": "Port Chester",
+   "state": "NY",
+   "country": "USA",
+   "zip": "10573",
+   "capacity": 0,
+   "slug": "the-capitol-theatre-port-chester-ny-usa"
+  },
+  {
+   "venue_id": 35,
+   "venuename": "Station House Bar and Grille",
+   "city": "Norwalk",
+   "state": "CT",
+   "country": "USA",
+   "zip": "06855",
+   "capacity": 0,
+   "slug": "station-house-bar-and-grille-norwalk-ct-usa"
+  },
+  {
+   "venue_id": 36,
+   "venuename": "Factory Underground Studio",
+   "city": "Norwalk",
+   "state": "CT",
+   "country": "USA",
+   "zip": "06850",
+   "capacity": 0,
+   "slug": "factory-underground-studio-norwalk-ct-usa"
+  },
+  {
+   "venue_id": 37,
+   "venuename": "Wonder Bar",
+   "city": "Allston",
+   "state": "MA",
+   "country": "USA",
+   "zip": "02134",
+   "capacity": 0,
+   "slug": "wonder-bar-allston-ma-usa"
+  },
+  {
+   "venue_id": 38,
+   "venuename": "Radio Bean",
+   "city": "Burlington",
+   "state": "VT",
+   "country": "USA",
+   "zip": "05401",
+   "capacity": 0,
+   "slug": "radio-bean-burlington-vt-usa"
+  },
+  {
+   "venue_id": 39,
+   "venuename": "Red River Campground &amp; RV Park",
+   "city": "Adams",
+   "state": "TN",
+   "country": "USA",
+   "zip": "37010",
+   "capacity": 0,
+   "slug": "red-river-campground-amp-rv-park-adams-tn-usa"
+  },
+  {
+   "venue_id": 40,
+   "venuename": "Loft",
+   "city": "Norwalk",
+   "state": "CT",
+   "country": "USA",
+   "zip": "06854",
+   "capacity": 0,
+   "slug": "loft-norwalk-ct-usa"
+  },
+  {
+   "venue_id": 41,
+   "venuename": "Rock n Roll Resort",
+   "city": "Kerhonkson",
+   "state": "NY",
+   "country": "USA",
+   "zip": "12446",
+   "capacity": 0,
+   "slug": "rock-n-roll-resort-kerhonkson-ny-usa"
+  },
+  {
+   "venue_id": 42,
+   "venuename": "Electric Haze",
+   "city": "Worcester",
+   "state": "MA",
+   "country": "USA",
+   "zip": "01610",
+   "capacity": 0,
+   "slug": "electric-haze-worcester-ma-usa"
+  },
+  {
+   "venue_id": 43,
+   "venuename": "King Neptune's Pub and Night Club",
+   "city": "Lake George",
+   "state": "NY",
+   "country": "USA",
+   "zip": "12845",
+   "capacity": 0,
+   "slug": "king-neptunes-pub-and-night-club-lake-george-ny-usa"
+  },
+  {
+   "venue_id": 44,
+   "venuename": "Soupstock Music and Arts Festival",
+   "city": "Shelton",
+   "state": "CT",
+   "country": "USA",
+   "zip": "06484",
+   "capacity": 0,
+   "slug": "soupstock-music-and-arts-festival-shelton-ct-usa"
+  },
+  {
+   "venue_id": 45,
+   "venuename": "Space Ballroom",
+   "city": "Hamden",
+   "state": "CT",
+   "country": "USA",
+   "zip": "06514",
+   "capacity": 0,
+   "slug": "space-ballroom-hamden-ct-usa"
+  },
+  {
+   "venue_id": 46,
+   "venuename": "The Spread South Norwalk",
+   "city": "Norwalk",
+   "state": "CT",
+   "country": "USA",
+   "zip": "06854",
+   "capacity": 0,
+   "slug": "the-spread-south-norwalk-norwalk-ct-usa"
+  },
+  {
+   "venue_id": 47,
+   "venuename": "Brooklyn Bowl",
+   "city": "Brooklyn",
+   "state": "NY",
+   "country": "USA",
+   "zip": "11211",
+   "capacity": 0,
+   "slug": "brooklyn-bowl-brooklyn-ny-usa"
+  },
+  {
+   "venue_id": 48,
+   "venuename": "Arch Street Tavern",
+   "city": "Hartford",
+   "state": "CT",
+   "country": "USA",
+   "zip": "06103",
+   "capacity": 0,
+   "slug": "arch-street-tavern-hartford-ct-usa"
+  },
+  {
+   "venue_id": 49,
+   "venuename": "Pacific Standard Tavern",
+   "city": "New Haven",
+   "state": "CT",
+   "country": "USA",
+   "zip": "06510",
+   "capacity": 0,
+   "slug": "pacific-standard-tavern-new-haven-ct-usa"
+  },
+  {
+   "venue_id": 50,
+   "venuename": "The Warehouse at FTC",
+   "city": "Fairfield",
+   "state": "CT",
+   "country": "USA",
+   "zip": "06824",
+   "capacity": 0,
+   "slug": "the-warehouse-at-ftc-fairfield-ct-usa"
+  },
+  {
+   "venue_id": 51,
+   "venuename": "StageOne at FTC",
+   "city": "Fairfield",
+   "state": "CT",
+   "country": "USA",
+   "zip": "06824",
+   "capacity": 0,
+   "slug": "stageone-at-ftc-fairfield-ct-usa"
+  },
+  {
+   "venue_id": 52,
+   "venuename": "Bayley Beach",
+   "city": "Rowayton",
+   "state": "CT",
+   "country": "USA",
+   "zip": "06853",
+   "capacity": 0,
+   "slug": "bayley-beach-rowayton-ct-usa"
+  },
+  {
+   "venue_id": 53,
+   "venuename": "Putnam Den",
+   "city": "Saratoga Springs",
+   "state": "NY",
+   "country": "USA",
+   "zip": "12866",
+   "capacity": 0,
+   "slug": "putnam-den-saratoga-springs-ny-usa"
+  },
+  {
+   "venue_id": 54,
+   "venuename": "SoNo Arts Festival",
+   "city": "Norwalk",
+   "state": "CT",
+   "country": "USA",
+   "zip": "06854",
+   "capacity": 0,
+   "slug": "sono-arts-festival-norwalk-ct-usa"
+  },
+  {
+   "venue_id": 55,
+   "venuename": "Wall Street Theater",
+   "city": "Norwalk",
+   "state": "CT",
+   "country": "USA",
+   "zip": "06850",
+   "capacity": 0,
+   "slug": "wall-street-theater-norwalk-ct-usa"
+  },
+  {
+   "venue_id": 56,
+   "venuename": "Octave",
+   "city": "Covington",
+   "state": "KY",
+   "country": "USA",
+   "zip": "41011",
+   "capacity": 0,
+   "slug": "octave-covington-ky-usa"
+  },
+  {
+   "venue_id": 57,
+   "venuename": "Old Town Pub &amp; Restaurant",
+   "city": "Steamboat Springs",
+   "state": "CO",
+   "country": "USA",
+   "zip": "80487",
+   "capacity": 0,
+   "slug": "old-town-pub-amp-restaurant-steamboat-springs-co-usa"
+  },
+  {
+   "venue_id": 58,
+   "venuename": "Nectar's",
+   "city": "Burlington",
+   "state": "VT",
+   "country": "USA",
+   "zip": "05401",
+   "capacity": 0,
+   "slug": "nectars-burlington-vt-usa"
+  },
+  {
+   "venue_id": 59,
+   "venuename": "Pizza in the Park",
+   "city": "Stamford",
+   "state": "CT",
+   "country": "USA",
+   "zip": "06901",
+   "capacity": 0,
+   "slug": "pizza-in-the-park-stamford-ct-usa"
+  },
+  {
+   "venue_id": 60,
+   "venuename": "Levitt Pavilion",
+   "city": "Westport",
+   "state": "CT",
+   "country": "USA",
+   "zip": "06880",
+   "capacity": 0,
+   "slug": "levitt-pavilion-westport-ct-usa"
+  },
+  {
+   "venue_id": 62,
+   "venuename": "Coopers Lake",
+   "city": "Slippery Rock",
+   "state": "PA",
+   "country": "USA",
+   "zip": "16057",
+   "capacity": 0,
+   "slug": "coopers-lake-slippery-rock-pa-usa"
+  },
+  {
+   "venue_id": 63,
+   "venuename": "620 Loft & Garden in Rockefeller Center",
+   "city": "New York",
+   "state": "NY",
+   "country": "USA",
+   "zip": "10020",
+   "capacity": 0,
+   "slug": "620-loft-garden-in-rockefeller-center-new-york-ny-usa"
+  },
+  {
+   "venue_id": 64,
+   "venuename": "Frederick Fairgrounds",
+   "city": "Frederick",
+   "state": "MD",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "frederick-fairgrounds-frederick-md-usa"
+  },
+  {
+   "venue_id": 65,
+   "venuename": "Smoky Mountain Event Center",
+   "city": "Waynesville",
+   "state": "NC",
+   "country": "USA",
+   "zip": "28785",
+   "capacity": 0,
+   "slug": "smoky-mountain-event-center-waynesville-nc-usa"
+  },
+  {
+   "venue_id": 66,
+   "venuename": "Parish Public House",
+   "city": "Albany",
+   "state": "NY",
+   "country": "USA",
+   "zip": "12207",
+   "capacity": 0,
+   "slug": "parish-public-house-albany-ny-usa"
+  },
+  {
+   "venue_id": 68,
+   "venuename": "Mouse Trap",
+   "city": "Indianapolis",
+   "state": "IN",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "mouse-trap-indianapolis-in-usa"
+  },
+  {
+   "venue_id": 69,
+   "venuename": "Jerry Jam",
+   "city": "Bath",
+   "state": "NH",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "jerry-jam-bath-nh-usa"
+  },
+  {
+   "venue_id": 71,
+   "venuename": "The Regency Ballroom",
+   "city": "San Francisco",
+   "state": "CA",
+   "country": "USA",
+   "zip": "94109",
+   "capacity": 1423,
+   "slug": "the-regency-ballroom-san-francisco-ca-usa"
+  },
+  {
+   "venue_id": 72,
+   "venuename": "The Troubadour",
+   "city": "West Hollywood",
+   "state": "CA",
+   "country": "USA",
+   "zip": "90069",
+   "capacity": 0,
+   "slug": "the-troubadour-west-hollywood-ca-usa"
+  },
+  {
+   "venue_id": 73,
+   "venuename": "Great American Music Hall",
+   "city": "San Francisco",
+   "state": "CA",
+   "country": "USA",
+   "zip": "94109",
+   "capacity": 0,
+   "slug": "great-american-music-hall-san-francisco-ca-usa"
+  },
+  {
+   "venue_id": 74,
+   "venuename": "The Catalyst",
+   "city": "Santa Cruz",
+   "state": "CA",
+   "country": "USA",
+   "zip": "95060",
+   "capacity": 0,
+   "slug": "the-catalyst-santa-cruz-ca-usa"
+  },
+  {
+   "venue_id": 75,
+   "venuename": "Fremont Theater",
+   "city": "San Luis Obispo",
+   "state": "CA",
+   "country": "USA",
+   "zip": "93401",
+   "capacity": 0,
+   "slug": "fremont-theater-san-luis-obispo-ca-usa"
+  },
+  {
+   "venue_id": 76,
+   "venuename": "Belly Up Tavern",
+   "city": "Solana Beach",
+   "state": "CA",
+   "country": "USA",
+   "zip": "92075",
+   "capacity": 0,
+   "slug": "belly-up-tavern-solana-beach-ca-usa"
+  },
+  {
+   "venue_id": 77,
+   "venuename": "Marquee Theatre",
+   "city": "Tempe",
+   "state": "AZ",
+   "country": "USA",
+   "zip": "85281",
+   "capacity": 1500,
+   "slug": "marquee-theatre-tempe-az-usa"
+  },
+  {
+   "venue_id": 78,
+   "venuename": "Music Hall of Williamsburg",
+   "city": "Brooklyn",
+   "state": "NY",
+   "country": "USA",
+   "zip": "11211",
+   "capacity": 650,
+   "slug": "music-hall-of-williamsburg-brooklyn-ny-usa"
+  },
+  {
+   "venue_id": 79,
+   "venuename": "Moon Palace",
+   "city": "Riviera Maya",
+   "state": "",
+   "country": "Mexico",
+   "zip": "77500",
+   "capacity": 0,
+   "slug": "moon-palace-riviera-maya-mexico"
+  },
+  {
+   "venue_id": 80,
+   "venuename": "The Mousetrap",
+   "city": "Indianapolis",
+   "state": "IN",
+   "country": "USA",
+   "zip": "46220",
+   "capacity": 0,
+   "slug": "the-mousetrap-indianapolis-in-usa"
+  },
+  {
+   "venue_id": 81,
+   "venuename": "Lincoln Hall",
+   "city": "Chicago",
+   "state": "IL",
+   "country": "USA",
+   "zip": "60614",
+   "capacity": 0,
+   "slug": "lincoln-hall-chicago-il-usa"
+  },
+  {
+   "venue_id": 82,
+   "venuename": "The Bootleg at Atomic Cowboy",
+   "city": "St. Louis",
+   "state": "MO",
+   "country": "USA",
+   "zip": "63110",
+   "capacity": 0,
+   "slug": "the-bootleg-at-atomic-cowboy-st-louis-mo-usa"
+  },
+  {
+   "venue_id": 83,
+   "venuename": "Cervantes' Other Side",
+   "city": "Denver",
+   "state": "CO",
+   "country": "USA",
+   "zip": "80205",
+   "capacity": 0,
+   "slug": "cervantes-other-side-denver-co-usa"
+  },
+  {
+   "venue_id": 84,
+   "venuename": "Aggie Theatre",
+   "city": "Fort Collins",
+   "state": "CO",
+   "country": "USA",
+   "zip": "80524",
+   "capacity": 0,
+   "slug": "aggie-theatre-fort-collins-co-usa"
+  },
+  {
+   "venue_id": 85,
+   "venuename": "Nietzsche's",
+   "city": "Buffalo",
+   "state": "NY",
+   "country": "USA",
+   "zip": "14201",
+   "capacity": 0,
+   "slug": "nietzsches-buffalo-ny-usa"
+  },
+  {
+   "venue_id": 86,
+   "venuename": "The Summit Music Hall",
+   "city": "Columbus",
+   "state": "OH",
+   "country": "USA",
+   "zip": "43201",
+   "capacity": 0,
+   "slug": "the-summit-music-hall-columbus-oh-usa"
+  },
+  {
+   "venue_id": 87,
+   "venuename": "Roxian Theatre",
+   "city": "McKees Rocks",
+   "state": "PA",
+   "country": "USA",
+   "zip": "15136",
+   "capacity": 0,
+   "slug": "roxian-theatre-mckees-rocks-pa-usa"
+  },
+  {
+   "venue_id": 88,
+   "venuename": "The Broadberry",
+   "city": "Richmond",
+   "state": "VA",
+   "country": "USA",
+   "zip": "23220",
+   "capacity": 0,
+   "slug": "the-broadberry-richmond-va-usa"
+  },
+  {
+   "venue_id": 89,
+   "venuename": "Hampden-Sydney College Frat House",
+   "city": "Hampden Sydney",
+   "state": "VA",
+   "country": "USA",
+   "zip": "23943",
+   "capacity": 0,
+   "slug": "hampden-sydney-college-frat-house-hampden-sydney-va-usa"
+  },
+  {
+   "venue_id": 90,
+   "venuename": "XL Live",
+   "city": "Harrisburg",
+   "state": "PA",
+   "country": "USA",
+   "zip": "17104",
+   "capacity": 0,
+   "slug": "xl-live-harrisburg-pa-usa"
+  },
+  {
+   "venue_id": 91,
+   "venuename": "College Street Music Hall",
+   "city": "New Haven",
+   "state": "CT",
+   "country": "USA",
+   "zip": "06510",
+   "capacity": 0,
+   "slug": "college-street-music-hall-new-haven-ct-usa"
+  },
+  {
+   "venue_id": 92,
+   "venuename": "The Mercury Lounge",
+   "city": "New York",
+   "state": "NY",
+   "country": "USA",
+   "zip": "10002",
+   "capacity": 0,
+   "slug": "the-mercury-lounge-new-york-ny-usa"
+  },
+  {
+   "venue_id": 93,
+   "venuename": "River Street Jazz Cafe",
+   "city": "Plains",
+   "state": "PA",
+   "country": "USA",
+   "zip": "18705",
+   "capacity": 0,
+   "slug": "river-street-jazz-cafe-plains-pa-usa"
+  },
+  {
+   "venue_id": 94,
+   "venuename": "Sonia",
+   "city": "Cambridge",
+   "state": "MA",
+   "country": "USA",
+   "zip": "02139",
+   "capacity": 0,
+   "slug": "sonia-cambridge-ma-usa"
+  },
+  {
+   "venue_id": 95,
+   "venuename": "Private Party",
+   "city": "Norwalk",
+   "state": "CT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "private-party-norwalk-ct-usa"
+  },
+  {
+   "venue_id": 96,
+   "venuename": "Valley Fusion Festival",
+   "city": "Capon Bridge",
+   "state": "WV",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "valley-fusion-festival-capon-bridge-wv-usa"
+  },
+  {
+   "venue_id": 97,
+   "venuename": "Sprout Music Collective",
+   "city": "West Chester",
+   "state": "PA",
+   "country": "USA",
+   "zip": "19380",
+   "capacity": 0,
+   "slug": "sprout-music-collective-west-chester-pa-usa"
+  },
+  {
+   "venue_id": 98,
+   "venuename": "Silk Fest",
+   "city": "Granby",
+   "state": "CT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "silk-fest-granby-ct-usa"
+  },
+  {
+   "venue_id": 99,
+   "venuename": "Night Lights Music Festival",
+   "city": "Sherman",
+   "state": "NY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "night-lights-music-festival-sherman-ny-usa"
+  },
+  {
+   "venue_id": 100,
+   "venuename": "Orlando's Bar and Lounge",
+   "city": "Burlington",
+   "state": "VT",
+   "country": "USA",
+   "zip": "05401",
+   "capacity": 0,
+   "slug": "orlandos-bar-and-lounge-burlington-vt-usa"
+  },
+  {
+   "venue_id": 101,
+   "venuename": "Otus Supply",
+   "city": "Ferndale",
+   "state": "MI",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "otus-supply-ferndale-mi-usa"
+  },
+  {
+   "venue_id": 102,
+   "venuename": "Birds of a Feather Music &amp; Arts Festival",
+   "city": "Morning View",
+   "state": "KY",
+   "country": "USA",
+   "zip": "41063",
+   "capacity": 0,
+   "slug": "birds-of-a-feather-music-amp-arts-festival-morning-view-ky-usa"
+  },
+  {
+   "venue_id": 103,
+   "venuename": "Revival Music Festival",
+   "city": "Ellendale",
+   "state": "MN",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "revival-music-festival-ellendale-mn-usa"
+  },
+  {
+   "venue_id": 104,
+   "venuename": "The Camel",
+   "city": "Richmond",
+   "state": "VA",
+   "country": "USA",
+   "zip": "23220",
+   "capacity": 0,
+   "slug": "the-camel-richmond-va-usa"
+  },
+  {
+   "venue_id": 105,
+   "venuename": "Doc Taylor's",
+   "city": "Virginia Beach",
+   "state": "VA",
+   "country": "USA",
+   "zip": "23451",
+   "capacity": 0,
+   "slug": "doc-taylors-virginia-beach-va-usa"
+  },
+  {
+   "venue_id": 106,
+   "venuename": "Paradise Music &amp; Beer Festival",
+   "city": "Covington",
+   "state": "KY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "paradise-music-amp-beer-festival-covington-ky-usa"
+  },
+  {
+   "venue_id": 107,
+   "venuename": "Kenny's Westside Pub",
+   "city": "Peoria",
+   "state": "IL",
+   "country": "USA",
+   "zip": "61602",
+   "capacity": 0,
+   "slug": "kennys-westside-pub-peoria-il-usa"
+  },
+  {
+   "venue_id": 108,
+   "venuename": "Skully's Music-Diner",
+   "city": "Columbus",
+   "state": "OH",
+   "country": "USA",
+   "zip": "43201",
+   "capacity": 0,
+   "slug": "skullys-music-diner-columbus-oh-usa"
+  },
+  {
+   "venue_id": 109,
+   "venuename": "Cowpie Music Festival",
+   "city": "Caledonia",
+   "state": "MI",
+   "country": "USA",
+   "zip": "49316",
+   "capacity": 0,
+   "slug": "cowpie-music-festival-caledonia-mi-usa"
+  },
+  {
+   "venue_id": 111,
+   "venuename": "The Fox Theatre",
+   "city": "Boulder",
+   "state": "CO",
+   "country": "USA",
+   "zip": "80302",
+   "capacity": 0,
+   "slug": "the-fox-theatre-boulder-co-usa"
+  },
+  {
+   "venue_id": 112,
+   "venuename": "The Lariat",
+   "city": "Buena Vista",
+   "state": "CO",
+   "country": "USA",
+   "zip": "81211",
+   "capacity": 0,
+   "slug": "the-lariat-buena-vista-co-usa"
+  },
+  {
+   "venue_id": 113,
+   "venuename": "Beanstalk Music &amp; Mountain Festival",
+   "city": "Bond",
+   "state": "CO",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "beanstalk-music-amp-mountain-festival-bond-co-usa"
+  },
+  {
+   "venue_id": 114,
+   "venuename": "Marvin's Mountaintop",
+   "city": "Masontown",
+   "state": "WV",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "marvins-mountaintop-masontown-wv-usa"
+  },
+  {
+   "venue_id": 115,
+   "venuename": "Three Sisters Park",
+   "city": "Chillicothe",
+   "state": "IL",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "three-sisters-park-chillicothe-il-usa"
+  },
+  {
+   "venue_id": 116,
+   "venuename": "The Mellwood Tavern",
+   "city": "Louisville",
+   "state": "KY",
+   "country": "USA",
+   "zip": "40206",
+   "capacity": 0,
+   "slug": "the-mellwood-tavern-louisville-ky-usa"
+  },
+  {
+   "venue_id": 117,
+   "venuename": "The Rex Theater",
+   "city": "Pittsburgh",
+   "state": "PA",
+   "country": "USA",
+   "zip": "15203",
+   "capacity": 0,
+   "slug": "the-rex-theater-pittsburgh-pa-usa"
+  },
+  {
+   "venue_id": 118,
+   "venuename": "Woodlands Tavern",
+   "city": "Columbus",
+   "state": "OH",
+   "country": "USA",
+   "zip": "43212",
+   "capacity": 0,
+   "slug": "woodlands-tavern-columbus-oh-usa"
+  },
+  {
+   "venue_id": 119,
+   "venuename": "B Chord Brewing Company",
+   "city": "Round Hill",
+   "state": "VA",
+   "country": "USA",
+   "zip": "20141",
+   "capacity": 0,
+   "slug": "b-chord-brewing-company-round-hill-va-usa"
+  },
+  {
+   "venue_id": 120,
+   "venuename": "Down the Road Beer Co.",
+   "city": "Everett",
+   "state": "MA",
+   "country": "USA",
+   "zip": "02149",
+   "capacity": 0,
+   "slug": "down-the-road-beer-co-everett-ma-usa"
+  },
+  {
+   "venue_id": 121,
+   "venuename": "123 Pleasant Street",
+   "city": "Morgantown",
+   "state": "WV",
+   "country": "USA",
+   "zip": "26505",
+   "capacity": 0,
+   "slug": "123-pleasant-street-morgantown-wv-usa"
+  },
+  {
+   "venue_id": 122,
+   "venuename": "Market Street Park",
+   "city": "Charlottesville",
+   "state": "VA",
+   "country": "USA",
+   "zip": "22902",
+   "capacity": 0,
+   "slug": "market-street-park-charlottesville-va-usa"
+  },
+  {
+   "venue_id": 123,
+   "venuename": "Higher Ground",
+   "city": "South Burlington",
+   "state": "VT",
+   "country": "USA",
+   "zip": "05403",
+   "capacity": 0,
+   "slug": "higher-ground-south-burlington-vt-usa"
+  },
+  {
+   "venue_id": 124,
+   "venuename": "Flour City Station",
+   "city": "Rochester",
+   "state": "NY",
+   "country": "USA",
+   "zip": "14604",
+   "capacity": 0,
+   "slug": "flour-city-station-rochester-ny-usa"
+  },
+  {
+   "venue_id": 125,
+   "venuename": "The Java Barn",
+   "city": "Canton",
+   "state": "NY",
+   "country": "USA",
+   "zip": "13617",
+   "capacity": 0,
+   "slug": "the-java-barn-canton-ny-usa"
+  },
+  {
+   "venue_id": 126,
+   "venuename": "The Abbey Bar at Appalachian Brewing Company",
+   "city": "Harrisburg",
+   "state": "PA",
+   "country": "USA",
+   "zip": "17191",
+   "capacity": 0,
+   "slug": "the-abbey-bar-at-appalachian-brewing-company-harrisburg-pa-usa"
+  },
+  {
+   "venue_id": 127,
+   "venuename": "Pearl Street Warehouse",
+   "city": "Washington",
+   "state": "DC",
+   "country": "USA",
+   "zip": "20024",
+   "capacity": 0,
+   "slug": "pearl-street-warehouse-washington-dc-usa"
+  },
+  {
+   "venue_id": 128,
+   "venuename": "Intrinzik",
+   "city": "Montrose",
+   "state": "CO",
+   "country": "USA",
+   "zip": "81401",
+   "capacity": 0,
+   "slug": "intrinzik-montrose-co-usa"
+  },
+  {
+   "venue_id": 130,
+   "venuename": "Bluebird Theater",
+   "city": "Denver",
+   "state": "CO",
+   "country": "USA",
+   "zip": "80206",
+   "capacity": 0,
+   "slug": "bluebird-theater-denver-co-usa"
+  },
+  {
+   "venue_id": 131,
+   "venuename": "The Eldo",
+   "city": "Crested Butte",
+   "state": "CO",
+   "country": "USA",
+   "zip": "81224",
+   "capacity": 0,
+   "slug": "the-eldo-crested-butte-co-usa"
+  },
+  {
+   "venue_id": 132,
+   "venuename": "The Lazy Dog Sports Bar &amp; Grill",
+   "city": "Boulder",
+   "state": "CO",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-lazy-dog-sports-bar-amp-grill-boulder-co-usa"
+  },
+  {
+   "venue_id": 133,
+   "venuename": "The Cubby Bear",
+   "city": "Chicago",
+   "state": "IL",
+   "country": "USA",
+   "zip": "60613",
+   "capacity": 0,
+   "slug": "the-cubby-bear-chicago-il-usa"
+  },
+  {
+   "venue_id": 134,
+   "venuename": "Cantiki SoNo",
+   "city": "Norwalk",
+   "state": "CT",
+   "country": "USA",
+   "zip": "06854",
+   "capacity": 0,
+   "slug": "cantiki-sono-norwalk-ct-usa"
+  },
+  {
+   "venue_id": 135,
+   "venuename": "Madison Live!",
+   "city": "Covington",
+   "state": "KY",
+   "country": "USA",
+   "zip": "41011",
+   "capacity": 0,
+   "slug": "madison-live-covington-ky-usa"
+  },
+  {
+   "venue_id": 136,
+   "venuename": "HI-FI Indy",
+   "city": "Indianapolis",
+   "state": "IN",
+   "country": "USA",
+   "zip": "46203",
+   "capacity": 0,
+   "slug": "hi-fi-indy-indianapolis-in-usa"
+  },
+  {
+   "venue_id": 137,
+   "venuename": "The Waiting Room Lounge",
+   "city": "Omaha",
+   "state": "NE",
+   "country": "USA",
+   "zip": "68104",
+   "capacity": 0,
+   "slug": "the-waiting-room-lounge-omaha-ne-usa"
+  },
+  {
+   "venue_id": 138,
+   "venuename": "Westcott Theater",
+   "city": "Syracuse",
+   "state": "NY",
+   "country": "USA",
+   "zip": "13210",
+   "capacity": 700,
+   "slug": "westcott-theater-syracuse-ny-usa"
+  },
+  {
+   "venue_id": 139,
+   "venuename": "Resonance Music & Arts Festival",
+   "city": "Thornville",
+   "state": "OH",
+   "country": "USA",
+   "zip": "43076",
+   "capacity": 0,
+   "slug": "resonance-music-arts-festival-thornville-oh-usa"
+  },
+  {
+   "venue_id": 140,
+   "venuename": "Jay Peak Resort",
+   "city": "Jay",
+   "state": "VT",
+   "country": "USA",
+   "zip": "05859",
+   "capacity": 0,
+   "slug": "jay-peak-resort-jay-vt-usa"
+  },
+  {
+   "venue_id": 141,
+   "venuename": "Paradise Rock Club",
+   "city": "Boston",
+   "state": "MA",
+   "country": "USA",
+   "zip": "02215",
+   "capacity": 0,
+   "slug": "paradise-rock-club-boston-ma-usa"
+  },
+  {
+   "venue_id": 142,
+   "venuename": "118 North",
+   "city": "Wayne",
+   "state": "PA",
+   "country": "USA",
+   "zip": "19087",
+   "capacity": 0,
+   "slug": "118-north-wayne-pa-usa"
+  },
+  {
+   "venue_id": 144,
+   "venuename": "Just Joshin' Music Festival",
+   "city": "Amston",
+   "state": "CT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "just-joshin-music-festival-amston-ct-usa"
+  },
+  {
+   "venue_id": 145,
+   "venuename": "Ukrainian Homestead",
+   "city": "Lehighton",
+   "state": "PA",
+   "country": "USA",
+   "zip": "18235",
+   "capacity": 0,
+   "slug": "ukrainian-homestead-lehighton-pa-usa"
+  },
+  {
+   "venue_id": 146,
+   "venuename": "Harry Brown's Farm",
+   "city": "Starks",
+   "state": "ME",
+   "country": "USA",
+   "zip": "04911",
+   "capacity": 0,
+   "slug": "harry-browns-farm-starks-me-usa"
+  },
+  {
+   "venue_id": 147,
+   "venuename": "Bearly Dead Family Picnic",
+   "city": "Pelham",
+   "state": "NH",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "bearly-dead-family-picnic-pelham-nh-usa"
+  },
+  {
+   "venue_id": 148,
+   "venuename": "King Neptune's Pub",
+   "city": "Lake George",
+   "state": "NY",
+   "country": "USA",
+   "zip": "12845",
+   "capacity": 0,
+   "slug": "king-neptunes-pub-lake-george-ny-usa"
+  },
+  {
+   "venue_id": 149,
+   "venuename": "The Haunt",
+   "city": "Ithaca",
+   "state": "NY",
+   "country": "USA",
+   "zip": "14850",
+   "capacity": 0,
+   "slug": "the-haunt-ithaca-ny-usa"
+  },
+  {
+   "venue_id": 150,
+   "venuename": "Town Ballroom",
+   "city": "Buffalo",
+   "state": "NY",
+   "country": "USA",
+   "zip": "14203",
+   "capacity": 0,
+   "slug": "town-ballroom-buffalo-ny-usa"
+  },
+  {
+   "venue_id": 151,
+   "venuename": "Shadefest Music Festival",
+   "city": "Elkins",
+   "state": "WV",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "shadefest-music-festival-elkins-wv-usa"
+  },
+  {
+   "venue_id": 152,
+   "venuename": "Tap Shack",
+   "city": "Duck",
+   "state": "NC",
+   "country": "USA",
+   "zip": "27949",
+   "capacity": 0,
+   "slug": "tap-shack-duck-nc-usa"
+  },
+  {
+   "venue_id": 153,
+   "venuename": "Sierra Nevada Brewing Co.",
+   "city": "Fletcher",
+   "state": "NC",
+   "country": "USA",
+   "zip": "28732",
+   "capacity": 0,
+   "slug": "sierra-nevada-brewing-co-fletcher-nc-usa"
+  },
+  {
+   "venue_id": 154,
+   "venuename": "The Whiskey",
+   "city": "Wilmington",
+   "state": "NC",
+   "country": "USA",
+   "zip": "28401",
+   "capacity": 0,
+   "slug": "the-whiskey-wilmington-nc-usa"
+  },
+  {
+   "venue_id": 155,
+   "venuename": "Bullfrog Brewery",
+   "city": "Williamsport",
+   "state": "PA",
+   "country": "USA",
+   "zip": "17701",
+   "capacity": 0,
+   "slug": "bullfrog-brewery-williamsport-pa-usa"
+  },
+  {
+   "venue_id": 156,
+   "venuename": "Bleachers",
+   "city": "Bristol",
+   "state": "CT",
+   "country": "USA",
+   "zip": "06010",
+   "capacity": 0,
+   "slug": "bleachers-bristol-ct-usa"
+  },
+  {
+   "venue_id": 157,
+   "venuename": "The Vault Music Hall &amp; Pub at Greasy Luck",
+   "city": "New Bedford",
+   "state": "MA",
+   "country": "USA",
+   "zip": "02740",
+   "capacity": 0,
+   "slug": "the-vault-music-hall-amp-pub-at-greasy-luck-new-bedford-ma-usa"
+  },
+  {
+   "venue_id": 158,
+   "venuename": "Cocalico Street",
+   "city": "Ephrata",
+   "state": "PA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "cocalico-street-ephrata-pa-usa"
+  },
+  {
+   "venue_id": 159,
+   "venuename": "Disc Jam Music Festival",
+   "city": "Stephentown",
+   "state": "NY",
+   "country": "USA",
+   "zip": "12168",
+   "capacity": 0,
+   "slug": "disc-jam-music-festival-stephentown-ny-usa"
+  },
+  {
+   "venue_id": 160,
+   "venuename": "Dogfish Head Brewings &amp; Eats",
+   "city": "Rehoboth Beach",
+   "state": "DE",
+   "country": "USA",
+   "zip": "19971",
+   "capacity": 0,
+   "slug": "dogfish-head-brewings-amp-eats-rehoboth-beach-de-usa"
+  },
+  {
+   "venue_id": 161,
+   "venuename": "Mike Dianna's Grill Room",
+   "city": "Corolla",
+   "state": "NC",
+   "country": "USA",
+   "zip": "27927",
+   "capacity": 0,
+   "slug": "mike-diannas-grill-room-corolla-nc-usa"
+  },
+  {
+   "venue_id": 162,
+   "venuename": "SoHi Sound Studios",
+   "city": "Columbus",
+   "state": "OH",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "sohi-sound-studios-columbus-oh-usa"
+  },
+  {
+   "venue_id": 163,
+   "venuename": "Beachland Ballroom &amp; Tavern",
+   "city": "Cleveland",
+   "state": "OH",
+   "country": "USA",
+   "zip": "44110",
+   "capacity": 0,
+   "slug": "beachland-ballroom-amp-tavern-cleveland-oh-usa"
+  },
+  {
+   "venue_id": 164,
+   "venuename": "Mountain Sky",
+   "city": "Jermyn",
+   "state": "PA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "mountain-sky-jermyn-pa-usa"
+  },
+  {
+   "venue_id": 165,
+   "venuename": "The Hollow Bar &amp; Kitchen",
+   "city": "Albany",
+   "state": "NY",
+   "country": "USA",
+   "zip": "12207",
+   "capacity": 0,
+   "slug": "the-hollow-bar-amp-kitchen-albany-ny-usa"
+  },
+  {
+   "venue_id": 166,
+   "venuename": "Jewel Nightclub",
+   "city": "Manchester",
+   "state": "NH",
+   "country": "USA",
+   "zip": "03101",
+   "capacity": 0,
+   "slug": "jewel-nightclub-manchester-nh-usa"
+  },
+  {
+   "venue_id": 167,
+   "venuename": "Cattivo",
+   "city": "Pittsburgh",
+   "state": "PA",
+   "country": "USA",
+   "zip": "15201",
+   "capacity": 0,
+   "slug": "cattivo-pittsburgh-pa-usa"
+  },
+  {
+   "venue_id": 168,
+   "venuename": "Hawks and Reed Performing Arts Center",
+   "city": "Greenfield",
+   "state": "MA",
+   "country": "USA",
+   "zip": "01301",
+   "capacity": 0,
+   "slug": "hawks-and-reed-performing-arts-center-greenfield-ma-usa"
+  },
+  {
+   "venue_id": 169,
+   "venuename": "DROM",
+   "city": "New York",
+   "state": "NY",
+   "country": "USA",
+   "zip": "10009",
+   "capacity": 0,
+   "slug": "drom-new-york-ny-usa"
+  },
+  {
+   "venue_id": 170,
+   "venuename": "Silk City",
+   "city": "Philadelphia",
+   "state": "PA",
+   "country": "USA",
+   "zip": "19123",
+   "capacity": 0,
+   "slug": "silk-city-philadelphia-pa-usa"
+  },
+  {
+   "venue_id": 171,
+   "venuename": "Finger Lakes Live",
+   "city": "Geneva",
+   "state": "NY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "finger-lakes-live-geneva-ny-usa"
+  },
+  {
+   "venue_id": 172,
+   "venuename": "The Main Pub",
+   "city": "Manchester",
+   "state": "CT",
+   "country": "USA",
+   "zip": "06040",
+   "capacity": 0,
+   "slug": "the-main-pub-manchester-ct-usa"
+  },
+  {
+   "venue_id": 173,
+   "venuename": "Snug Harbor",
+   "city": "New Paltz",
+   "state": "NY",
+   "country": "USA",
+   "zip": "12561",
+   "capacity": 0,
+   "slug": "snug-harbor-new-paltz-ny-usa"
+  },
+  {
+   "venue_id": 174,
+   "venuename": "The Range",
+   "city": "Ithaca",
+   "state": "NY",
+   "country": "USA",
+   "zip": "14850",
+   "capacity": 0,
+   "slug": "the-range-ithaca-ny-usa"
+  },
+  {
+   "venue_id": 175,
+   "venuename": "King's Rook Club",
+   "city": "Erie",
+   "state": "PA",
+   "country": "USA",
+   "zip": "16502",
+   "capacity": 0,
+   "slug": "kings-rook-club-erie-pa-usa"
+  },
+  {
+   "venue_id": 176,
+   "venuename": "Globe Hall",
+   "city": "Denver",
+   "state": "CO",
+   "country": "USA",
+   "zip": "80216",
+   "capacity": 0,
+   "slug": "globe-hall-denver-co-usa"
+  },
+  {
+   "venue_id": 177,
+   "venuename": "Buffalo Iron Works",
+   "city": "Buffalo",
+   "state": "NY",
+   "country": "USA",
+   "zip": "14203",
+   "capacity": 0,
+   "slug": "buffalo-iron-works-buffalo-ny-usa"
+  },
+  {
+   "venue_id": 178,
+   "venuename": "Hodi's Half Note",
+   "city": "Fort Collins",
+   "state": "CO",
+   "country": "USA",
+   "zip": "80524",
+   "capacity": 0,
+   "slug": "hodis-half-note-fort-collins-co-usa"
+  },
+  {
+   "venue_id": 179,
+   "venuename": "Lamasco Bar",
+   "city": "Evansville",
+   "state": "IN",
+   "country": "USA",
+   "zip": "47710",
+   "capacity": 0,
+   "slug": "lamasco-bar-evansville-in-usa"
+  },
+  {
+   "venue_id": 180,
+   "venuename": "The Met",
+   "city": "Pawtucket",
+   "state": "RI",
+   "country": "USA",
+   "zip": "02860",
+   "capacity": 0,
+   "slug": "the-met-pawtucket-ri-usa"
+  },
+  {
+   "venue_id": 181,
+   "venuename": "Chameleon Club",
+   "city": "Lancaster",
+   "state": "PA",
+   "country": "USA",
+   "zip": "17603",
+   "capacity": 0,
+   "slug": "chameleon-club-lancaster-pa-usa"
+  },
+  {
+   "venue_id": 182,
+   "venuename": "Mr. Smalls Theatre",
+   "city": "Millvale",
+   "state": "PA",
+   "country": "USA",
+   "zip": "15209",
+   "capacity": 0,
+   "slug": "mr-smalls-theatre-millvale-pa-usa"
+  },
+  {
+   "venue_id": 183,
+   "venuename": "Grog Shop",
+   "city": "Cleveland Heights",
+   "state": "OH",
+   "country": "USA",
+   "zip": "44106",
+   "capacity": 0,
+   "slug": "grog-shop-cleveland-heights-oh-usa"
+  },
+  {
+   "venue_id": 184,
+   "venuename": "El Club",
+   "city": "Detroit",
+   "state": "MI",
+   "country": "USA",
+   "zip": "48209",
+   "capacity": 0,
+   "slug": "el-club-detroit-mi-usa"
+  },
+  {
+   "venue_id": 185,
+   "venuename": "Dunedin Brewery",
+   "city": "Dunedin",
+   "state": "FL",
+   "country": "USA",
+   "zip": "34698",
+   "capacity": 0,
+   "slug": "dunedin-brewery-dunedin-fl-usa"
+  },
+  {
+   "venue_id": 186,
+   "venuename": "Still Partners",
+   "city": "Sea Cliff",
+   "state": "NY",
+   "country": "USA",
+   "zip": "11579",
+   "capacity": 0,
+   "slug": "still-partners-sea-cliff-ny-usa"
+  },
+  {
+   "venue_id": 187,
+   "venuename": "The Evening Muse",
+   "city": "Charlotte",
+   "state": "NC",
+   "country": "USA",
+   "zip": "28205",
+   "capacity": 0,
+   "slug": "the-evening-muse-charlotte-nc-usa"
+  },
+  {
+   "venue_id": 188,
+   "venuename": "The One Stop at Asheville Music Hall",
+   "city": "Asheville",
+   "state": "NC",
+   "country": "USA",
+   "zip": "28801",
+   "capacity": 0,
+   "slug": "the-one-stop-at-asheville-music-hall-asheville-nc-usa"
+  },
+  {
+   "venue_id": 189,
+   "venuename": "The Hummingbird Stage &amp; Taproom",
+   "city": "Macon",
+   "state": "GA",
+   "country": "USA",
+   "zip": "31201",
+   "capacity": 0,
+   "slug": "the-hummingbird-stage-amp-taproom-macon-ga-usa"
+  },
+  {
+   "venue_id": 190,
+   "venuename": "Guanabanas Restaurant",
+   "city": "Jupiter",
+   "state": "FL",
+   "country": "USA",
+   "zip": "33477",
+   "capacity": 0,
+   "slug": "guanabanas-restaurant-jupiter-fl-usa"
+  },
+  {
+   "venue_id": 191,
+   "venuename": "The Funky Biscuit",
+   "city": "Boca Raton",
+   "state": "FL",
+   "country": "USA",
+   "zip": "33432",
+   "capacity": 0,
+   "slug": "the-funky-biscuit-boca-raton-fl-usa"
+  },
+  {
+   "venue_id": 192,
+   "venuename": "The Charleston Pour House",
+   "city": "Charleston",
+   "state": "SC",
+   "country": "USA",
+   "zip": "29412",
+   "capacity": 0,
+   "slug": "the-charleston-pour-house-charleston-sc-usa"
+  },
+  {
+   "venue_id": 193,
+   "venuename": "The 8x10",
+   "city": "Baltimore",
+   "state": "MD",
+   "country": "USA",
+   "zip": "21230",
+   "capacity": 0,
+   "slug": "the-8x10-baltimore-md-usa"
+  },
+  {
+   "venue_id": 194,
+   "venuename": "Ocean Mist",
+   "city": "Wakefield",
+   "state": "RI",
+   "country": "USA",
+   "zip": "02879",
+   "capacity": 0,
+   "slug": "ocean-mist-wakefield-ri-usa"
+  },
+  {
+   "venue_id": 195,
+   "venuename": "The Stanhope House",
+   "city": "Stanhope",
+   "state": "NJ",
+   "country": "USA",
+   "zip": "07874",
+   "capacity": 0,
+   "slug": "the-stanhope-house-stanhope-nj-usa"
+  },
+  {
+   "venue_id": 196,
+   "venuename": "Gypsy Sally's",
+   "city": "Washington",
+   "state": "DC",
+   "country": "USA",
+   "zip": "20007",
+   "capacity": 0,
+   "slug": "gypsy-sallys-washington-dc-usa"
+  },
+  {
+   "venue_id": 197,
+   "venuename": "Monopole",
+   "city": "Plattsburgh",
+   "state": "NY",
+   "country": "USA",
+   "zip": "12901",
+   "capacity": 0,
+   "slug": "monopole-plattsburgh-ny-usa"
+  },
+  {
+   "venue_id": 198,
+   "venuename": "Funk 'n Waffles",
+   "city": "Syracuse",
+   "state": "NY",
+   "country": "USA",
+   "zip": "13202",
+   "capacity": 0,
+   "slug": "funk-n-waffles-syracuse-ny-usa"
+  },
+  {
+   "venue_id": 199,
+   "venuename": "Alchemy",
+   "city": "Providence",
+   "state": "RI",
+   "country": "USA",
+   "zip": "02903",
+   "capacity": 0,
+   "slug": "alchemy-providence-ri-usa"
+  },
+  {
+   "venue_id": 200,
+   "venuename": "Middle East Restaurant and Club",
+   "city": "Cambridge",
+   "state": "MA",
+   "country": "USA",
+   "zip": "02139",
+   "capacity": 0,
+   "slug": "middle-east-restaurant-and-club-cambridge-ma-usa"
+  },
+  {
+   "venue_id": 201,
+   "venuename": "Hometown Get Down",
+   "city": "Clarksburg",
+   "state": "MD",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "hometown-get-down-clarksburg-md-usa"
+  },
+  {
+   "venue_id": 202,
+   "venuename": "Great North Music and Arts Festival",
+   "city": "Minot",
+   "state": "ME",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "great-north-music-and-arts-festival-minot-me-usa"
+  },
+  {
+   "venue_id": 203,
+   "venuename": "Knitting Factory Brooklyn",
+   "city": "Brooklyn",
+   "state": "NY",
+   "country": "USA",
+   "zip": "11211",
+   "capacity": 0,
+   "slug": "knitting-factory-brooklyn-brooklyn-ny-usa"
+  },
+  {
+   "venue_id": 204,
+   "venuename": "Rock The Dock",
+   "city": "Lake George",
+   "state": "NY",
+   "country": "USA",
+   "zip": "12845",
+   "capacity": 0,
+   "slug": "rock-the-dock-lake-george-ny-usa"
+  },
+  {
+   "venue_id": 205,
+   "venuename": "Yasgur Road Campground",
+   "city": "Bethel",
+   "state": "NY",
+   "country": "USA",
+   "zip": "12720",
+   "capacity": 0,
+   "slug": "yasgur-road-campground-bethel-ny-usa"
+  },
+  {
+   "venue_id": 206,
+   "venuename": "Triumph Brewing Company of New Hope",
+   "city": "New Hope",
+   "state": "PA",
+   "country": "USA",
+   "zip": "18938",
+   "capacity": 0,
+   "slug": "triumph-brewing-company-of-new-hope-new-hope-pa-usa"
+  },
+  {
+   "venue_id": 207,
+   "venuename": "Strange Brew Pub",
+   "city": "Norwich",
+   "state": "CT",
+   "country": "USA",
+   "zip": "06360",
+   "capacity": 0,
+   "slug": "strange-brew-pub-norwich-ct-usa"
+  },
+  {
+   "venue_id": 208,
+   "venuename": "Funky Buddha Lounge",
+   "city": "Boca Raton",
+   "state": "FL",
+   "country": "USA",
+   "zip": "33431",
+   "capacity": 0,
+   "slug": "funky-buddha-lounge-boca-raton-fl-usa"
+  },
+  {
+   "venue_id": 209,
+   "venuename": "Tiki Hut",
+   "city": "Hilton Head",
+   "state": "SC",
+   "country": "USA",
+   "zip": "29928",
+   "capacity": 0,
+   "slug": "tiki-hut-hilton-head-sc-usa"
+  },
+  {
+   "venue_id": 210,
+   "venuename": "Barrelhouse South",
+   "city": "Savannah",
+   "state": "GA",
+   "country": "USA",
+   "zip": "31401",
+   "capacity": 0,
+   "slug": "barrelhouse-south-savannah-ga-usa"
+  },
+  {
+   "venue_id": 211,
+   "venuename": "The Thirsty Turtle",
+   "city": "Macon",
+   "state": "GA",
+   "country": "USA",
+   "zip": "31201",
+   "capacity": 0,
+   "slug": "the-thirsty-turtle-macon-ga-usa"
+  },
+  {
+   "venue_id": 212,
+   "venuename": "Gottrocks",
+   "city": "Greenville",
+   "state": "SC",
+   "country": "USA",
+   "zip": "29607",
+   "capacity": 0,
+   "slug": "gottrocks-greenville-sc-usa"
+  },
+  {
+   "venue_id": 213,
+   "venuename": "The Pour House Music Hall",
+   "city": "Raleigh",
+   "state": "NC",
+   "country": "USA",
+   "zip": "27601",
+   "capacity": 0,
+   "slug": "the-pour-house-music-hall-raleigh-nc-usa"
+  },
+  {
+   "venue_id": 214,
+   "venuename": "Shadefest Music Festival",
+   "city": "Avenue",
+   "state": "MD",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "shadefest-music-festival-avenue-md-usa"
+  },
+  {
+   "venue_id": 215,
+   "venuename": "Blue Side Tavern",
+   "city": "Frederick",
+   "state": "MD",
+   "country": "USA",
+   "zip": "21701",
+   "capacity": 0,
+   "slug": "blue-side-tavern-frederick-md-usa"
+  },
+  {
+   "venue_id": 216,
+   "venuename": "Mad Tea Party Jam",
+   "city": "Artemas",
+   "state": "PA",
+   "country": "USA",
+   "zip": "17211",
+   "capacity": 0,
+   "slug": "mad-tea-party-jam-artemas-pa-usa"
+  },
+  {
+   "venue_id": 217,
+   "venuename": "Paddy's Beach Club",
+   "city": "Westerly",
+   "state": "RI",
+   "country": "USA",
+   "zip": "02891",
+   "capacity": 0,
+   "slug": "paddys-beach-club-westerly-ri-usa"
+  },
+  {
+   "venue_id": 218,
+   "venuename": "Stanley's Pub",
+   "city": "Cincinnati",
+   "state": "OH",
+   "country": "USA",
+   "zip": "45226",
+   "capacity": 0,
+   "slug": "stanleys-pub-cincinnati-oh-usa"
+  },
+  {
+   "venue_id": 219,
+   "venuename": "Brown Hotel Music Club &amp; Grill",
+   "city": "Indiana",
+   "state": "PA",
+   "country": "USA",
+   "zip": "15701",
+   "capacity": 0,
+   "slug": "brown-hotel-music-club-amp-grill-indiana-pa-usa"
+  },
+  {
+   "venue_id": 220,
+   "venuename": "The Wherehouse",
+   "city": "Newburgh",
+   "state": "NY",
+   "country": "USA",
+   "zip": "12550",
+   "capacity": 0,
+   "slug": "the-wherehouse-newburgh-ny-usa"
+  },
+  {
+   "venue_id": 221,
+   "venuename": "American Beauty",
+   "city": "New York",
+   "state": "NY",
+   "country": "USA",
+   "zip": "10001",
+   "capacity": 0,
+   "slug": "american-beauty-new-york-ny-usa"
+  },
+  {
+   "venue_id": 222,
+   "venuename": "Wonder Bar",
+   "city": "Asbury Park",
+   "state": "NJ",
+   "country": "USA",
+   "zip": "07712",
+   "capacity": 0,
+   "slug": "wonder-bar-asbury-park-nj-usa"
+  },
+  {
+   "venue_id": 223,
+   "venuename": "Penuche's Music Hall",
+   "city": "Manchester",
+   "state": "NH",
+   "country": "USA",
+   "zip": "03101",
+   "capacity": 0,
+   "slug": "penuches-music-hall-manchester-nh-usa"
+  },
+  {
+   "venue_id": 224,
+   "venuename": "Vinyl Street Cafe",
+   "city": "Fairfield",
+   "state": "CT",
+   "country": "USA",
+   "zip": "06824",
+   "capacity": 0,
+   "slug": "vinyl-street-cafe-fairfield-ct-usa"
+  },
+  {
+   "venue_id": 225,
+   "venuename": "Rebirth Arts Festival",
+   "city": "Easton",
+   "state": "CT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "rebirth-arts-festival-easton-ct-usa"
+  },
+  {
+   "venue_id": 226,
+   "venuename": "Backwoods Pondfest",
+   "city": "Peru",
+   "state": "NY",
+   "country": "USA",
+   "zip": "12972",
+   "capacity": 0,
+   "slug": "backwoods-pondfest-peru-ny-usa"
+  },
+  {
+   "venue_id": 227,
+   "venuename": "Creatures of the Night",
+   "city": "Adams",
+   "state": "TN",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "creatures-of-the-night-adams-tn-usa"
+  },
+  {
+   "venue_id": 228,
+   "venuename": "9:30 Club",
+   "city": "Washington",
+   "state": "DC",
+   "country": "USA",
+   "zip": "20001",
+   "capacity": 0,
+   "slug": "930-club-washington-dc-usa"
+  },
+  {
+   "venue_id": 229,
+   "venuename": "Spirit of the Suwannee Music Park",
+   "city": "Live Oak",
+   "state": "FL",
+   "country": "USA",
+   "zip": "32060",
+   "capacity": 0,
+   "slug": "spirit-of-the-suwannee-music-park-live-oak-fl-usa"
+  },
+  {
+   "venue_id": 230,
+   "venuename": "Howl at the Moon",
+   "city": "Boston",
+   "state": "MA",
+   "country": "USA",
+   "zip": "02110",
+   "capacity": 0,
+   "slug": "howl-at-the-moon-boston-ma-usa"
+  },
+  {
+   "venue_id": 231,
+   "venuename": "Ted's Restaurant &amp; Bar",
+   "city": "Storrs",
+   "state": "CT",
+   "country": "USA",
+   "zip": "06268",
+   "capacity": 0,
+   "slug": "teds-restaurant-amp-bar-storrs-ct-usa"
+  },
+  {
+   "venue_id": 232,
+   "venuename": "The Sink",
+   "city": "Boulder",
+   "state": "CO",
+   "country": "USA",
+   "zip": "80302",
+   "capacity": 0,
+   "slug": "the-sink-boulder-co-usa"
+  },
+  {
+   "venue_id": 233,
+   "venuename": "Dover Brickhouse",
+   "city": "Dover",
+   "state": "NH",
+   "country": "USA",
+   "zip": "03820",
+   "capacity": 0,
+   "slug": "dover-brickhouse-dover-nh-usa"
+  },
+  {
+   "venue_id": 234,
+   "venuename": "Dead Air 88.1",
+   "city": "Middletown",
+   "state": "CT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "dead-air-881-middletown-ct-usa"
+  },
+  {
+   "venue_id": 235,
+   "venuename": "Nantahala Outdoor Center",
+   "city": "Bryson City",
+   "state": "NC",
+   "country": "USA",
+   "zip": "28713",
+   "capacity": 0,
+   "slug": "nantahala-outdoor-center-bryson-city-nc-usa"
+  },
+  {
+   "venue_id": 236,
+   "venuename": "Wilton Fireworks",
+   "city": "Wilton",
+   "state": "CT",
+   "country": "USA",
+   "zip": "06897",
+   "capacity": 0,
+   "slug": "wilton-fireworks-wilton-ct-usa"
+  },
+  {
+   "venue_id": 237,
+   "venuename": "Patchella",
+   "city": "Ridgefield",
+   "state": "CT",
+   "country": "USA",
+   "zip": "06877",
+   "capacity": 0,
+   "slug": "patchella-ridgefield-ct-usa"
+  },
+  {
+   "venue_id": 238,
+   "venuename": "The Caverns Above Ground Amphitheater",
+   "city": "Pelham",
+   "state": "TN",
+   "country": "USA",
+   "zip": "37366",
+   "capacity": 0,
+   "slug": "the-caverns-above-ground-amphitheater-pelham-tn-usa"
+  },
+  {
+   "venue_id": 239,
+   "venuename": "Riverfront Park",
+   "city": "North Charleston",
+   "state": "SC",
+   "country": "USA",
+   "zip": "29405",
+   "capacity": 0,
+   "slug": "riverfront-park-north-charleston-sc-usa"
+  },
+  {
+   "venue_id": 240,
+   "venuename": "Westville Music Bowl",
+   "city": "New Haven",
+   "state": "CT",
+   "country": "USA",
+   "zip": "06515",
+   "capacity": 0,
+   "slug": "westville-music-bowl-new-haven-ct-usa"
+  },
+  {
+   "venue_id": 241,
+   "venuename": "Silver Lake Twin Drive-In Theatre",
+   "city": "Perry",
+   "state": "NY",
+   "country": "USA",
+   "zip": "14530",
+   "capacity": 0,
+   "slug": "silver-lake-twin-drive-in-theatre-perry-ny-usa"
+  },
+  {
+   "venue_id": 242,
+   "venuename": "The Pines Music Park",
+   "city": "Eau Claire",
+   "state": "WI",
+   "country": "USA",
+   "zip": "54703",
+   "capacity": 0,
+   "slug": "the-pines-music-park-eau-claire-wi-usa"
+  },
+  {
+   "venue_id": 243,
+   "venuename": "Pine Creek Lodge",
+   "city": "Livingston",
+   "state": "MT",
+   "country": "USA",
+   "zip": "59047",
+   "capacity": 0,
+   "slug": "pine-creek-lodge-livingston-mt-usa"
+  },
+  {
+   "venue_id": 244,
+   "venuename": "Sculpture Park at Denver Performing Arts Center",
+   "city": "Denver",
+   "state": "CO",
+   "country": "USA",
+   "zip": "80202",
+   "capacity": 7000,
+   "slug": "sculpture-park-at-denver-performing-arts-center-denver-co-usa"
+  },
+  {
+   "venue_id": 245,
+   "venuename": "FloydFest",
+   "city": "Floyd",
+   "state": "VA",
+   "country": "USA",
+   "zip": "24091",
+   "capacity": 0,
+   "slug": "floydfest-floyd-va-usa"
+  },
+  {
+   "venue_id": 246,
+   "venuename": "Oak Ridge Farm",
+   "city": "Arrington",
+   "state": "VA",
+   "country": "USA",
+   "zip": "22922",
+   "capacity": 0,
+   "slug": "oak-ridge-farm-arrington-va-usa"
+  },
+  {
+   "venue_id": 247,
+   "venuename": "Bronx Zoo",
+   "city": "Bronx",
+   "state": "NY",
+   "country": "USA",
+   "zip": "10460",
+   "capacity": 0,
+   "slug": "bronx-zoo-bronx-ny-usa"
+  },
+  {
+   "venue_id": 248,
+   "venuename": "Snowshoe Mountain Resort",
+   "city": "Snowshoe",
+   "state": "WV",
+   "country": "USA",
+   "zip": "26209",
+   "capacity": 0,
+   "slug": "snowshoe-mountain-resort-snowshoe-wv-usa"
+  },
+  {
+   "venue_id": 249,
+   "venuename": "Sea.Hear.Now Festival",
+   "city": "Asbury Park",
+   "state": "NJ",
+   "country": "USA",
+   "zip": "07712",
+   "capacity": 0,
+   "slug": "seahearnow-festival-asbury-park-nj-usa"
+  },
+  {
+   "venue_id": 250,
+   "venuename": "Terminal 5",
+   "city": "New York",
+   "state": "NY",
+   "country": "USA",
+   "zip": "10019",
+   "capacity": 3,
+   "slug": "terminal-5-new-york-ny-usa"
+  },
+  {
+   "venue_id": 251,
+   "venuename": "State Theater",
+   "city": "Portland",
+   "state": "ME",
+   "country": "USA",
+   "zip": "04101",
+   "capacity": 1870,
+   "slug": "state-theater-portland-me-usa"
+  },
+  {
+   "venue_id": 252,
+   "venuename": "The Palladium",
+   "city": "Worcester",
+   "state": "MA",
+   "country": "USA",
+   "zip": "01608",
+   "capacity": 2160,
+   "slug": "the-palladium-worcester-ma-usa"
+  },
+  {
+   "venue_id": 253,
+   "venuename": "The Eastern",
+   "city": "Atlanta",
+   "state": "GA",
+   "country": "USA",
+   "zip": "30316",
+   "capacity": 0,
+   "slug": "the-eastern-atlanta-ga-usa"
+  },
+  {
+   "venue_id": 254,
+   "venuename": "Republic",
+   "city": "New Orleans",
+   "state": "LA",
+   "country": "USA",
+   "zip": "70130",
+   "capacity": 0,
+   "slug": "republic-new-orleans-la-usa"
+  },
+  {
+   "venue_id": 255,
+   "venuename": "House of Blues",
+   "city": "Houston",
+   "state": "TX",
+   "country": "USA",
+   "zip": "77002",
+   "capacity": 0,
+   "slug": "house-of-blues-houston-tx-usa"
+  },
+  {
+   "venue_id": 256,
+   "venuename": "Historic Scoot Inn",
+   "city": "Austin",
+   "state": "TX",
+   "country": "USA",
+   "zip": "78702",
+   "capacity": 0,
+   "slug": "historic-scoot-inn-austin-tx-usa"
+  },
+  {
+   "venue_id": 257,
+   "venuename": "The Echo Lounge &amp; Music Hall",
+   "city": "Dallas",
+   "state": "TX",
+   "country": "USA",
+   "zip": "75207",
+   "capacity": 0,
+   "slug": "the-echo-lounge-amp-music-hall-dallas-tx-usa"
+  },
+  {
+   "venue_id": 258,
+   "venuename": "Tower Theatre",
+   "city": "Oklahoma City",
+   "state": "OK",
+   "country": "USA",
+   "zip": "73103",
+   "capacity": 0,
+   "slug": "tower-theatre-oklahoma-city-ok-usa"
+  },
+  {
+   "venue_id": 259,
+   "venuename": "The Truman",
+   "city": "Kansas City",
+   "state": "MO",
+   "country": "USA",
+   "zip": "64106",
+   "capacity": 0,
+   "slug": "the-truman-kansas-city-mo-usa"
+  },
+  {
+   "venue_id": 260,
+   "venuename": "Belly Up",
+   "city": "Aspen",
+   "state": "CO",
+   "country": "USA",
+   "zip": "81611",
+   "capacity": 0,
+   "slug": "belly-up-aspen-co-usa"
+  },
+  {
+   "venue_id": 261,
+   "venuename": "The Mission Ballroom",
+   "city": "Denver",
+   "state": "CO",
+   "country": "USA",
+   "zip": "80216",
+   "capacity": 3950,
+   "slug": "the-mission-ballroom-denver-co-usa"
+  },
+  {
+   "venue_id": 262,
+   "venuename": "Tarrytown Music Hall",
+   "city": "Tarrytown",
+   "state": "NY",
+   "country": "USA",
+   "zip": "10591",
+   "capacity": 843,
+   "slug": "tarrytown-music-hall-tarrytown-ny-usa"
+  },
+  {
+   "venue_id": 263,
+   "venuename": "Center for the Arts of Homer",
+   "city": "Homer",
+   "state": "NY",
+   "country": "USA",
+   "zip": "13077",
+   "capacity": 0,
+   "slug": "center-for-the-arts-of-homer-homer-ny-usa"
+  },
+  {
+   "venue_id": 264,
+   "venuename": "Spruce Peak Performing Arts Center",
+   "city": "Stowe",
+   "state": "VT",
+   "country": "USA",
+   "zip": "05672",
+   "capacity": 0,
+   "slug": "spruce-peak-performing-arts-center-stowe-vt-usa"
+  },
+  {
+   "venue_id": 265,
+   "venuename": "The Observatory North Park",
+   "city": "San Diego",
+   "state": "CA",
+   "country": "USA",
+   "zip": "92104",
+   "capacity": 1100,
+   "slug": "the-observatory-north-park-san-diego-ca-usa"
+  },
+  {
+   "venue_id": 266,
+   "venuename": "The Fonda Theatre",
+   "city": "Los Angeles",
+   "state": "CA",
+   "country": "USA",
+   "zip": "90028",
+   "capacity": 1200,
+   "slug": "the-fonda-theatre-los-angeles-ca-usa"
+  },
+  {
+   "venue_id": 268,
+   "venuename": "The ELM",
+   "city": "Bozeman",
+   "state": "MT",
+   "country": "USA",
+   "zip": "59715",
+   "capacity": 0,
+   "slug": "the-elm-bozeman-mt-usa"
+  },
+  {
+   "venue_id": 269,
+   "venuename": "First Avenue",
+   "city": "Minneapolis",
+   "state": "MN",
+   "country": "USA",
+   "zip": "",
+   "capacity": 1550,
+   "slug": "first-avenue-minneapolis-mn-usa"
+  },
+  {
+   "venue_id": 270,
+   "venuename": "The Sylvee",
+   "city": "Madison",
+   "state": "WI",
+   "country": "USA",
+   "zip": "",
+   "capacity": 2500,
+   "slug": "the-sylvee-madison-wi-usa"
+  },
+  {
+   "venue_id": 271,
+   "venuename": "Old Forester's Paristown Hall",
+   "city": "Louisville",
+   "state": "KY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 2000,
+   "slug": "old-foresters-paristown-hall-louisville-ky-usa"
+  },
+  {
+   "venue_id": 272,
+   "venuename": "Stage AE",
+   "city": "Pittsburgh",
+   "state": "PA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 2400,
+   "slug": "stage-ae-pittsburgh-pa-usa"
+  },
+  {
+   "venue_id": 273,
+   "venuename": "Mohegan Sun Arena",
+   "city": "Uncasville",
+   "state": "CT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 10000,
+   "slug": "mohegan-sun-arena-uncasville-ct-usa"
+  },
+  {
+   "venue_id": 274,
+   "venuename": "The Fillmore",
+   "city": "Charlotte",
+   "state": "NC",
+   "country": "USA",
+   "zip": "",
+   "capacity": 1200,
+   "slug": "the-fillmore-charlotte-nc-usa"
+  },
+  {
+   "venue_id": 275,
+   "venuename": "Brooklyn Bowl",
+   "city": "Nashville",
+   "state": "TN",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "brooklyn-bowl-nashville-tn-usa"
+  },
+  {
+   "venue_id": 276,
+   "venuename": "The Mill &amp; Mine",
+   "city": "Knoxville",
+   "state": "TN",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-mill-amp-mine-knoxville-tn-usa"
+  },
+  {
+   "venue_id": 277,
+   "venuename": "Royal Oak Music Theatre",
+   "city": "Royal Oak",
+   "state": "MI",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "royal-oak-music-theatre-royal-oak-mi-usa"
+  },
+  {
+   "venue_id": 278,
+   "venuename": "The Fillmore",
+   "city": "Philadelphia",
+   "state": "PA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-fillmore-philadelphia-pa-usa"
+  },
+  {
+   "venue_id": 279,
+   "venuename": "Firefly Distillery",
+   "city": "North Charleston",
+   "state": "SC",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "firefly-distillery-north-charleston-sc-usa"
+  },
+  {
+   "venue_id": 280,
+   "venuename": "Salvage Station",
+   "city": "Asheville",
+   "state": "NC",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "salvage-station-asheville-nc-usa"
+  },
+  {
+   "venue_id": 281,
+   "venuename": "Sweetwater 420 Festival",
+   "city": "Atlanta",
+   "state": "GA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "sweetwater-420-festival-atlanta-ga-usa"
+  },
+  {
+   "venue_id": 282,
+   "venuename": "Beale Street Music Festival",
+   "city": "Memphis",
+   "state": "TN",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "beale-street-music-festival-memphis-tn-usa"
+  },
+  {
+   "venue_id": 283,
+   "venuename": "Boston Calling",
+   "city": "Boston",
+   "state": "MA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "boston-calling-boston-ma-usa"
+  },
+  {
+   "venue_id": 284,
+   "venuename": "Artpark",
+   "city": "Lewiston",
+   "state": "NY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "artpark-lewiston-ny-usa"
+  },
+  {
+   "venue_id": 286,
+   "venuename": "TCU Amphitheater at White River State Park",
+   "city": "Indianapolis",
+   "state": "IN",
+   "country": "USA",
+   "zip": "46204",
+   "capacity": 6,
+   "slug": "tcu-amphitheater-at-white-river-state-park-indianapolis-in-usa"
+  },
+  {
+   "venue_id": 287,
+   "venuename": "Greenfield Lake Amphitheater",
+   "city": "Wilmington",
+   "state": "NC",
+   "country": "USA",
+   "zip": "28401",
+   "capacity": 1200,
+   "slug": "greenfield-lake-amphitheater-wilmington-nc-usa"
+  },
+  {
+   "venue_id": 288,
+   "venuename": "Red Hat Amphitheater",
+   "city": "Raleigh",
+   "state": "NC",
+   "country": "USA",
+   "zip": "27601",
+   "capacity": 5,
+   "slug": "red-hat-amphitheater-raleigh-nc-usa"
+  },
+  {
+   "venue_id": 289,
+   "venuename": "Bonnaroo Music and Arts Festival",
+   "city": "Manchester",
+   "state": "TN",
+   "country": "USA",
+   "zip": "37355",
+   "capacity": 0,
+   "slug": "bonnaroo-music-and-arts-festival-manchester-tn-usa"
+  },
+  {
+   "venue_id": 290,
+   "venuename": "Radio City Music Hall",
+   "city": "New York",
+   "state": "NY",
+   "country": "USA",
+   "zip": "10020",
+   "capacity": 6015,
+   "slug": "radio-city-music-hall-new-york-ny-usa"
+  },
+  {
+   "venue_id": 291,
+   "venuename": "High Sierra Music Festival",
+   "city": "Quincy",
+   "state": "CA",
+   "country": "USA",
+   "zip": "95971",
+   "capacity": 0,
+   "slug": "high-sierra-music-festival-quincy-ca-usa"
+  },
+  {
+   "venue_id": 292,
+   "venuename": "Fort Adams State Park",
+   "city": "Newport",
+   "state": "RI",
+   "country": "USA",
+   "zip": "02840",
+   "capacity": 0,
+   "slug": "fort-adams-state-park-newport-ri-usa"
+  },
+  {
+   "venue_id": 293,
+   "venuename": "Newport Blues Café",
+   "city": "Newport",
+   "state": "RI",
+   "country": "USA",
+   "zip": "02840",
+   "capacity": 400,
+   "slug": "newport-blues-caf-newport-ri-usa"
+  },
+  {
+   "venue_id": 294,
+   "venuename": "Dillon Amphitheatre",
+   "city": "Dillon",
+   "state": "CO",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "dillon-amphitheatre-dillon-co-usa"
+  },
+  {
+   "venue_id": 295,
+   "venuename": "Chrysalis",
+   "city": "Columbia",
+   "state": "MD",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "chrysalis-columbia-md-usa"
+  },
+  {
+   "venue_id": 296,
+   "venuename": "Red Rocks Park and Amphitheater",
+   "city": "Morrison",
+   "state": "CO",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "red-rocks-park-and-amphitheater-morrison-co-usa"
+  },
+  {
+   "venue_id": 297,
+   "venuename": "Brooklyn Bowl",
+   "city": "Las Vegas",
+   "state": "NV",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "brooklyn-bowl-las-vegas-nv-usa"
+  },
+  {
+   "venue_id": 298,
+   "venuename": "Greek Theatre",
+   "city": "Los Angeles",
+   "state": "CA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "greek-theatre-los-angeles-ca-usa"
+  },
+  {
+   "venue_id": 299,
+   "venuename": "South Shore Room at Harrah's Lake Tahoe",
+   "city": "Stateline",
+   "state": "NV",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "south-shore-room-at-harrahs-lake-tahoe-stateline-nv-usa"
+  },
+  {
+   "venue_id": 300,
+   "venuename": "Pioneer Courthouse Square",
+   "city": "Portland",
+   "state": "OR",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "pioneer-courthouse-square-portland-or-usa"
+  },
+  {
+   "venue_id": 301,
+   "venuename": "Thing Festival",
+   "city": "Port Townsend",
+   "state": "WA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "thing-festival-port-townsend-wa-usa"
+  },
+  {
+   "venue_id": 302,
+   "venuename": "Sacred Rose Festival",
+   "city": "Bridgeview",
+   "state": "IL",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "sacred-rose-festival-bridgeview-il-usa"
+  },
+  {
+   "venue_id": 303,
+   "venuename": "The National",
+   "city": "Richmond",
+   "state": "VA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-national-richmond-va-usa"
+  },
+  {
+   "venue_id": 304,
+   "venuename": "Pullman Yards",
+   "city": "Atlanta",
+   "state": "GA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "pullman-yards-atlanta-ga-usa"
+  },
+  {
+   "venue_id": 305,
+   "venuename": "The Pageant",
+   "city": "St. Louis",
+   "state": "MO",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-pageant-st-louis-mo-usa"
+  },
+  {
+   "venue_id": 306,
+   "venuename": "Joy Theater",
+   "city": "New Orleans",
+   "state": "LA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "joy-theater-new-orleans-la-usa"
+  },
+  {
+   "venue_id": 307,
+   "venuename": "Stubb's BBQ",
+   "city": "Austin",
+   "state": "TX",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "stubbs-bbq-austin-tx-usa"
+  },
+  {
+   "venue_id": 308,
+   "venuename": "Zilker Park",
+   "city": "Austin",
+   "state": "TX",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "zilker-park-austin-tx-usa"
+  },
+  {
+   "venue_id": 309,
+   "venuename": "Arvest Bank Theater at the Midland",
+   "city": "Kansas City",
+   "state": "MO",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "arvest-bank-theater-at-the-midland-kansas-city-mo-usa"
+  },
+  {
+   "venue_id": 310,
+   "venuename": "JJ's Live",
+   "city": "Fayetteville",
+   "state": "AR",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "jjs-live-fayetteville-ar-usa"
+  },
+  {
+   "venue_id": 311,
+   "venuename": "The Criterion",
+   "city": "Oklahoma City",
+   "state": "OK",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-criterion-oklahoma-city-ok-usa"
+  },
+  {
+   "venue_id": 312,
+   "venuename": "South Side Ballroom",
+   "city": "Dallas",
+   "state": "TX",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "south-side-ballroom-dallas-tx-usa"
+  },
+  {
+   "venue_id": 313,
+   "venuename": "Cross Insurance Arena",
+   "city": "Portland",
+   "state": "ME",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "cross-insurance-arena-portland-me-usa"
+  },
+  {
+   "venue_id": 314,
+   "venuename": "Tsongas Center",
+   "city": "Lowell",
+   "state": "MA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "tsongas-center-lowell-ma-usa"
+  },
+  {
+   "venue_id": 315,
+   "venuename": "Cool Insuring Arena",
+   "city": "Glens Falls",
+   "state": "NY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "cool-insuring-arena-glens-falls-ny-usa"
+  },
+  {
+   "venue_id": 316,
+   "venuename": "UPMC Events Center",
+   "city": "Carnot-Moon",
+   "state": "PA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "upmc-events-center-carnot-moon-pa-usa"
+  },
+  {
+   "venue_id": 317,
+   "venuename": "EagleBank Arena",
+   "city": "Fairfax",
+   "state": "VA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "eaglebank-arena-fairfax-va-usa"
+  },
+  {
+   "venue_id": 318,
+   "venuename": "War Memorial Arena",
+   "city": "Syracuse",
+   "state": "NY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "war-memorial-arena-syracuse-ny-usa"
+  },
+  {
+   "venue_id": 319,
+   "venuename": "Santander Arena",
+   "city": "Reading",
+   "state": "PA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "santander-arena-reading-pa-usa"
+  },
+  {
+   "venue_id": 320,
+   "venuename": "1STBANK Center",
+   "city": "Broomfield",
+   "state": "CO",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "1stbank-center-broomfield-co-usa"
+  },
+  {
+   "venue_id": 321,
+   "venuename": "The Cabot",
+   "city": "Beverly",
+   "state": "MA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-cabot-beverly-ma-usa"
+  },
+  {
+   "venue_id": 322,
+   "venuename": "Mid's Park",
+   "city": "Lake Placid",
+   "state": "NY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "mids-park-lake-placid-ny-usa"
+  },
+  {
+   "venue_id": 324,
+   "venuename": "All IN Music &amp; Arts Festival",
+   "city": "Indianapolis",
+   "state": "IN",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "all-in-music-amp-arts-festival-indianapolis-in-usa"
+  },
+  {
+   "venue_id": 325,
+   "venuename": "Park City Music Hall",
+   "city": "Bridgeport",
+   "state": "CT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "park-city-music-hall-bridgeport-ct-usa"
+  },
+  {
+   "venue_id": 326,
+   "venuename": "Bailey Beach Park",
+   "city": "Rowayton",
+   "state": "CT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "bailey-beach-park-rowayton-ct-usa"
+  },
+  {
+   "venue_id": 327,
+   "venuename": "Dunville's",
+   "city": "Westport",
+   "state": "CT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "dunvilles-westport-ct-usa"
+  },
+  {
+   "venue_id": 329,
+   "venuename": "Grateful Gathering",
+   "city": "East Haddam",
+   "state": "CT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "grateful-gathering-east-haddam-ct-usa"
+  },
+  {
+   "venue_id": 330,
+   "venuename": "Squam Lawn",
+   "city": "Holderness",
+   "state": "NH",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "squam-lawn-holderness-nh-usa"
+  },
+  {
+   "venue_id": 331,
+   "venuename": "The Black Buzzard",
+   "city": "Denver",
+   "state": "CO",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-black-buzzard-denver-co-usa"
+  },
+  {
+   "venue_id": 333,
+   "venuename": "Toad's Place",
+   "city": "New Haven",
+   "state": "CT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "toads-place-new-haven-ct-usa"
+  },
+  {
+   "venue_id": 334,
+   "venuename": "Night Shift Brewery",
+   "city": "Everett",
+   "state": "MA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "night-shift-brewery-everett-ma-usa"
+  },
+  {
+   "venue_id": 335,
+   "venuename": "Andrew J Brady Music Center",
+   "city": "Cincinnati",
+   "state": "OH",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "andrew-j-brady-music-center-cincinnati-oh-usa"
+  },
+  {
+   "venue_id": 336,
+   "venuename": "Okeechobee Music Festival",
+   "city": "Okeechobee",
+   "state": "FL",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "okeechobee-music-festival-okeechobee-fl-usa"
+  },
+  {
+   "venue_id": 337,
+   "venuename": "Vilar Performing Arts Center",
+   "city": "Beaver Creek",
+   "state": "CO",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "vilar-performing-arts-center-beaver-creek-co-usa"
+  },
+  {
+   "venue_id": 338,
+   "venuename": "Boulder Theatre",
+   "city": "Boulder",
+   "state": "CO",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "boulder-theatre-boulder-co-usa"
+  },
+  {
+   "venue_id": 339,
+   "venuename": "Hollywood Masonic Temple",
+   "city": "Hollywood",
+   "state": "CA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "hollywood-masonic-temple-hollywood-ca-usa"
+  },
+  {
+   "venue_id": 340,
+   "venuename": "Studio 1515",
+   "city": "New York",
+   "state": "NY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "studio-1515-new-york-ny-usa"
+  },
+  {
+   "venue_id": 341,
+   "venuename": "The Sultan Room",
+   "city": "New York",
+   "state": "NY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-sultan-room-new-york-ny-usa"
+  },
+  {
+   "venue_id": 343,
+   "venuename": "Carnton Plantation",
+   "city": "Franklin",
+   "state": "TN",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "carnton-plantation-franklin-tn-usa"
+  },
+  {
+   "venue_id": 344,
+   "venuename": "30 Rockefeller Plaza",
+   "city": "New York",
+   "state": "NY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "30-rockefeller-plaza-new-york-ny-usa"
+  },
+  {
+   "venue_id": 345,
+   "venuename": "Roadrunner",
+   "city": "Boston",
+   "state": "MA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "roadrunner-boston-ma-usa"
+  },
+  {
+   "venue_id": 346,
+   "venuename": "The Met",
+   "city": "Philadelphia",
+   "state": "PA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-met-philadelphia-pa-usa"
+  },
+  {
+   "venue_id": 347,
+   "venuename": "Ryman Auditorium",
+   "city": "Nashville",
+   "state": "TN",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "ryman-auditorium-nashville-tn-usa"
+  },
+  {
+   "venue_id": 348,
+   "venuename": "Avondale Brewing Company",
+   "city": "Birmingham",
+   "state": "AL",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "avondale-brewing-company-birmingham-al-usa"
+  },
+  {
+   "venue_id": 349,
+   "venuename": "The Salt Shed",
+   "city": "Chicago",
+   "state": "IL",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-salt-shed-chicago-il-usa"
+  },
+  {
+   "venue_id": 350,
+   "venuename": "Palace Theatre",
+   "city": "St. Paul",
+   "state": "MN",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "palace-theatre-st-paul-mn-usa"
+  },
+  {
+   "venue_id": 351,
+   "venuename": "Knitting Factory",
+   "city": "Boise",
+   "state": "ID",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "knitting-factory-boise-id-usa"
+  },
+  {
+   "venue_id": 352,
+   "venuename": "Paramount Theatre",
+   "city": "Seattle",
+   "state": "WA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "paramount-theatre-seattle-wa-usa"
+  },
+  {
+   "venue_id": 353,
+   "venuename": "McDonald Theatre",
+   "city": "Eugene",
+   "state": "OR",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "mcdonald-theatre-eugene-or-usa"
+  },
+  {
+   "venue_id": 354,
+   "venuename": "The Warfield",
+   "city": "San Francisco",
+   "state": "CA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-warfield-san-francisco-ca-usa"
+  },
+  {
+   "venue_id": 355,
+   "venuename": "Cal Coast Credit Union Amphitheater",
+   "city": "San Diego",
+   "state": "CA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "cal-coast-credit-union-amphitheater-san-diego-ca-usa"
+  },
+  {
+   "venue_id": 356,
+   "venuename": "Railbird Music Festival",
+   "city": "Lexington",
+   "state": "KY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "railbird-music-festival-lexington-ky-usa"
+  },
+  {
+   "venue_id": 357,
+   "venuename": "Electric Forest Festival",
+   "city": "Rothbury",
+   "state": "MI",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "electric-forest-festival-rothbury-mi-usa"
+  },
+  {
+   "venue_id": 358,
+   "venuename": "Nelson Ledges Quarry Park",
+   "city": "Garrettsville",
+   "state": "OH",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "nelson-ledges-quarry-park-garrettsville-oh-usa"
+  },
+  {
+   "venue_id": 359,
+   "venuename": "Georgia Theatre",
+   "city": "Athens",
+   "state": "GA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "georgia-theatre-athens-ga-usa"
+  },
+  {
+   "venue_id": 360,
+   "venuename": "Faubourg Brewery",
+   "city": "New Orleans",
+   "state": "LA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "faubourg-brewery-new-orleans-la-usa"
+  },
+  {
+   "venue_id": 361,
+   "venuename": "Riverbend Music Festival",
+   "city": "Chattanooga",
+   "state": "TN",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "riverbend-music-festival-chattanooga-tn-usa"
+  },
+  {
+   "venue_id": 362,
+   "venuename": "Cathead Distillery",
+   "city": "Jackson",
+   "state": "MS",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "cathead-distillery-jackson-ms-usa"
+  },
+  {
+   "venue_id": 363,
+   "venuename": "Louisville Palace Theatre",
+   "city": "Louisville",
+   "state": "KY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "louisville-palace-theatre-louisville-ky-usa"
+  },
+  {
+   "venue_id": 364,
+   "venuename": "Kemba Live! Outdoors",
+   "city": "Columbus",
+   "state": "OH",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "kemba-live-outdoors-columbus-oh-usa"
+  },
+  {
+   "venue_id": 365,
+   "venuename": "Stone Pony Summer Stage",
+   "city": "Asbury Park",
+   "state": "NJ",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "stone-pony-summer-stage-asbury-park-nj-usa"
+  },
+  {
+   "venue_id": 366,
+   "venuename": "Saratoga Performing Arts Center",
+   "city": "Saratoga Springs",
+   "state": "NY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "saratoga-performing-arts-center-saratoga-springs-ny-usa"
+  },
+  {
+   "venue_id": 367,
+   "venuename": "Levitate Music and Arts Festival",
+   "city": "Marshfield",
+   "state": "MA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "levitate-music-and-arts-festival-marshfield-ma-usa"
+  },
+  {
+   "venue_id": 369,
+   "venuename": "Masonic Temple",
+   "city": "Detroit",
+   "state": "MI",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "masonic-temple-detroit-mi-usa"
+  },
+  {
+   "venue_id": 370,
+   "venuename": "Miller High Life Theatre",
+   "city": "Milwaukee",
+   "state": "WI",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "miller-high-life-theatre-milwaukee-wi-usa"
+  },
+  {
+   "venue_id": 371,
+   "venuename": "Red Butte Garden Amphitheatre",
+   "city": "Salt Lake City",
+   "state": "UT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "red-butte-garden-amphitheatre-salt-lake-city-ut-usa"
+  },
+  {
+   "venue_id": 372,
+   "venuename": "Kettlehouse Amphitheater",
+   "city": "Bonner",
+   "state": "MT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "kettlehouse-amphitheater-bonner-mt-usa"
+  },
+  {
+   "venue_id": 373,
+   "venuename": "Spokane Pavilion",
+   "city": "Spokane",
+   "state": "WA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "spokane-pavilion-spokane-wa-usa"
+  },
+  {
+   "venue_id": 374,
+   "venuename": "Fox Theater",
+   "city": "Oakland",
+   "state": "CA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "fox-theater-oakland-ca-usa"
+  },
+  {
+   "venue_id": 375,
+   "venuename": "Santa Barbara Bowl",
+   "city": "Santa Barbara",
+   "state": "CA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "santa-barbara-bowl-santa-barbara-ca-usa"
+  },
+  {
+   "venue_id": 376,
+   "venuename": "Pepsi Amphitheater",
+   "city": "Flagstaff",
+   "state": "AZ",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "pepsi-amphitheater-flagstaff-az-usa"
+  },
+  {
+   "venue_id": 377,
+   "venuename": "Milkboy",
+   "city": "Philadelphia",
+   "state": "PA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "milkboy-philadelphia-pa-usa"
+  },
+  {
+   "venue_id": 378,
+   "venuename": "Relix",
+   "city": "New York",
+   "state": "NY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "relix-new-york-ny-usa"
+  },
+  {
+   "venue_id": 379,
+   "venuename": "Jam in the Van",
+   "city": "Los Angeles",
+   "state": "CA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "jam-in-the-van-los-angeles-ca-usa"
+  },
+  {
+   "venue_id": 380,
+   "venuename": "Thompson&#039;s Point",
+   "city": "Portland",
+   "state": "ME",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "thompson039s-point-portland-me-usa"
+  },
+  {
+   "venue_id": 381,
+   "venuename": "Marathon Village",
+   "city": "Nashville",
+   "state": "TN",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "marathon-village-nashville-tn-usa"
+  },
+  {
+   "venue_id": 382,
+   "venuename": "Tipitina&#039;s",
+   "city": "New Orleans",
+   "state": "LA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 800,
+   "slug": "tipitina039s-new-orleans-la-usa"
+  },
+  {
+   "venue_id": 383,
+   "venuename": "Meadow Pond Elementary School",
+   "city": "South Salem",
+   "state": "NY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "meadow-pond-elementary-school-south-salem-ny-usa"
+  },
+  {
+   "venue_id": 384,
+   "venuename": "Hi-Ho Lounge",
+   "city": "New Orleans",
+   "state": "LA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "hi-ho-lounge-new-orleans-la-usa"
+  },
+  {
+   "venue_id": 385,
+   "venuename": "Church of Boston",
+   "city": "Boston",
+   "state": "MA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "church-of-boston-boston-ma-usa"
+  },
+  {
+   "venue_id": 386,
+   "venuename": "Trabendo",
+   "city": "Paris",
+   "state": "",
+   "country": "France",
+   "zip": "",
+   "capacity": 700,
+   "slug": "trabendo-paris-france"
+  },
+  {
+   "venue_id": 387,
+   "venuename": "Luxor",
+   "city": "Cologne",
+   "state": "",
+   "country": "Germany",
+   "zip": "",
+   "capacity": 0,
+   "slug": "luxor-cologne-germany"
+  },
+  {
+   "venue_id": 388,
+   "venuename": "Melkweg",
+   "city": "Amsterdam",
+   "state": "",
+   "country": "Netherlands",
+   "zip": "",
+   "capacity": 0,
+   "slug": "melkweg-amsterdam-netherlands"
+  },
+  {
+   "venue_id": 389,
+   "venuename": "Hotel Cecil",
+   "city": "Copenhagen",
+   "state": "",
+   "country": "Denmark",
+   "zip": "",
+   "capacity": 0,
+   "slug": "hotel-cecil-copenhagen-denmark"
+  },
+  {
+   "venue_id": 390,
+   "venuename": "Gretchen",
+   "city": "Berlin",
+   "state": "",
+   "country": "Germany",
+   "zip": "",
+   "capacity": 0,
+   "slug": "gretchen-berlin-germany"
+  },
+  {
+   "venue_id": 391,
+   "venuename": "AB Club",
+   "city": "Brussels",
+   "state": "",
+   "country": "Belgium",
+   "zip": "",
+   "capacity": 0,
+   "slug": "ab-club-brussels-belgium"
+  },
+  {
+   "venue_id": 392,
+   "venuename": "BAaD",
+   "city": "Glasgow",
+   "state": "",
+   "country": "United Kingdom",
+   "zip": "",
+   "capacity": 0,
+   "slug": "baad-glasgow-united-kingdom"
+  },
+  {
+   "venue_id": 393,
+   "venuename": "Academy 2",
+   "city": "Manchester",
+   "state": "",
+   "country": "United Kingdom",
+   "zip": "",
+   "capacity": 0,
+   "slug": "academy-2-manchester-united-kingdom"
+  },
+  {
+   "venue_id": 394,
+   "venuename": "Thekla",
+   "city": "Bristol",
+   "state": "",
+   "country": "United Kingdom",
+   "zip": "",
+   "capacity": 0,
+   "slug": "thekla-bristol-united-kingdom"
+  },
+  {
+   "venue_id": 395,
+   "venuename": "Electric Ballroom",
+   "city": "London",
+   "state": "",
+   "country": "United Kingdom",
+   "zip": "",
+   "capacity": 0,
+   "slug": "electric-ballroom-london-united-kingdom"
+  },
+  {
+   "venue_id": 396,
+   "venuename": "Gerald R. Ford Amphitheater",
+   "city": "Vail",
+   "state": "CO",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "gerald-r-ford-amphitheater-vail-co-usa"
+  },
+  {
+   "venue_id": 397,
+   "venuename": "Chautauqua Auditorium",
+   "city": "Boulder",
+   "state": "CO",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "chautauqua-auditorium-boulder-co-usa"
+  },
+  {
+   "venue_id": 398,
+   "venuename": "The Sinclair",
+   "city": "Cambridge",
+   "state": "MA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-sinclair-cambridge-ma-usa"
+  },
+  {
+   "venue_id": 399,
+   "venuename": "Knox Farm State Park",
+   "city": "East Aurora",
+   "state": "NY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "knox-farm-state-park-east-aurora-ny-usa"
+  },
+  {
+   "venue_id": 400,
+   "venuename": "WCBE Studios",
+   "city": "Columbus",
+   "state": "OH",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "wcbe-studios-columbus-oh-usa"
+  },
+  {
+   "venue_id": 401,
+   "venuename": "Horseshoe Music Festival",
+   "city": "Jackson Hole",
+   "state": "WY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "horseshoe-music-festival-jackson-hole-wy-usa"
+  },
+  {
+   "venue_id": 402,
+   "venuename": "The Wiltern",
+   "city": "Los Angeles",
+   "state": "CA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-wiltern-los-angeles-ca-usa"
+  },
+  {
+   "venue_id": 403,
+   "venuename": "Leader Bank Pavilion",
+   "city": "Boston",
+   "state": "MA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "leader-bank-pavilion-boston-ma-usa"
+  },
+  {
+   "venue_id": 404,
+   "venuename": "Hampton Coliseum",
+   "city": "Hampton",
+   "state": "VA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "hampton-coliseum-hampton-va-usa"
+  },
+  {
+   "venue_id": 405,
+   "venuename": "VBC Mars Music Hall",
+   "city": "Huntsville",
+   "state": "AL",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "vbc-mars-music-hall-huntsville-al-usa"
+  },
+  {
+   "venue_id": 406,
+   "venuename": "The Mishawaka",
+   "city": "Bellvue",
+   "state": "CO",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-mishawaka-bellvue-co-usa"
+  },
+  {
+   "venue_id": 407,
+   "venuename": "The Signal",
+   "city": "Chattanooga",
+   "state": "TN",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-signal-chattanooga-tn-usa"
+  },
+  {
+   "venue_id": 408,
+   "venuename": "Robarts Arena",
+   "city": "Sarasota",
+   "state": "FL",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "robarts-arena-sarasota-fl-usa"
+  },
+  {
+   "venue_id": 409,
+   "venuename": "West Lawn at Lory Student Center",
+   "city": "Fort Collins",
+   "state": "CO",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "west-lawn-at-lory-student-center-fort-collins-co-usa"
+  },
+  {
+   "venue_id": 410,
+   "venuename": "RiverWonderGrass",
+   "city": "Green River",
+   "state": "UT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "riverwondergrass-green-river-ut-usa"
+  },
+  {
+   "venue_id": 411,
+   "venuename": "Cascade Equinox Festival",
+   "city": "Redmond",
+   "state": "OR",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "cascade-equinox-festival-redmond-or-usa"
+  },
+  {
+   "venue_id": 412,
+   "venuename": "Ohana Festival",
+   "city": "Dana Point",
+   "state": "CA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "ohana-festival-dana-point-ca-usa"
+  },
+  {
+   "venue_id": 413,
+   "venuename": "Hal &amp; Mal&#039;s",
+   "city": "Jackson",
+   "state": "MS",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "hal-amp-mal039s-jackson-ms-usa"
+  },
+  {
+   "venue_id": 414,
+   "venuename": "Brick Yard",
+   "city": "Mobile",
+   "state": "AL",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "brick-yard-mobile-al-usa"
+  },
+  {
+   "venue_id": 415,
+   "venuename": "Tuffy's Music Box",
+   "city": "Sanford",
+   "state": "AL",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "tuffys-music-box-sanford-al-usa"
+  },
+  {
+   "venue_id": 416,
+   "venuename": "Heartwood Soundstage",
+   "city": "Gainesville",
+   "state": "FL",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "heartwood-soundstage-gainesville-fl-usa"
+  },
+  {
+   "venue_id": 417,
+   "venuename": "Victory North Savannah",
+   "city": "Savannah",
+   "state": "GA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "victory-north-savannah-savannah-ga-usa"
+  },
+  {
+   "venue_id": 418,
+   "venuename": "From the Earth Brewing Company",
+   "city": "Roswell",
+   "state": "GA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "from-the-earth-brewing-company-roswell-ga-usa"
+  },
+  {
+   "venue_id": 419,
+   "venuename": "Capitol Theatre",
+   "city": "Macon",
+   "state": "GA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "capitol-theatre-macon-ga-usa"
+  },
+  {
+   "venue_id": 420,
+   "venuename": "Eastside Bowl",
+   "city": "Nashville",
+   "state": "TN",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "eastside-bowl-nashville-tn-usa"
+  },
+  {
+   "venue_id": 421,
+   "venuename": "Jefferson Theater",
+   "city": "Charlottesville",
+   "state": "VA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "jefferson-theater-charlottesville-va-usa"
+  },
+  {
+   "venue_id": 422,
+   "venuename": "Paul Kares: The Room at Cedar Grove",
+   "city": "Lewes",
+   "state": "DE",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "paul-kares-the-room-at-cedar-grove-lewes-de-usa"
+  },
+  {
+   "venue_id": 423,
+   "venuename": "Broad Brook Opera House",
+   "city": "East Windsor",
+   "state": "CT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "broad-brook-opera-house-east-windsor-ct-usa"
+  },
+  {
+   "venue_id": 424,
+   "venuename": "Sellersville Theater",
+   "city": "Sellersville",
+   "state": "PA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "sellersville-theater-sellersville-pa-usa"
+  },
+  {
+   "venue_id": 425,
+   "venuename": "Gramercy Theatre",
+   "city": "New York",
+   "state": "NY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "gramercy-theatre-new-york-ny-usa"
+  },
+  {
+   "venue_id": 426,
+   "venuename": "Waterhole Music Lounge",
+   "city": "Saranac Lake",
+   "state": "NY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "waterhole-music-lounge-saranac-lake-ny-usa"
+  },
+  {
+   "venue_id": 427,
+   "venuename": "Rolling Stone Beach",
+   "city": "Wendel",
+   "state": "",
+   "country": "Germany",
+   "zip": "",
+   "capacity": 0,
+   "slug": "rolling-stone-beach-wendel-germany"
+  },
+  {
+   "venue_id": 428,
+   "venuename": "Beacon Theatre",
+   "city": "New York",
+   "state": "NY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "beacon-theatre-new-york-ny-usa"
+  },
+  {
+   "venue_id": 429,
+   "venuename": "The Caverns",
+   "city": "Pelham",
+   "state": "TN",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-caverns-pelham-tn-usa"
+  },
+  {
+   "venue_id": 430,
+   "venuename": "The Caverns",
+   "city": "",
+   "state": "",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-caverns-usa"
+  },
+  {
+   "venue_id": 431,
+   "venuename": "Asheville Music Hall",
+   "city": "Asheville",
+   "state": "NC",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "asheville-music-hall-asheville-nc-usa"
+  },
+  {
+   "venue_id": 432,
+   "venuename": "Lincoln Theatre",
+   "city": "NC",
+   "state": "",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "lincoln-theatre-nc-usa"
+  },
+  {
+   "venue_id": 433,
+   "venuename": "The Foundry",
+   "city": "Philadelphia",
+   "state": "PA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-foundry-philadelphia-pa-usa"
+  },
+  {
+   "venue_id": 434,
+   "venuename": "Brighton Music Hall",
+   "city": "Boston",
+   "state": "MA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "brighton-music-hall-boston-ma-usa"
+  },
+  {
+   "venue_id": 435,
+   "venuename": "Boswell’s",
+   "city": "Cincinnati",
+   "state": "OH",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "boswells-cincinnati-oh-usa"
+  },
+  {
+   "venue_id": 436,
+   "venuename": "Ogden Theatre",
+   "city": "Denver",
+   "state": "CO",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "ogden-theatre-denver-co-usa"
+  },
+  {
+   "venue_id": 437,
+   "venuename": "Ridgefield Playhouse",
+   "city": "Ridgefield",
+   "state": "CT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "ridgefield-playhouse-ridgefield-ct-usa"
+  },
+  {
+   "venue_id": 438,
+   "venuename": "The Bell House",
+   "city": "Brooklyn",
+   "state": "NY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-bell-house-brooklyn-ny-usa"
+  },
+  {
+   "venue_id": 439,
+   "venuename": "The Virginian Lodge",
+   "city": "Jackson",
+   "state": "WY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-virginian-lodge-jackson-wy-usa"
+  },
+  {
+   "venue_id": 440,
+   "venuename": "The Factory",
+   "city": "Chesterfield",
+   "state": "MO",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-factory-chesterfield-mo-usa"
+  },
+  {
+   "venue_id": 441,
+   "venuename": "Fiddler&#039;s Green Amphitheatre",
+   "city": "Greenwood Village",
+   "state": "CO",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "fiddler039s-green-amphitheatre-greenwood-village-co-usa"
+  },
+  {
+   "venue_id": 442,
+   "venuename": "Steelhouse",
+   "city": "Omaha",
+   "state": "NE",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "steelhouse-omaha-ne-usa"
+  },
+  {
+   "venue_id": 443,
+   "venuename": "Everwise Amphitheater at White River State Park",
+   "city": "Indianapolis",
+   "state": "IN",
+   "country": "USA",
+   "zip": "46204",
+   "capacity": 6,
+   "slug": "everwise-amphitheater-at-white-river-state-park-indianapolis-in-usa"
+  },
+  {
+   "venue_id": 444,
+   "venuename": "Constellation Brands-Marvin Sands Performing Arts Center",
+   "city": "Canandaigua",
+   "state": "NY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "constellation-brands-marvin-sands-performing-arts-center-canandaigua-ny-usa"
+  },
+  {
+   "venue_id": 445,
+   "venuename": "Jacobs Pavilion at Nautica",
+   "city": "Cleveland",
+   "state": "OH",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "jacobs-pavilion-at-nautica-cleveland-oh-usa"
+  },
+  {
+   "venue_id": 446,
+   "venuename": "Fox Theatre",
+   "city": "Atlanta",
+   "state": "GA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "fox-theatre-atlanta-ga-usa"
+  },
+  {
+   "venue_id": 447,
+   "venuename": "Skyla Credit Union Amphitheatre",
+   "city": "Charlotte",
+   "state": "NC",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "skyla-credit-union-amphitheatre-charlotte-nc-usa"
+  },
+  {
+   "venue_id": 448,
+   "venuename": "Mann Center for the Performing Arts",
+   "city": "Philadelphia",
+   "state": "PA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "mann-center-for-the-performing-arts-philadelphia-pa-usa"
+  },
+  {
+   "venue_id": 449,
+   "venuename": "Forest Hills Stadium",
+   "city": "Queens",
+   "state": "NY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "forest-hills-stadium-queens-ny-usa"
+  },
+  {
+   "venue_id": 451,
+   "venuename": "The Midland Theatre",
+   "city": "Kansas City",
+   "state": "MO",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-midland-theatre-kansas-city-mo-usa"
+  },
+  {
+   "venue_id": 452,
+   "venuename": "Drive-In Live",
+   "city": "Swanzey",
+   "state": "NH",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "drive-in-live-swanzey-nh-usa"
+  },
+  {
+   "venue_id": 453,
+   "venuename": "Georgetown Saloon",
+   "city": "Redding",
+   "state": "CT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "georgetown-saloon-redding-ct-usa"
+  },
+  {
+   "venue_id": 454,
+   "venuename": "Heirloom Arts Theater",
+   "city": "Danbury",
+   "state": "CT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "heirloom-arts-theater-danbury-ct-usa"
+  },
+  {
+   "venue_id": 455,
+   "venuename": "Nick&#039;s Basement",
+   "city": "Somewhere",
+   "state": "CT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "nick039s-basement-somewhere-ct-usa"
+  },
+  {
+   "venue_id": 456,
+   "venuename": "Two Boots",
+   "city": "Bridgeport",
+   "state": "CT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "two-boots-bridgeport-ct-usa"
+  },
+  {
+   "venue_id": 457,
+   "venuename": "Higher Ground Drive-In at the Essex Junction Exposition Center",
+   "city": "Essex Junction",
+   "state": "VT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "higher-ground-drive-in-at-the-essex-junction-exposition-center-essex-junction-vt-usa"
+  },
+  {
+   "venue_id": 458,
+   "venuename": "Champlain Valley Exposition",
+   "city": "Essex Junction",
+   "state": "VT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "champlain-valley-exposition-essex-junction-vt-usa"
+  },
+  {
+   "venue_id": 459,
+   "venuename": "Quixote&#039;s",
+   "city": "Denver",
+   "state": "CO",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "quixote039s-denver-co-usa"
+  },
+  {
+   "venue_id": 460,
+   "venuename": "Marathon Music Works",
+   "city": "Nashville",
+   "state": "TN",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "marathon-music-works-nashville-tn-usa"
+  },
+  {
+   "venue_id": 461,
+   "venuename": "Tabernacle",
+   "city": "Atlanta",
+   "state": "GA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "tabernacle-atlanta-ga-usa"
+  },
+  {
+   "venue_id": 462,
+   "venuename": "PNC Bank Arts Center",
+   "city": "Holmdel",
+   "state": "NJ",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "pnc-bank-arts-center-holmdel-nj-usa"
+  },
+  {
+   "venue_id": 463,
+   "venuename": "Ting Pavilion",
+   "city": "Charlottesville",
+   "state": "VA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "ting-pavilion-charlottesville-va-usa"
+  },
+  {
+   "venue_id": 464,
+   "venuename": "The Armory",
+   "city": "Minneapolis",
+   "state": "MN",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-armory-minneapolis-mn-usa"
+  },
+  {
+   "venue_id": 465,
+   "venuename": "Vibrant Music Hall",
+   "city": "Waukee",
+   "state": "IA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "vibrant-music-hall-waukee-ia-usa"
+  },
+  {
+   "venue_id": 466,
+   "venuename": "The Plaza at America First Field",
+   "city": "Sandy",
+   "state": "UT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-plaza-at-america-first-field-sandy-ut-usa"
+  },
+  {
+   "venue_id": 467,
+   "venuename": "Remlinger Farms",
+   "city": "Carnation",
+   "state": "WA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "remlinger-farms-carnation-wa-usa"
+  },
+  {
+   "venue_id": 468,
+   "venuename": "Edgefield Concerts on the Lawn",
+   "city": "Troutdale",
+   "state": "OR",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "edgefield-concerts-on-the-lawn-troutdale-or-usa"
+  },
+  {
+   "venue_id": 469,
+   "venuename": "Cuthbert Amphitheater",
+   "city": "Eugene",
+   "state": "OR",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "cuthbert-amphitheater-eugene-or-usa"
+  },
+  {
+   "venue_id": 470,
+   "venuename": "Frost Amphitheater",
+   "city": "Stanford",
+   "state": "CA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "frost-amphitheater-stanford-ca-usa"
+  },
+  {
+   "venue_id": 471,
+   "venuename": "Jones Jam",
+   "city": "Wilton",
+   "state": "CT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "jones-jam-wilton-ct-usa"
+  },
+  {
+   "venue_id": 472,
+   "venuename": "Clune Auditorium at Wilton High School",
+   "city": "Wilton",
+   "state": "CT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "clune-auditorium-at-wilton-high-school-wilton-ct-usa"
+  },
+  {
+   "venue_id": 473,
+   "venuename": "Tribus Beer Co.",
+   "city": "Milford",
+   "state": "CT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "tribus-beer-co-milford-ct-usa"
+  },
+  {
+   "venue_id": 474,
+   "venuename": "Dawn Ranch",
+   "city": "Guerneville",
+   "state": "CA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "dawn-ranch-guerneville-ca-usa"
+  },
+  {
+   "venue_id": 475,
+   "venuename": "Chi Psi Yard Sale",
+   "city": "Lexington",
+   "state": "VA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "chi-psi-yard-sale-lexington-va-usa"
+  },
+  {
+   "venue_id": 476,
+   "venuename": "Regions Tower",
+   "city": "Indianapolis",
+   "state": "IN",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "regions-tower-indianapolis-in-usa"
+  },
+  {
+   "venue_id": 478,
+   "venuename": "Memphis Botanical Gardens",
+   "city": "Memphis",
+   "state": "TN",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "memphis-botanical-gardens-memphis-tn-usa"
+  },
+  {
+   "venue_id": 479,
+   "venuename": "Zenbarn",
+   "city": "Waterbury Center",
+   "state": "VT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "zenbarn-waterbury-center-vt-usa"
+  },
+  {
+   "venue_id": 480,
+   "venuename": "MGM Music Hall at Fenway",
+   "city": "Boston",
+   "state": "MA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "mgm-music-hall-at-fenway-boston-ma-usa"
+  },
+  {
+   "venue_id": 481,
+   "venuename": "Ascend Amphitheater",
+   "city": "Nashville",
+   "state": "TN",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "ascend-amphitheater-nashville-tn-usa"
+  },
+  {
+   "venue_id": 482,
+   "venuename": "ExploreAsheville.com Arena",
+   "city": "Asheville",
+   "state": "NC",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "exploreashevillecom-arena-asheville-nc-usa"
+  },
+  {
+   "venue_id": 483,
+   "venuename": "The Fillmore Miami Beach",
+   "city": "Miami",
+   "state": "FL",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-fillmore-miami-beach-miami-fl-usa"
+  },
+  {
+   "venue_id": 484,
+   "venuename": "The St. Pete Pier",
+   "city": "St. Petersburg",
+   "state": "FL",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-st-pete-pier-st-petersburg-fl-usa"
+  },
+  {
+   "venue_id": 485,
+   "venuename": "The St. Augustine Amphitheatre",
+   "city": "St. Augustine",
+   "state": "FL",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-st-augustine-amphitheatre-st-augustine-fl-usa"
+  },
+  {
+   "venue_id": 486,
+   "venuename": "Petersen Events Center",
+   "city": "Pittsburgh",
+   "state": "PA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "petersen-events-center-pittsburgh-pa-usa"
+  },
+  {
+   "venue_id": 487,
+   "venuename": "The Anthem",
+   "city": "Washington",
+   "state": "DC",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-anthem-washington-dc-usa"
+  },
+  {
+   "venue_id": 488,
+   "venuename": "North Charleston Coliseum &amp; Performing Arts Center",
+   "city": "North Charleston",
+   "state": "SC",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "north-charleston-coliseum-amp-performing-arts-center-north-charleston-sc-usa"
+  },
+  {
+   "venue_id": 489,
+   "venuename": "Warehouse on Watts",
+   "city": "Philadelphia",
+   "state": "PA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "warehouse-on-watts-philadelphia-pa-usa"
+  },
+  {
+   "venue_id": 490,
+   "venuename": "Portland House of Music",
+   "city": "Portland",
+   "state": "ME",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "portland-house-of-music-portland-me-usa"
+  },
+  {
+   "venue_id": 491,
+   "venuename": "Hurlburt Town Park",
+   "city": "Roxbury",
+   "state": "CT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "hurlburt-town-park-roxbury-ct-usa"
+  },
+  {
+   "venue_id": 492,
+   "venuename": "Levon Helm Studios",
+   "city": "Woodstock",
+   "state": "NY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "levon-helm-studios-woodstock-ny-usa"
+  },
+  {
+   "venue_id": 493,
+   "venuename": "Moody Center",
+   "city": "Austin",
+   "state": "TX",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "moody-center-austin-tx-usa"
+  },
+  {
+   "venue_id": 494,
+   "venuename": "Bolton Valley Resort",
+   "city": "Bolton",
+   "state": "VT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "bolton-valley-resort-bolton-vt-usa"
+  },
+  {
+   "venue_id": 495,
+   "venuename": "TB House",
+   "city": "Saratoga Springs",
+   "state": "NY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "tb-house-saratoga-springs-ny-usa"
+  },
+  {
+   "venue_id": 496,
+   "venuename": "The Woodlands",
+   "city": "Dover",
+   "state": "DE",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-woodlands-dover-de-usa"
+  },
+  {
+   "venue_id": 497,
+   "venuename": "The Beach House Resort",
+   "city": "Hilton Head",
+   "state": "SC",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-beach-house-resort-hilton-head-sc-usa"
+  },
+  {
+   "venue_id": 498,
+   "venuename": "The Point",
+   "city": "Chicago",
+   "state": "IL",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-point-chicago-il-usa"
+  },
+  {
+   "venue_id": 499,
+   "venuename": "The Red Door",
+   "city": "Watertown",
+   "state": "CT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-red-door-watertown-ct-usa"
+  },
+  {
+   "venue_id": 500,
+   "venuename": "Strawberry Hill Farm",
+   "city": "Stowe",
+   "state": "VT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "strawberry-hill-farm-stowe-vt-usa"
+  },
+  {
+   "venue_id": 501,
+   "venuename": "The Great Saltair",
+   "city": "Magna",
+   "state": "UT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-great-saltair-magna-ut-usa"
+  },
+  {
+   "venue_id": 502,
+   "venuename": "El Ganzo Oasis",
+   "city": "San Jose Del Cabo",
+   "state": "",
+   "country": "Mexico",
+   "zip": "",
+   "capacity": 0,
+   "slug": "el-ganzo-oasis-san-jose-del-cabo-mexico"
+  },
+  {
+   "venue_id": 503,
+   "venuename": "Lawrence Joel Veterans Memorial Coliseum",
+   "city": "Winston-Salem",
+   "state": "NC",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "lawrence-joel-veterans-memorial-coliseum-winston-salem-nc-usa"
+  },
+  {
+   "venue_id": 504,
+   "venuename": "Slow Play Brewing",
+   "city": "Rock Hill",
+   "state": "SC",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "slow-play-brewing-rock-hill-sc-usa"
+  },
+  {
+   "venue_id": 505,
+   "venuename": "Sweet Liberty",
+   "city": "Miami Beach",
+   "state": "FL",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "sweet-liberty-miami-beach-fl-usa"
+  },
+  {
+   "venue_id": 506,
+   "venuename": "Madison Square Garden",
+   "city": "New York",
+   "state": "NY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "madison-square-garden-new-york-ny-usa"
+  },
+  {
+   "venue_id": 507,
+   "venuename": "The Revelry",
+   "city": "Charlotte",
+   "state": "NC",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-revelry-charlotte-nc-usa"
+  },
+  {
+   "venue_id": 508,
+   "venuename": "HISTORY",
+   "city": "Toronto",
+   "state": "ON",
+   "country": "Canada",
+   "zip": "",
+   "capacity": 0,
+   "slug": "history-toronto-on-canada"
+  },
+  {
+   "venue_id": 509,
+   "venuename": "GLC Live at 20 Monroe",
+   "city": "Grand Rapids",
+   "state": "MI",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "glc-live-at-20-monroe-grand-rapids-mi-usa"
+  },
+  {
+   "venue_id": 510,
+   "venuename": "John F. Kennedy Center for the Performing Arts",
+   "city": "Washington",
+   "state": "DC",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "john-f-kennedy-center-for-the-performing-arts-washington-dc-usa"
+  },
+  {
+   "venue_id": 511,
+   "venuename": "Essex",
+   "city": "Rochester",
+   "state": "NY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "essex-rochester-ny-usa"
+  },
+  {
+   "venue_id": 512,
+   "venuename": "Merriweather Post Pavilion",
+   "city": "Columbia",
+   "state": "MD",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "merriweather-post-pavilion-columbia-md-usa"
+  },
+  {
+   "venue_id": 513,
+   "venuename": "Napa Valley Expo",
+   "city": "Napa",
+   "state": "CA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "napa-valley-expo-napa-ca-usa"
+  },
+  {
+   "venue_id": 514,
+   "venuename": "Cervantes Masterpiece Ballroom",
+   "city": "Denver",
+   "state": "CO",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "cervantes-masterpiece-ballroom-denver-co-usa"
+  },
+  {
+   "venue_id": 515,
+   "venuename": "Fair Grounds Race Course",
+   "city": "New Orleans",
+   "state": "LA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "fair-grounds-race-course-new-orleans-la-usa"
+  },
+  {
+   "venue_id": 516,
+   "venuename": "Los Angeles Convention Center",
+   "city": "Los Angeles",
+   "state": "CA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "los-angeles-convention-center-los-angeles-ca-usa"
+  },
+  {
+   "venue_id": 517,
+   "venuename": "Belleayre Mountain",
+   "city": "Highmount",
+   "state": "NY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "belleayre-mountain-highmount-ny-usa"
+  },
+  {
+   "venue_id": 518,
+   "venuename": "Hayden Homes Amphitheater",
+   "city": "Bend",
+   "state": "OR",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "hayden-homes-amphitheater-bend-or-usa"
+  },
+  {
+   "venue_id": 519,
+   "venuename": "Idaho Botanical Garden: Outlaw Field",
+   "city": "Boise",
+   "state": "ID",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "idaho-botanical-garden-outlaw-field-boise-id-usa"
+  },
+  {
+   "venue_id": 520,
+   "venuename": "Arizona Financial Theatre",
+   "city": "Phoenix",
+   "state": "AZ",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "arizona-financial-theatre-phoenix-az-usa"
+  },
+  {
+   "venue_id": 521,
+   "venuename": "Live Oak Bank Pavilion",
+   "city": "Wilmington",
+   "state": "NC",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "live-oak-bank-pavilion-wilmington-nc-usa"
+  },
+  {
+   "venue_id": 522,
+   "venuename": "Bank of New Hampshire Pavilion",
+   "city": "Gilford",
+   "state": "NH",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "bank-of-new-hampshire-pavilion-gilford-nh-usa"
+  },
+  {
+   "venue_id": 523,
+   "venuename": "The Cutting Room",
+   "city": "New York",
+   "state": "NY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-cutting-room-new-york-ny-usa"
+  },
+  {
+   "venue_id": 524,
+   "venuename": "Kohl Center",
+   "city": "Madison",
+   "state": "WI",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "kohl-center-madison-wi-usa"
+  },
+  {
+   "venue_id": 525,
+   "venuename": "Harvest Music Festival",
+   "city": "Fredericton",
+   "state": "NB",
+   "country": "Canada",
+   "zip": "",
+   "capacity": 0,
+   "slug": "harvest-music-festival-fredericton-nb-canada"
+  },
+  {
+   "venue_id": 526,
+   "venuename": "The Masonic",
+   "city": "San Francisco",
+   "state": "CA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-masonic-san-francisco-ca-usa"
+  },
+  {
+   "venue_id": 527,
+   "venuename": "Gate House Lodge",
+   "city": "Warren",
+   "state": "VT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "gate-house-lodge-warren-vt-usa"
+  },
+  {
+   "venue_id": 528,
+   "venuename": "The Shed",
+   "city": "New York",
+   "state": "NY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-shed-new-york-ny-usa"
+  },
+  {
+   "venue_id": 529,
+   "venuename": "The Gorge Amphitheatre",
+   "city": "Quincy",
+   "state": "WA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-gorge-amphitheatre-quincy-wa-usa"
+  },
+  {
+   "venue_id": 530,
+   "venuename": "Millstone Farm",
+   "city": "Wilton",
+   "state": "CT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "millstone-farm-wilton-ct-usa"
+  },
+  {
+   "venue_id": 531,
+   "venuename": "Gumpas Pond",
+   "city": "Pelham",
+   "state": "NH",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "gumpas-pond-pelham-nh-usa"
+  },
+  {
+   "venue_id": 532,
+   "venuename": "The Town Hall",
+   "city": "Fairlee",
+   "state": "VT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-town-hall-fairlee-vt-usa"
+  },
+  {
+   "venue_id": 533,
+   "venuename": "Java Barn",
+   "city": "Canton",
+   "state": "NY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "java-barn-canton-ny-usa"
+  },
+  {
+   "venue_id": 534,
+   "venuename": "Theatre of Living Arts",
+   "city": "Philadelphia",
+   "state": "PA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "theatre-of-living-arts-philadelphia-pa-usa"
+  },
+  {
+   "venue_id": 535,
+   "venuename": "The Stone Pony",
+   "city": "Asbury Park",
+   "state": "NJ",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-stone-pony-asbury-park-nj-usa"
+  },
+  {
+   "venue_id": 536,
+   "venuename": "Two Roads Brewing",
+   "city": "Stratford",
+   "state": "CT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "two-roads-brewing-stratford-ct-usa"
+  },
+  {
+   "venue_id": 537,
+   "venuename": "Louisville Waterfront Park",
+   "city": "Louisville",
+   "state": "KY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "louisville-waterfront-park-louisville-ky-usa"
+  },
+  {
+   "venue_id": 538,
+   "venuename": "Vinyl Street Co.",
+   "city": "Fairfield",
+   "state": "CT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "vinyl-street-co-fairfield-ct-usa"
+  },
+  {
+   "venue_id": 539,
+   "venuename": "Showdown on the Sound",
+   "city": "Darien",
+   "state": "CT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "showdown-on-the-sound-darien-ct-usa"
+  },
+  {
+   "venue_id": 540,
+   "venuename": "BSP Kingston",
+   "city": "Kingston",
+   "state": "NY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "bsp-kingston-kingston-ny-usa"
+  },
+  {
+   "venue_id": 541,
+   "venuename": "Crossbones Tavern",
+   "city": "Greenville",
+   "state": "NC",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "crossbones-tavern-greenville-nc-usa"
+  },
+  {
+   "venue_id": 542,
+   "venuename": "Bella Luna Restaurant and Milky Way Lounge",
+   "city": "Jamaica Plain",
+   "state": "MA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "bella-luna-restaurant-and-milky-way-lounge-jamaica-plain-ma-usa"
+  },
+  {
+   "venue_id": 543,
+   "venuename": "The Iron Horse",
+   "city": "Northampton",
+   "state": "MA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-iron-horse-northampton-ma-usa"
+  },
+  {
+   "venue_id": 544,
+   "venuename": "10 Mile Music Hall",
+   "city": "Frisco",
+   "state": "CO",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "10-mile-music-hall-frisco-co-usa"
+  },
+  {
+   "venue_id": 545,
+   "venuename": "Agave",
+   "city": "Avon",
+   "state": "CO",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "agave-avon-co-usa"
+  },
+  {
+   "venue_id": 546,
+   "venuename": "Park City Song Summit",
+   "city": "Park City",
+   "state": "UT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "park-city-song-summit-park-city-ut-usa"
+  },
+  {
+   "venue_id": 547,
+   "venuename": "Croton Point Park",
+   "city": "Croton-On-Hudson",
+   "state": "NY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "croton-point-park-croton-on-hudson-ny-usa"
+  },
+  {
+   "venue_id": 548,
+   "venuename": "Reckless Shepherd Brewing Co.",
+   "city": "Columbia",
+   "state": "MD",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "reckless-shepherd-brewing-co-columbia-md-usa"
+  },
+  {
+   "venue_id": 549,
+   "venuename": "Preservation Hall",
+   "city": "New Orleans",
+   "state": "LA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "preservation-hall-new-orleans-la-usa"
+  },
+  {
+   "venue_id": 550,
+   "venuename": "Hancher Green",
+   "city": "Iowa City",
+   "state": "IA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "hancher-green-iowa-city-ia-usa"
+  },
+  {
+   "venue_id": 551,
+   "venuename": "Michigan Lottery Amphitheatre at Freedom Hill",
+   "city": "Sterling Heights",
+   "state": "MI",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "michigan-lottery-amphitheatre-at-freedom-hill-sterling-heights-mi-usa"
+  },
+  {
+   "venue_id": 552,
+   "venuename": "Huntingon Bank Pavilion at Northerly Island",
+   "city": "Chicago",
+   "state": "IL",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "huntingon-bank-pavilion-at-northerly-island-chicago-il-usa"
+  },
+  {
+   "venue_id": 553,
+   "venuename": "Ameris Bank Amphitheatre",
+   "city": "Alpharetta",
+   "state": "GA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "ameris-bank-amphitheatre-alpharetta-ga-usa"
+  },
+  {
+   "venue_id": 554,
+   "venuename": "PNC Music Pavilion",
+   "city": "Charlotte",
+   "state": "NC",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "pnc-music-pavilion-charlotte-nc-usa"
+  },
+  {
+   "venue_id": 555,
+   "venuename": "RISE Festival",
+   "city": "Jean",
+   "state": "NV",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "rise-festival-jean-nv-usa"
+  },
+  {
+   "venue_id": 556,
+   "venuename": "Fete Lounge",
+   "city": "Providence",
+   "state": "RI",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "fete-lounge-providence-ri-usa"
+  },
+  {
+   "venue_id": 557,
+   "venuename": "Putnam Place",
+   "city": "Saratoga Springs",
+   "state": "NY",
+   "country": "USA",
+   "zip": "12866",
+   "capacity": 0,
+   "slug": "putnam-place-saratoga-springs-ny-usa"
+  },
+  {
+   "venue_id": 558,
+   "venuename": "Oxbow Blending &amp; Bottling",
+   "city": "Portland",
+   "state": "ME",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "oxbow-blending-amp-bottling-portland-me-usa"
+  },
+  {
+   "venue_id": 559,
+   "venuename": "Racket",
+   "city": "New York",
+   "state": "NY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "racket-new-york-ny-usa"
+  },
+  {
+   "venue_id": 560,
+   "venuename": "Waterfront Park",
+   "city": "Burlington",
+   "state": "VT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "waterfront-park-burlington-vt-usa"
+  },
+  {
+   "venue_id": 561,
+   "venuename": "Allianz Amphitheater at Riverfront",
+   "city": "Richmond",
+   "state": "VA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "allianz-amphitheater-at-riverfront-richmond-va-usa"
+  },
+  {
+   "venue_id": 562,
+   "venuename": "Amica Mutual Pavilion",
+   "city": "Providence",
+   "state": "RI",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "amica-mutual-pavilion-providence-ri-usa"
+  },
+  {
+   "venue_id": 563,
+   "venuename": "Brewster River Campground",
+   "city": "Cambridge",
+   "state": "VT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "brewster-river-campground-cambridge-vt-usa"
+  },
+  {
+   "venue_id": 564,
+   "venuename": "Pier 48",
+   "city": "San Francisco",
+   "state": "CA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "pier-48-san-francisco-ca-usa"
+  },
+  {
+   "venue_id": 565,
+   "venuename": "World Cafe Live",
+   "city": "Philadelphia",
+   "state": "PA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "world-cafe-live-philadelphia-pa-usa"
+  },
+  {
+   "venue_id": 566,
+   "venuename": "The Marquis",
+   "city": "Park City",
+   "state": "UT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-marquis-park-city-ut-usa"
+  },
+  {
+   "venue_id": 569,
+   "venuename": "Foam Brewers",
+   "city": "Burlington",
+   "state": "VT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "foam-brewers-burlington-vt-usa"
+  },
+  {
+   "venue_id": 570,
+   "venuename": "Einstein&#039;s Tap House",
+   "city": "Burlington",
+   "state": "VT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "einstein039s-tap-house-burlington-vt-usa"
+  },
+  {
+   "venue_id": 571,
+   "venuename": "Valley Craft Ales",
+   "city": "Wilmington",
+   "state": "VT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "valley-craft-ales-wilmington-vt-usa"
+  },
+  {
+   "venue_id": 572,
+   "venuename": "Stowe Cider",
+   "city": "Stowe",
+   "state": "VT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "stowe-cider-stowe-vt-usa"
+  },
+  {
+   "venue_id": 573,
+   "venuename": "Tank Recording Studio",
+   "city": "Burlington",
+   "state": "VT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "tank-recording-studio-burlington-vt-usa"
+  },
+  {
+   "venue_id": 574,
+   "venuename": "Lanier Island",
+   "city": "Buford",
+   "state": "GA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "lanier-island-buford-ga-usa"
+  },
+  {
+   "venue_id": 575,
+   "venuename": "Coca-Cola Amphitheater",
+   "city": "Birmingham",
+   "state": "AL",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "coca-cola-amphitheater-birmingham-al-usa"
+  },
+  {
+   "venue_id": 576,
+   "venuename": "Central Florida Fairgrounds",
+   "city": "Orlando",
+   "state": "FL",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "central-florida-fairgrounds-orlando-fl-usa"
+  },
+  {
+   "venue_id": 577,
+   "venuename": "War Memorial Auditorium",
+   "city": "Fort Lauderdale",
+   "state": "FL",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "war-memorial-auditorium-fort-lauderdale-fl-usa"
+  },
+  {
+   "venue_id": 578,
+   "venuename": "The BayCare Sound",
+   "city": "Clearwater",
+   "state": "FL",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-baycare-sound-clearwater-fl-usa"
+  },
+  {
+   "venue_id": 579,
+   "venuename": "Saenger Theatre",
+   "city": "New Orleans",
+   "state": "LA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "saenger-theatre-new-orleans-la-usa"
+  },
+  {
+   "venue_id": 580,
+   "venuename": "Bayou Music Center",
+   "city": "Houston",
+   "state": "TX",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "bayou-music-center-houston-tx-usa"
+  },
+  {
+   "venue_id": 581,
+   "venuename": "The Pavilion at Toyota Music Factory",
+   "city": "Irving",
+   "state": "TX",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-pavilion-at-toyota-music-factory-irving-tx-usa"
+  },
+  {
+   "venue_id": 582,
+   "venuename": "Afterthoughts",
+   "city": "Burlington",
+   "state": "VT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "afterthoughts-burlington-vt-usa"
+  },
+  {
+   "venue_id": 583,
+   "venuename": "Jam in the Streets",
+   "city": "Athens",
+   "state": "GA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "jam-in-the-streets-athens-ga-usa"
+  },
+  {
+   "venue_id": 584,
+   "venuename": "Grand Ballroom at Manhattan Center",
+   "city": "New York",
+   "state": "NY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "grand-ballroom-at-manhattan-center-new-york-ny-usa"
+  },
+  {
+   "venue_id": 585,
+   "venuename": "Electric Brixton",
+   "city": "London",
+   "state": "",
+   "country": "UK",
+   "zip": "",
+   "capacity": 0,
+   "slug": "electric-brixton-london-uk"
+  },
+  {
+   "venue_id": 586,
+   "venuename": "La Madeleine",
+   "city": "Brussels",
+   "state": "",
+   "country": "Belgium",
+   "zip": "",
+   "capacity": 0,
+   "slug": "la-madeleine-brussels-belgium"
+  },
+  {
+   "venue_id": 587,
+   "venuename": "Melkweg Oude Zaal",
+   "city": "Amsterdam",
+   "state": "",
+   "country": "Netherlands",
+   "zip": "",
+   "capacity": 0,
+   "slug": "melkweg-oude-zaal-amsterdam-netherlands"
+  },
+  {
+   "venue_id": 588,
+   "venuename": "Bürgerhaus Stollwerck",
+   "city": "Cologne",
+   "state": "",
+   "country": "Germany",
+   "zip": "",
+   "capacity": 0,
+   "slug": "brgerhaus-stollwerck-cologne-germany"
+  },
+  {
+   "venue_id": 589,
+   "venuename": "Elysée-Montmartre",
+   "city": "Paris",
+   "state": "",
+   "country": "France",
+   "zip": "",
+   "capacity": 0,
+   "slug": "elysee-montmartre-paris-france"
+  },
+  {
+   "venue_id": 590,
+   "venuename": "Festsaal Kreuzberg",
+   "city": "Berlin",
+   "state": "",
+   "country": "Germany",
+   "zip": "",
+   "capacity": 0,
+   "slug": "festsaal-kreuzberg-berlin-germany"
+  },
+  {
+   "venue_id": 591,
+   "venuename": "Northside Festival",
+   "city": "Viby",
+   "state": "",
+   "country": "Denmark",
+   "zip": "",
+   "capacity": 0,
+   "slug": "northside-festival-viby-denmark"
+  },
+  {
+   "venue_id": 592,
+   "venuename": "Ardmore Music Hall",
+   "city": "Ardmore",
+   "state": "PA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "ardmore-music-hall-ardmore-pa-usa"
+  },
+  {
+   "venue_id": 593,
+   "venuename": "Lawson&#039;s Finest Liquids Taproom",
+   "city": "Waitsfield",
+   "state": "VT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "lawson039s-finest-liquids-taproom-waitsfield-vt-usa"
+  },
+  {
+   "venue_id": 594,
+   "venuename": "Snow Barn",
+   "city": "West Dover",
+   "state": "VT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "snow-barn-west-dover-vt-usa"
+  },
+  {
+   "venue_id": 595,
+   "venuename": "RBC Amphitheatre",
+   "city": "Toronto",
+   "state": "ON",
+   "country": "Canada",
+   "zip": "",
+   "capacity": 0,
+   "slug": "rbc-amphitheatre-toronto-on-canada"
+  },
+  {
+   "venue_id": 596,
+   "venuename": "The Dome",
+   "city": "Virginia Beach",
+   "state": "VA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-dome-virginia-beach-va-usa"
+  },
+  {
+   "venue_id": 597,
+   "venuename": "The Grand Theatre at Grand Sierra Resort",
+   "city": "Reno",
+   "state": "NV",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-grand-theatre-at-grand-sierra-resort-reno-nv-usa"
+  },
+  {
+   "venue_id": 598,
+   "venuename": "Commodore Ballroom",
+   "city": "Vancouver",
+   "state": "BC",
+   "country": "Canada",
+   "zip": "",
+   "capacity": 0,
+   "slug": "commodore-ballroom-vancouver-bc-canada"
+  },
+  {
+   "venue_id": 599,
+   "venuename": "WAMU Theater",
+   "city": "Seattle",
+   "state": "WA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "wamu-theater-seattle-wa-usa"
+  },
+  {
+   "venue_id": 600,
+   "venuename": "The Drake",
+   "city": "Amherst",
+   "state": "MA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-drake-amherst-ma-usa"
+  },
+  {
+   "venue_id": 601,
+   "venuename": "Kentucky Expo Center",
+   "city": "Louisville",
+   "state": "KY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "kentucky-expo-center-louisville-ky-usa"
+  },
+  {
+   "venue_id": 602,
+   "venuename": "Nurture",
+   "city": "Denver",
+   "state": "CO",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "nurture-denver-co-usa"
+  },
+  {
+   "venue_id": 603,
+   "venuename": "Heuser Park",
+   "city": "King of Prussia",
+   "state": "PA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "heuser-park-king-of-prussia-pa-usa"
+  },
+  {
+   "venue_id": 604,
+   "venuename": "Civic Center",
+   "city": "Salt Lake City",
+   "state": "UT",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "civic-center-salt-lake-city-ut-usa"
+  },
+  {
+   "venue_id": 605,
+   "venuename": "Hotel El Ganzo",
+   "city": "San Jose Del Cabo",
+   "state": "",
+   "country": "Mexico",
+   "zip": "",
+   "capacity": 0,
+   "slug": "hotel-el-ganzo-san-jose-del-cabo-mexico"
+  },
+  {
+   "venue_id": 606,
+   "venuename": "The Truth",
+   "city": "Nashville",
+   "state": "TN",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-truth-nashville-tn-usa"
+  },
+  {
+   "venue_id": 607,
+   "venuename": "John Paul Jones Arena",
+   "city": "Charlottesville",
+   "state": "VA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "john-paul-jones-arena-charlottesville-va-usa"
+  },
+  {
+   "venue_id": 608,
+   "venuename": "Citizens Live at The Wylie",
+   "city": "Pittsburgh",
+   "state": "PA",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "citizens-live-at-the-wylie-pittsburgh-pa-usa"
+  },
+  {
+   "venue_id": 609,
+   "venuename": "Blue Cross Arena",
+   "city": "Rochester",
+   "state": "NY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "blue-cross-arena-rochester-ny-usa"
+  },
+  {
+   "venue_id": 610,
+   "venuename": "The Midland",
+   "city": "Kansas City",
+   "state": "MO",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "the-midland-kansas-city-mo-usa"
+  },
+  {
+   "venue_id": 611,
+   "venuename": "Central Park SummerStage",
+   "city": "New York",
+   "state": "NY",
+   "country": "USA",
+   "zip": "",
+   "capacity": 0,
+   "slug": "central-park-summerstage-new-york-ny-usa"
+  }
+ ]
+}
