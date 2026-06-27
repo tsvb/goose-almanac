@@ -16,6 +16,7 @@ describe("toBool", () => {
 describe("emptyToNull", () => {
   it("maps empty/undefined to null, keeps real strings", () => {
     expect(emptyToNull("")).toBeNull();
+    expect(emptyToNull("   ")).toBeNull();
     expect(emptyToNull(undefined)).toBeNull();
     expect(emptyToNull(null)).toBeNull();
     expect(emptyToNull("x")).toBe("x");
