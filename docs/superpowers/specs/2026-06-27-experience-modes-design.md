@@ -1,6 +1,6 @@
 # Design — Experience Modes
 
-_Date: 2026-06-27 · Status: awaiting review_
+_Date: 2026-06-27 · Status: approved — ready for implementation plan_
 
 ## Summary
 
@@ -24,6 +24,8 @@ presentation. This keeps every show, stat, and page reachable in all three.
 - **Light/dark stays a separate axis,** available where it makes sense (Fancy,
   Functional). Minimal is a single high-contrast look (its theme toggle is
   hidden).
+- **Names:** user-facing labels are **Fancy · Functional · Minimal** — direct and
+  to the point — matching the internal keys.
 
 ## Goals
 
@@ -133,12 +135,11 @@ variants for those are a fast-follow, not a blocker.
 - Minimal show page exposes exactly one `<h1>` and ordered-list setlist.
 - All existing tests stay green; production build passes.
 
-## Open item — naming
+## Naming (decided)
 
-Internal keys stay `fancy | functional | minimal`. User-facing labels are your
-call. Recommendation: **Showcase · Workbench · Plain** (clear, a little
-character, and "Almanac" stays the site name, not a mode). Alternatives:
-keep `Fancy · Functional · Minimal`, or `Showcase · Field guide · Index`.
+User-facing labels match the internal keys: **Fancy · Functional · Minimal** —
+direct and to the point. Cookie values and `Experience` keys are
+`fancy | functional | minimal`.
 
 ## Risks
 
