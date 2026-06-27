@@ -46,11 +46,20 @@
   color-scheme: light;
 }
 
+/* ---- Type tokens — overridable per experience. The `@theme inline` map below
+   inlines `var(--type-*)` into the font utilities, so redefining these on a
+   `[data-experience]` selector actually re-fonts the page (like the colors). ---- */
+:root {
+  --type-display: var(--font-bricolage), ui-sans-serif, system-ui, sans-serif;
+  --type-body: var(--font-hanken), ui-sans-serif, system-ui, sans-serif;
+  --type-mono: var(--font-jetbrains), ui-monospace, SFMono-Regular, monospace;
+}
+
 /* ---- Map tokens into Tailwind's theme (inline = resolves at runtime) ---- */
 @theme inline {
-  --font-display: var(--font-fraunces), ui-serif, Georgia, serif;
-  --font-body: var(--font-hanken), ui-sans-serif, system-ui, sans-serif;
-  --font-mono: var(--font-jetbrains), ui-monospace, monospace;
+  --font-display: var(--type-display);
+  --font-body: var(--type-body);
+  --font-mono: var(--type-mono);
 
   --color-bg: var(--bg);
   --color-bg-deep: var(--bg-deep);
@@ -80,7 +89,7 @@
   body {
     background-color: var(--bg);
     color: var(--ink);
-    font-family: var(--font-body);
+    font-family: var(--type-body);
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
@@ -99,11 +108,11 @@
     color: inherit;
   }
   h1, h2, h3, h4 {
-    font-family: var(--font-display);
+    font-family: var(--type-display);
     font-weight: 460;
     letter-spacing: -0.01em;
   }
-  /* Fraunces optical/soft character */
+  /* Optical sizing for variable display faces (Bricolage). */
   .font-display {
     font-optical-sizing: auto;
   }
@@ -223,9 +232,11 @@
    Experience modes — pivot the same tokens three ways.
    ============================================================ */
 
-/* Functional — utilitarian: sans headers, no texture or motion. */
+/* Functional — utilitarian: one grotesque for everything, mono for figures. */
 :root[data-experience="functional"] {
-  --font-display: var(--font-body);
+  --type-display: var(--font-plex-sans), ui-sans-serif, system-ui, sans-serif;
+  --type-body: var(--font-plex-sans), ui-sans-serif, system-ui, sans-serif;
+  --type-mono: var(--font-plex-mono), ui-monospace, SFMono-Regular, monospace;
 }
 
 /* Minimal — flat, high-contrast, single look (ignores data-theme). */
@@ -246,7 +257,9 @@
   --sage-deep: #164d3c;
   --ember: #141414;
   --shadow: rgba(0, 0, 0, 0.12);
-  --font-display: var(--font-body);
+  --type-display: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --type-body: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --type-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   color-scheme: light;
 }
 

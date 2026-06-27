@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Fraunces, Hanken_Grotesk, JetBrains_Mono } from "next/font/google";
+import { Bricolage_Grotesque, Hanken_Grotesk, JetBrains_Mono, IBM_Plex_Sans, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 import { SiteHeader } from "./_components/site-header";
 import { SiteFooter } from "./_components/site-footer";
@@ -7,12 +7,13 @@ import { getExperience } from "@/lib/experience.server";
 import { JsonLd } from "./_components/json-ld";
 import { siteJsonLd } from "@/lib/jsonld";
 
-const fraunces = Fraunces({
+// Fancy display face.
+const bricolage = Bricolage_Grotesque({
   subsets: ["latin"],
-  variable: "--font-fraunces",
+  variable: "--font-bricolage",
   display: "swap",
-  style: ["normal", "italic"],
 });
+// Fancy body + mono.
 const hanken = Hanken_Grotesk({
   subsets: ["latin"],
   variable: "--font-hanken",
@@ -23,6 +24,20 @@ const jetbrains = JetBrains_Mono({
   variable: "--font-jetbrains",
   display: "swap",
 });
+// Functional: one grotesque for everything + a mono for figures.
+const plexSans = IBM_Plex_Sans({
+  subsets: ["latin"],
+  weight: ["400", "500", "600"],
+  variable: "--font-plex-sans",
+  display: "swap",
+});
+const plexMono = IBM_Plex_Mono({
+  subsets: ["latin"],
+  weight: ["400", "500"],
+  variable: "--font-plex-mono",
+  display: "swap",
+});
+// Minimal uses the system font stack (no webfont) — see globals.css.
 
 export const metadata: Metadata = {
   title: { default: "Goose Almanac — every show, every night", template: "%s · Goose Almanac" },
@@ -44,7 +59,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
       lang="en"
       data-theme="dark"
       data-experience={experience}
-      className={`${fraunces.variable} ${hanken.variable} ${jetbrains.variable}`}
+      className={`${bricolage.variable} ${hanken.variable} ${jetbrains.variable} ${plexSans.variable} ${plexMono.variable}`}
       suppressHydrationWarning
     >
       <head>
