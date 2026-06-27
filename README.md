@@ -12,7 +12,7 @@ the modern live-performance record maintained at [elgoose.net](https://elgoose.n
 | Phase | Feature | Status |
 |-------|---------|--------|
 | **0** | **Data Foundation** — sync elgoose → our own database, verified | ✅ done |
-| 1 | Show Browsing & Discovery — browse shows by year/tour/venue/map, rich setlist pages, "On This Day", upcoming shows | planned |
+| **1** | **Show Browsing & Discovery** — browse shows by year/tour/venue, rich setlist pages (segues, jams, track times), search, "On This Day", upcoming shows | ✅ done |
 | 2 | Song Stats & History — per-song pages, gaps/bustouts, debuts, Spotify discography | planned |
 | 3 | Jam & Set-Flow Analytics — jam charts, segue networks, era-aware analysis | planned |
 | 4 | Personal Fan Tracking — "shows I've seen", personal stats, song life-list | planned |
