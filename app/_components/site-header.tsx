@@ -3,7 +3,10 @@ import { Container } from "./container";
 import { SearchBox } from "./search-box";
 import { ThemeToggle } from "./theme-toggle";
 import { MobileNav } from "./mobile-nav";
+import { ExperienceSwitcher } from "./experience-switcher";
 import { Feather } from "./marks";
+import { getExperience } from "@/lib/experience.server";
+import { allowsTheme } from "@/lib/experience";
 
 const NAV = [
   { href: "/shows", label: "Shows" },
@@ -12,7 +15,8 @@ const NAV = [
   { href: "/tours", label: "Tours" },
 ];
 
-export function SiteHeader() {
+export async function SiteHeader() {
+  const experience = await getExperience();
   return (
     <header className="sticky top-0 z-40 border-b border-line/80 bg-bg/85 backdrop-blur-md">
       <Container className="flex h-16 items-center justify-between gap-4">
@@ -34,9 +38,12 @@ export function SiteHeader() {
         </nav>
 
         <div className="flex items-center gap-2">
+          <div className="hidden sm:block">
+            <ExperienceSwitcher current={experience} />
+          </div>
           <SearchBox />
-          <ThemeToggle />
-          <MobileNav />
+          {allowsTheme(experience) && <ThemeToggle />}
+          <MobileNav experience={experience} />
         </div>
       </Container>
     </header>
