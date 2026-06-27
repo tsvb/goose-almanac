@@ -6,6 +6,8 @@ import { Setlist } from "@/app/_components/setlist";
 import { ArrowLeft, ArrowRight, MapPin } from "@/app/_components/marks";
 import { getShowDetails, getSetlist, getShowNeighbors } from "@/lib/queries/shows";
 import { getExperience } from "@/lib/experience.server";
+import { JsonLd } from "@/app/_components/json-ld";
+import { showJsonLd } from "@/lib/jsonld";
 import {
   dateParts,
   formatLongDate,
@@ -59,6 +61,7 @@ export default async function ShowPage({ params, searchParams }: Params) {
   ]);
 
   const experience = await getExperience();
+  const ld = showJsonLd(show, setlist);
 
   const dp = dateParts(date);
   const loc = locationLine(show.city, show.state, show.country);
@@ -73,6 +76,7 @@ export default async function ShowPage({ params, searchParams }: Params) {
 
   return (
     <article>
+      <JsonLd data={ld} />
       {/* Top bar */}
       <div className="border-b border-line">
         <Container className="flex items-center justify-between gap-4 py-3.5">
@@ -191,6 +195,14 @@ export default async function ShowPage({ params, searchParams }: Params) {
         )}
 
         <Setlist entries={setlist} experience={experience} />
+        {experience === "minimal" && (
+          <details className="mt-10 border-t border-line pt-4 text-sm">
+            <summary className="cursor-pointer text-muted">Structured data (schema.org MusicEvent)</summary>
+            <pre className="mt-3 overflow-auto rounded border border-line bg-surface p-3 font-mono text-xs text-muted">
+              {JSON.stringify(ld, null, 2)}
+            </pre>
+          </details>
+        )}
       </Container>
 
       {/* Prev / next */}
