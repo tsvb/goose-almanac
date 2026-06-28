@@ -6,6 +6,7 @@ import { mapSong, mapVenue, mapShow, mapTour, mapPerformance, mapSongFromSetlist
 import {
   upsertArtists, upsertVenues, upsertTours, upsertSongs, upsertShows, upsertPerformances,
 } from "../../db/repository";
+import { ensureSongSlugs } from "../../db/slugs";
 
 export interface SyncSummary {
   venues: number; tours: number; songs: number; shows: number; performances: number;
@@ -59,6 +60,7 @@ export async function runSync(deps: { client: ElgooseClient; db: AppDb }): Promi
   await upsertVenues(db, venues);
   await upsertTours(db, tours);
   await upsertSongs(db, songs);
+  await ensureSongSlugs(db);
   await upsertShows(db, shows);
   await upsertPerformances(db, performances);
 

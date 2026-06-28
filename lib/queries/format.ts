@@ -76,3 +76,16 @@ export function formatDuration(totalSeconds: number): string {
   if (h > 0) return `${h}h ${m}m`;
   return `${m}:${String(s).padStart(2, "0")}`;
 }
+
+export const RETURN_LABEL = "Dusted Off";
+
+export function slugifySongName(name: string): string {
+  return name
+    .normalize("NFKD").replace(/[̀-ͯ]/g, "")
+    .toLowerCase().replace(/['']/g, "")
+    .replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+}
+
+export function songHref(s: { slug: string | null; songId?: number }): string {
+  return `/songs/${s.slug ?? (s.songId != null ? slugifySongName(String(s.songId)) : "")}`;
+}

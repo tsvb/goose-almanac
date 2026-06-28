@@ -18,7 +18,8 @@
     "db:migrate": "tsx scripts/migrate.ts",
     "sync": "tsx scripts/sync.ts",
     "verify": "tsx scripts/verify.ts",
-    "capture-fixtures": "tsx scripts/capture-fixtures.ts"
+    "capture-fixtures": "tsx scripts/capture-fixtures.ts",
+    "backfill-slugs": "tsx scripts/backfill-slugs.ts"
   },
   "dependencies": {
     "drizzle-orm": "^0.38.0",
