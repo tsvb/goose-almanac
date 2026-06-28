@@ -1,6 +1,7 @@
 import { db } from "@/db/client";
 import { shows, venues, tours, performances, songs } from "@/db/schema";
 import { and, asc, desc, eq, sql } from "drizzle-orm";
+import { p95, isDustedOffGap } from "./songs";
 
 function allRows(result: unknown): Record<string, unknown>[] {
   const rows = Array.isArray(result) ? result : ((result as { rows?: unknown[] }).rows ?? []);
@@ -145,7 +146,7 @@ export async function getSetlist(showId: number): Promise<SetlistEntry[]> {
     .where(eq(performances.showId, showId))
     .orderBy(typeRank, asc(performances.setNumber), asc(performances.position));
 
-  // compute per-song gap at THIS show + the song's p95 threshold
+  // compute per-song gap at THIS show + the full gap series (for TS-side p95, matching song page logic)
   const gapRows = allRows(await db.execute(sql`
     with show_seq as (
       select s.show_id, row_number() over (order by s.show_date, coalesce(s.show_order,1)) as seq
@@ -153,15 +154,22 @@ export async function getSetlist(showId: number): Promise<SetlistEntry[]> {
     ),
     song_show as (select distinct p.song_id, ss.seq, ss.show_id from performances p join show_seq ss on ss.show_id = p.show_id),
     gapped as (select song_id, seq, show_id, seq - lag(seq) over (partition by song_id order by seq) - 1 as gap from song_show),
-    thresh as (select song_id, percentile_cont(0.95) within group (order by gap) as p95 from gapped where gap is not null group by song_id)
-    select g.song_id, g.gap, t.p95 from gapped g left join thresh t on t.song_id = g.song_id where g.show_id = ${showId}
+    this_show as (select song_id, gap from gapped where show_id = ${showId})
+    select ts.song_id, ts.gap as this_gap,
+           array_agg(g.gap) filter (where g.gap is not null) as gaps
+    from this_show ts join gapped g on g.song_id = ts.song_id
+    group by ts.song_id, ts.gap
   `));
-  const bySong = new Map<number, { gap: number | null; p95: number }>();
-  for (const r of gapRows) bySong.set(Number(r.song_id), { gap: r.gap == null ? null : Number(r.gap), p95: Number(r.p95 ?? 0) });
+  const bySong = new Map<number, { thisGap: number | null; gaps: number[] }>();
+  for (const r of gapRows) {
+    const raw = r.gaps;
+    const gaps: number[] = Array.isArray(raw) ? raw.map(Number) : [];
+    bySong.set(Number(r.song_id), { thisGap: r.this_gap == null ? null : Number(r.this_gap), gaps });
+  }
   return rows.map((e) => {
     const info = bySong.get(e.songId);
-    const gap = info?.gap ?? null;
-    const isDustedOff = gap != null && gap >= 15 && gap >= Math.ceil(info?.p95 ?? 0);
+    const gap = info?.thisGap ?? null;
+    const isDustedOff = isDustedOffGap(gap, info?.gaps ?? []);
     return { ...e, gap, isDustedOff };
   });
 }
