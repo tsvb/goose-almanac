@@ -16,7 +16,7 @@ describe("SiteFooter variants", () => {
   });
   it("functional is a single slim mono row", () => {
     const html = renderToStaticMarkup(<FooterFunctional />);
-    expect(html).toContain("font-mono");
+    expect(html).toContain("w2-appbar");
     expect(html).not.toContain("Browse");
   });
 });

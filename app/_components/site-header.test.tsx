@@ -18,7 +18,7 @@ describe("SiteHeader variants", () => {
   });
   it("functional is slim and mono, no rounded logo mark", () => {
     const html = renderToStaticMarkup(<HeaderFunctional experience="functional" />);
-    expect(html).toContain("font-mono");
+    expect(html).toContain("w2-appbar");
     expect(html).not.toContain("h-16");
   });
   it("minimal is a plain text nav: no svg, not sticky, underlined links", () => {

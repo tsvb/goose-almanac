@@ -47,16 +47,14 @@ export function HeaderFancy({ experience }: { experience: Experience }) {
 
 export function HeaderFunctional({ experience }: { experience: Experience }) {
   return (
-    <header className="sticky top-0 z-40 border-b border-line bg-bg">
+    <header className="w2-appbar sticky top-0 z-40">
       <Container className="flex h-12 items-center justify-between gap-4">
-        <Link href="/" className="flex items-center gap-2 font-mono text-sm font-medium text-ink">
-          <span className="text-gold">▤</span> Goose Almanac
+        <Link href="/" className="w2-brand flex items-center text-[1.05rem]">
+          Goose Almanac<span className="w2-beta">BETA</span>
         </Link>
-        <nav className="hidden items-center gap-5 font-mono text-xs text-muted md:flex">
+        <nav className="hidden items-center gap-1 text-[0.8rem] md:flex">
           {NAV.map((n) => (
-            <Link key={n.href} href={n.href} className="py-1 transition hover:text-gold">
-              {n.label}
-            </Link>
+            <Link key={n.href} href={n.href} className="w2-navlink">{n.label}</Link>
           ))}
         </nav>
         <div className="flex items-center gap-2">

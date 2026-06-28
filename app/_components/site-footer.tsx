@@ -49,11 +49,13 @@ export function FooterFancy() {
 
 export function FooterFunctional() {
   return (
-    <footer className="mt-16 border-t border-line">
-      <Container className="flex flex-col items-center justify-between gap-2 py-5 font-mono text-xs text-faint sm:flex-row">
-        <span>© {new Date().getFullYear()} Goose Almanac · data from elgoose.net</span>
-        <span>Not affiliated with Goose. Built by fans.</span>
-      </Container>
+    <footer className="mt-16 w2-appbar">
+      <div style={{ textShadow: "0 -1px 0 rgba(0,0,0,.2)" }}>
+        <Container className="flex flex-col items-center justify-between gap-2 py-4 text-xs text-white sm:flex-row">
+          <span>© {new Date().getFullYear()} Goose Almanac · data from elgoose.net</span>
+          <span>Not affiliated with Goose. Built by fans.</span>
+        </Container>
+      </div>
     </footer>
   );
 }
