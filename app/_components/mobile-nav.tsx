@@ -32,7 +32,7 @@ export function MobileNav({ experience }: { experience: Experience }) {
   }
 
   return (
-    <div className="md:hidden">
+    <div className="lg:hidden">
       <button
         type="button"
         onClick={() => setOpen((o) => !o)}

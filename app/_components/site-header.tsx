@@ -29,9 +29,9 @@ export function HeaderFancy({ experience }: { experience: Experience }) {
             Goose <span className="italic text-gold">Almanac</span>
           </span>
         </Link>
-        <nav className="hidden items-center gap-7 text-[0.9rem] text-muted md:flex">
+        <nav className="hidden items-center gap-4 text-[0.9rem] text-muted lg:flex">
           {NAV.map((n) => (
-            <Link key={n.href} href={n.href} className="relative py-1 transition hover:text-ink">
+            <Link key={n.href} href={n.href} className="relative whitespace-nowrap py-1 transition hover:text-ink">
               {n.label}
             </Link>
           ))}
@@ -54,9 +54,9 @@ export function HeaderFunctional({ experience }: { experience: Experience }) {
         <Link href="/" className="w2-brand flex items-center text-[1.05rem]">
           Goose Almanac<span className="w2-beta">BETA</span>
         </Link>
-        <nav className="hidden items-center gap-1 text-[0.8rem] md:flex">
+        <nav className="hidden items-center gap-1 text-[0.8rem] lg:flex">
           {NAV.map((n) => (
-            <Link key={n.href} href={n.href} className="w2-navlink">{n.label}</Link>
+            <Link key={n.href} href={n.href} className="w2-navlink whitespace-nowrap">{n.label}</Link>
           ))}
         </nav>
         <div className="flex items-center gap-2">
