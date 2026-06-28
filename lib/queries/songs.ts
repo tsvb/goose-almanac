@@ -98,6 +98,91 @@ export type SongStat = {
   topVenues: { venueId: number; name: string; count: number }[];
 };
 
+// ── Song Index ────────────────────────────────────────────────────────────────
+
+export type SongSort = "played" | "rare" | "overdue" | "recent" | "debut" | "az";
+export type SongFacet = "all" | "originals" | "covers";
+export type SongIndexRow = {
+  songId: number; name: string; slug: string; isOriginal: boolean;
+  timesPlayed: number; rotationPct: number; currentGap: number | null;
+  lastPlayedDate: string | null; debutYear: number | null; playsPerYear: number[];
+};
+
+export async function listSongs(opts: { sort?: SongSort; facet?: SongFacet; q?: string } = {}): Promise<SongIndexRow[]> {
+  const sort = opts.sort ?? "played";
+  const facet = opts.facet ?? "all";
+  const facetCond =
+    facet === "originals" ? sql`and so.is_original` :
+    facet === "covers" ? sql`and not so.is_original` : sql``;
+  const qCond = opts.q?.trim() ? sql`and so.name ilike ${"%" + opts.q.trim() + "%"}` : sql``;
+
+  // year span for the sparkline
+  const [span] = allRows(await db.execute(sql`
+    select extract(year from min(show_date))::int as lo, extract(year from current_date)::int as hi
+    from shows where show_date <= current_date
+  `));
+  const lo = num(span?.lo) || new Date().getUTCFullYear();
+  const hi = num(span?.hi) || lo;
+  const years: number[] = [];
+  for (let y = lo; y <= hi; y++) years.push(y);
+
+  const orderBy: SQL =
+    sort === "rare" ? sql`times_played asc, last_seq desc nulls last` :
+    sort === "overdue" ? sql`current_gap desc nulls last, (times_played >= 5) desc` :
+    sort === "recent" ? sql`last_seq desc nulls last` :
+    sort === "debut" ? sql`debut_seq desc nulls last` :
+    sort === "az" ? sql`lower(name) asc` :
+    sql`times_played desc, lower(name) asc`;
+
+  const rows = allRows(await db.execute(sql`
+    with ${SHOW_SEQ},
+    agg as (
+      select song_id, count(*)::int as times_played,
+             min(seq) as debut_seq, max(seq) as last_seq,
+             (select max(seq) from show_seq) - max(seq) as current_gap
+      from gapped group by song_id
+    )
+    select so.song_id, so.name, so.slug, so.is_original,
+           coalesce(a.times_played, 0) as times_played,
+           a.current_gap, a.debut_seq, a.last_seq,
+           (select max(show_date)::text from song_show ssh where ssh.song_id = so.song_id) as last_date,
+           (select min(show_date) from song_show ssh where ssh.song_id = so.song_id) as debut_date,
+           round((coalesce(a.times_played,0)::numeric /
+                  greatest((select count(*) from show_seq where seq >= a.debut_seq), 1)) * 1000) / 10 as rotation
+    from songs so
+    left join agg a on a.song_id = so.song_id
+    where coalesce(a.times_played, 0) > 0 ${facetCond} ${qCond}
+    order by ${orderBy}
+  `));
+
+  // plays per year per song (one grouped query, bucket in TS)
+  const ppyRows = allRows(await db.execute(sql`
+    select p.song_id, extract(year from s.show_date)::int as year, count(*)::int as c
+    from performances p join shows s on s.show_id = p.show_id
+    where s.show_date <= current_date group by 1, 2
+  `));
+  const ppy = new Map<number, Map<number, number>>();
+  for (const r of ppyRows) {
+    const sid = num(r.song_id);
+    if (!ppy.has(sid)) ppy.set(sid, new Map());
+    ppy.get(sid)!.set(num(r.year), num(r.c));
+  }
+
+  return rows.map((r) => {
+    const sid = num(r.song_id);
+    const byYear = ppy.get(sid) ?? new Map();
+    return {
+      songId: sid, name: String(r.name), slug: String(r.slug), isOriginal: Boolean(r.is_original),
+      timesPlayed: num(r.times_played), rotationPct: num(r.rotation), currentGap: numOrNull(r.current_gap),
+      lastPlayedDate: strOrNull(r.last_date),
+      debutYear: r.debut_date ? new Date(String(r.debut_date)).getUTCFullYear() : null,
+      playsPerYear: years.map((y) => byYear.get(y) ?? 0),
+    };
+  });
+}
+
+// ── Song detail ───────────────────────────────────────────────────────────────
+
 export async function getSongBySlug(slug: string): Promise<SongStat | null> {
   const [meta] = allRows(await db.execute(sql`
     select song_id, name, slug, is_original, original_artist from songs where slug = ${slug} order by song_id limit 1

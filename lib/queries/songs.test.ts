@@ -90,3 +90,25 @@ describe("getSongBySlug", () => {
     expect(await getSongBySlug("nope")).toBeNull();
   });
 });
+
+describe("listSongs", () => {
+  it("sorts by most played and overdue, and facets originals/covers", async () => {
+    await seed();
+    await upsertSongs(ctx.db, [{ songId: 702, name: "Bowie", slug: "bowie", isOriginal: false, originalArtist: "David Bowie" }]);
+    await upsertPerformances(ctx.db, [{ uniqueId: "b0", showId: 1, songId: 702, setType: "Set", setNumber: "1", position: 3, trackTime: "6:00", transition: null, transitionId: null, isJamchart: false, jamchartNotes: null, isReprise: false, isJam: false, isVerified: true, footnote: null }]);
+    const { listSongs } = await import("./songs");
+
+    const played = await listSongs({ sort: "played" });
+    expect(played[0].name).toBe("Madhuvan"); // 5 plays
+    expect(played.find((r) => r.slug === "hot-tea")!.timesPlayed).toBe(3);
+
+    const overdue = await listSongs({ sort: "overdue" });
+    expect(overdue[0].slug).toBe("bowie"); // last played show 1, biggest current gap
+
+    const covers = await listSongs({ facet: "covers" });
+    expect(covers.map((r) => r.slug)).toEqual(["bowie"]);
+
+    const filtered = await listSongs({ q: "tea" });
+    expect(filtered.map((r) => r.slug)).toEqual(["hot-tea"]);
+  });
+});
