@@ -404,8 +404,7 @@ git commit -m "feat(songs): song-stats core — show-sequence gaps, Dusted Off, 
 - Produces:
   - `type SongSort = "played" | "rare" | "overdue" | "recent" | "debut" | "az"`
   - `type SongFacet = "all" | "originals" | "covers"`
-  - `type SongIndexRow = { songId; name; slug; isOriginal; timesPlayed; rotationPct; currentGap: number | null; lastPlayedDate: string | null; debutYear: number | null; playsPerYear: number[] }` — `playsPerYear` is counts across the fixed span `INDEX_YEARS` (oldest→newest) for the row sparkline.
-  - `const INDEX_YEARS: number[]` — the year span the sparkline covers (debut-of-band → current year).
+  - `type SongIndexRow = { songId; name; slug; isOriginal; timesPlayed; rotationPct; currentGap: number | null; lastPlayedDate: string | null; debutYear: number | null; playsPerYear: number[] }` — `playsPerYear` is counts across the band's year span (oldest→newest) for the row sparkline. The year span is computed as a **local** inside `listSongs` and used only to bucket counts; do NOT export it as module-level mutable state. Pages derive year labels from the array length.
   - `listSongs(opts: { sort?: SongSort; facet?: SongFacet; q?: string }): Promise<SongIndexRow[]>`
 
 - [ ] **Step 1: Write failing tests for `listSongs`**
@@ -471,7 +470,7 @@ export async function listSongs(opts: { sort?: SongSort; facet?: SongFacet; q?: 
 
   const orderBy =
     sort === "rare" ? sql`times_played asc, last_seq desc nulls last` :
-    sort === "overdue" ? sql`(times_played >= 5) desc, current_gap desc nulls last` :
+    sort === "overdue" ? sql`current_gap desc nulls last, (times_played >= 5) desc` : // "most overdue" = biggest current gap; /stats/current-gaps filters to active (>=5)
     sort === "recent" ? sql`last_seq desc nulls last` :
     sort === "debut" ? sql`debut_seq desc nulls last` :
     sort === "az" ? sql`lower(name) asc` :
@@ -524,7 +523,6 @@ export async function listSongs(opts: { sort?: SongSort; facet?: SongFacet; q?: 
   });
 }
 
-export const INDEX_YEARS_NOTE = "playsPerYear aligns to the band's year span, oldest→newest";
 ```
 
 - [ ] **Step 4: Run tests, verify pass** — `npx vitest run lib/queries/songs.test.ts` → PASS.
