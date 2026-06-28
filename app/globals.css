@@ -446,3 +446,39 @@ table.song-table th.song-pin, table.song-table td.song-pin { position: sticky; l
 [data-experience="functional"] table.song-table td.song-pin { background: #fff; }
 [data-experience="functional"] table.song-table tbody tr:nth-child(even) td.song-pin { background: #eef5fb; }
 [data-experience="functional"] .song-bust { color: #b8501a; border-color: #f4a72b; }
+
+/* ---- nugs "Listen / Watch" affordance ---- */
+/* show-header link (Listen / Watch) — tasteful secondary */
+.nugs-show {
+  display: inline-flex; align-items: center; gap: 5px;
+  font-size: 0.76rem; color: #8fc6ee; border: 1px solid #34506a; border-radius: 8px;
+  padding: 4px 10px; background: linear-gradient(180deg, rgba(60,110,160,0.16), rgba(40,70,110,0.10));
+  transition: border-color 0.15s, color 0.15s;
+}
+.nugs-show:hover { color: #bfe0fb; border-color: #4a78a6; text-decoration: none; }
+.nugs-show.watch { color: #c6b8ee; border-color: #4a3f6a; background: linear-gradient(180deg, rgba(110,80,170,0.16), rgba(70,55,120,0.10)); }
+.nugs-show.watch:hover { color: #ddd0fb; border-color: #6a5aa0; }
+
+/* per-track ▷ — hover-reveal where a pointer exists, always-visible on touch */
+.nugs-track {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-width: 20px; height: 20px; padding: 0 5px; border-radius: 6px;
+  color: #7fbfe8; border: 1px solid #2f4860; font-size: 0.66rem; line-height: 1;
+}
+.nugs-track:hover { color: #bfe0fb; border-color: #4a78a6; text-decoration: none; }
+@media (hover: hover) {
+  .nugs-row .nugs-track { visibility: hidden; }
+  .nugs-row:hover .nugs-track { visibility: visible; }
+}
+
+/* Functional (Web 2.0) reskin */
+[data-experience="functional"] .nugs-show { color: #2c7cc4; border-color: #aebfce; background: linear-gradient(#ffffff, #eef5fb); }
+[data-experience="functional"] .nugs-show.watch { color: #6a4ca8; border-color: #c3b6e0; background: linear-gradient(#ffffff, #f1ecfb); }
+[data-experience="functional"] .nugs-track { color: #2c7cc4; border-color: #aebfce; background: linear-gradient(#ffffff, #eef5fb); }
+
+/* Minimal (document) — plain underlined "listen" text link, no border/box */
+[data-experience="minimal"] .nugs-show,
+[data-experience="minimal"] .nugs-track {
+  border: 0; background: none; padding: 0; min-width: 0; height: auto;
+  color: #1a4fa0; text-decoration: underline; font-size: inherit; border-radius: 0;
+}
