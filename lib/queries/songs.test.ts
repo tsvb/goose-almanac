@@ -112,3 +112,18 @@ describe("listSongs", () => {
     expect(filtered.map((r) => r.slug)).toEqual(["hot-tea"]);
   });
 });
+
+describe("stats cuts", () => {
+  it("rarities are low-play; currentGaps excludes one-timers", async () => {
+    await seed();
+    await upsertSongs(ctx.db, [{ songId: 702, name: "Bowie", slug: "bowie", isOriginal: false, originalArtist: "David Bowie" }]);
+    await upsertPerformances(ctx.db, [{ uniqueId: "b0", showId: 1, songId: 702, setType: "Set", setNumber: "1", position: 3, trackTime: "6:00", transition: null, transitionId: null, isJamchart: false, jamchartNotes: null, isReprise: false, isJam: false, isVerified: true, footnote: null }]);
+    const { rarities, currentGaps, debutsByYear, setStats } = await import("./songs");
+
+    expect((await rarities()).map((r) => r.slug)).toContain("bowie"); // 1 play
+    expect((await currentGaps()).every((r) => r.timesPlayed >= 5)).toBe(true);
+    expect((await debutsByYear())).toEqual([{ year: 2020, count: 3 }]);
+    const opener = (await setStats()).find((b) => b.key === "show-opener");
+    expect(opener!.rows[0].slug).toBe("madhuvan"); // position 1 every show
+  });
+});

@@ -181,6 +181,63 @@ export async function listSongs(opts: { sort?: SongSort; facet?: SongFacet; q?: 
   });
 }
 
+// ── Stats cuts ────────────────────────────────────────────────────────────────
+
+export async function mostPlayed(limit = 100): Promise<SongIndexRow[]> {
+  return (await listSongs({ sort: "played" })).slice(0, limit);
+}
+
+export async function rarities(limit = 100): Promise<SongIndexRow[]> {
+  return (await listSongs({ sort: "rare" })).filter((r) => r.timesPlayed <= 3).slice(0, limit);
+}
+
+export async function currentGaps(limit = 100): Promise<SongIndexRow[]> {
+  return (await listSongs({ sort: "overdue" })).filter((r) => r.timesPlayed >= 5).slice(0, limit);
+}
+
+export async function debutsByYear(): Promise<{ year: number; count: number }[]> {
+  return allRows(await db.execute(sql`
+    with ${SHOW_SEQ},
+    debut as (select song_id, min(show_date) as d from song_show group by song_id)
+    select extract(year from d)::int as year, count(*)::int as count from debut group by 1 order by 1
+  `)).map((r) => ({ year: num(r.year), count: num(r.count) }));
+}
+
+export async function recentDebuts(limit = 25): Promise<{ slug: string; name: string; date: string; venue: string | null }[]> {
+  return allRows(await db.execute(sql`
+    with first_play as (
+      select p.song_id, min(s.show_date) as d
+      from performances p join shows s on s.show_id = p.show_id
+      where s.show_date <= current_date group by p.song_id
+    )
+    select so.slug, so.name, fp.d::text as date,
+      (select v.name from shows s2 left join venues v on v.venue_id = s2.venue_id
+       where s2.show_date = fp.d order by coalesce(s2.show_order,1) limit 1) as venue
+    from first_play fp join songs so on so.song_id = fp.song_id
+    order by fp.d desc, so.name asc limit ${limit}
+  `)).map((r) => ({ slug: String(r.slug), name: String(r.name), date: String(r.date), venue: strOrNull(r.venue) }));
+}
+
+export async function setStats(): Promise<{ key: string; label: string; rows: { slug: string; name: string; count: number }[] }[]> {
+  const buckets: { key: string; label: string; cond: SQL }[] = [
+    { key: "show-opener", label: "Show openers", cond: sql`p.position = 1 and (p.set_number = '1' or p.set_type = 'One Set')` },
+    { key: "set2-opener", label: "Set 2 openers", cond: sql`p.position = 1 and p.set_number = '2'` },
+    { key: "encore", label: "Encores", cond: sql`p.set_type = 'Encore' or p.set_number ilike 'e%'` },
+  ];
+  const out = [];
+  for (const b of buckets) {
+    const rows = allRows(await db.execute(sql`
+      select so.slug, so.name, count(*)::int as count
+      from performances p join songs so on so.song_id = p.song_id
+      join shows s on s.show_id = p.show_id
+      where s.show_date <= current_date and (${b.cond})
+      group by so.slug, so.name order by count desc, so.name asc limit 15
+    `)).map((r) => ({ slug: String(r.slug), name: String(r.name), count: num(r.count) }));
+    out.push({ key: b.key, label: b.label, rows });
+  }
+  return out;
+}
+
 // ── Song detail ───────────────────────────────────────────────────────────────
 
 export async function getSongBySlug(slug: string): Promise<SongStat | null> {
