@@ -1,6 +1,6 @@
 # Functional as Web 2.0 (addendum)
 
-_Date: 2026-06-28 · Status: proposed · Builds on `2026-06-27-experience-modes-divergence.md`_
+_Date: 2026-06-28 · Status: built 2026-06-28 · Builds on `2026-06-27-experience-modes-divergence.md`_
 
 ## Decision (confirmed with Tim)
 
