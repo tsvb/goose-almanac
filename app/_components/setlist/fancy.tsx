@@ -4,8 +4,10 @@ import { clsx } from "../clsx";
 import { trackSeconds, formatDuration, RETURN_LABEL } from "@/lib/queries/format";
 import type { SetlistEntry } from "@/lib/queries/shows";
 import { groupSets, isSegue } from "./shared";
+import { NugsLink } from "../nugs-link";
+import { nugsTrackHref, nugsWebFallback } from "@/lib/nugs";
 
-export function SetlistFancy({ entries }: { entries: SetlistEntry[] }) {
+export function SetlistFancy({ entries, showDate, venue }: { entries: SetlistEntry[]; showDate: string; venue: string | null }) {
   if (entries.length === 0) {
     return (
       <p className="rounded-lg border border-dashed border-line bg-surface/50 px-5 py-8 text-center text-muted">
@@ -48,7 +50,7 @@ export function SetlistFancy({ entries }: { entries: SetlistEntry[] }) {
                   <li
                     key={e.uniqueId}
                     className={clsx(
-                      "group relative flex items-baseline gap-3 py-[7px] pl-4",
+                      "group relative flex items-baseline gap-3 py-[7px] pl-4 nugs-row",
                       inRun &&
                         "before:absolute before:left-[1px] before:w-[2px] before:rounded-full before:bg-gold/45",
                       inRun && thread,
@@ -80,6 +82,12 @@ export function SetlistFancy({ entries }: { entries: SetlistEntry[] }) {
                     {e.trackTime && (
                       <span className="shrink-0 font-mono text-[0.72rem] tabular-nums text-muted">{e.trackTime}</span>
                     )}
+                    <NugsLink
+                      href={nugsTrackHref({ date: showDate, venue, song: e.song, set: e.setNumber, pos: e.position })}
+                      fallback={nugsWebFallback({ date: showDate, venue })}
+                      className="nugs-track ml-1 shrink-0"
+                      title={`Listen to ${e.song} on nugs`}
+                    >▷</NugsLink>
                   </li>
                 );
               })}

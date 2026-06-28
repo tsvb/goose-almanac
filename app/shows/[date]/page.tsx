@@ -119,7 +119,7 @@ export default async function ShowPage({ params, searchParams }: Params) {
           </aside>
         ))}
 
-        <Setlist entries={setlist} experience={experience} />
+        <Setlist entries={setlist} experience={experience} showDate={date} venue={show.venue} />
         {experience === "minimal" && (
           <details className="mt-10 border-t border-line pt-4 text-sm">
             <summary className="cursor-pointer text-muted">Structured data (schema.org MusicEvent)</summary>

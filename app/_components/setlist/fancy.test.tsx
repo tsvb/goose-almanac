@@ -16,19 +16,32 @@ function entry(p: Partial<SetlistEntry>): SetlistEntry {
 describe("SetlistFancy", () => {
   it("renders an ordered list with song names and a jam flame", () => {
     const html = renderToStaticMarkup(
-      <SetlistFancy entries={[entry({ song: "Madhuvan", isJamchart: true, jamchartNotes: "huge" })]} />,
+      <SetlistFancy entries={[entry({ song: "Madhuvan", isJamchart: true, jamchartNotes: "huge" })]} showDate="2024-04-20" venue={null} />,
     );
     expect(html).toContain("<ol");
     expect(html).toContain("Madhuvan");
     expect(html).toContain("<svg"); // the flame mark
   });
   it("renders an empty-state when there are no entries", () => {
-    const html = renderToStaticMarkup(<SetlistFancy entries={[]} />);
+    const html = renderToStaticMarkup(<SetlistFancy entries={[]} showDate="2024-04-20" venue={null} />);
     expect(html).toContain("No setlist");
   });
   it("links the song and marks a Dusted Off return", () => {
-    const html = renderToStaticMarkup(<SetlistFancy entries={[entry({ song: "Hot Tea", slug: "hot-tea", gap: 52, isDustedOff: true })]} />);
+    const html = renderToStaticMarkup(<SetlistFancy entries={[entry({ song: "Hot Tea", slug: "hot-tea", gap: 52, isDustedOff: true })]} showDate="2024-04-20" venue={null} />);
     expect(html).toContain('href="/songs/hot-tea"');
     expect(html).toContain("Dusted Off");
+  });
+  it("emits a per-track applenugs link", () => {
+    const html = renderToStaticMarkup(
+      <SetlistFancy
+        entries={[entry({ song: "Hot Tea", setNumber: "1", position: 2 })]}
+        showDate="2024-04-20"
+        venue="The Salt Shed"
+      />,
+    );
+    expect(html).toContain('href="applenugs://show/2024-04-20');
+    expect(html).toContain("song=Hot%20Tea");
+    expect(html).toContain("set=1");
+    expect(html).toContain("pos=2");
   });
 });

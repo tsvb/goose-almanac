@@ -4,10 +4,12 @@ import { useMemo, useState } from "react";
 import { groupSets, isSegue } from "./shared";
 import type { SetlistEntry } from "@/lib/queries/shows";
 import { trackSeconds, RETURN_LABEL } from "@/lib/queries/format";
+import { NugsLink } from "../nugs-link";
+import { nugsTrackHref, nugsWebFallback } from "@/lib/nugs";
 
 type Sort = "set" | "long" | "az";
 
-export function SetlistFunctional({ entries }: { entries: SetlistEntry[] }) {
+export function SetlistFunctional({ entries, showDate, venue }: { entries: SetlistEntry[]; showDate: string; venue: string | null }) {
   const [q, setQ] = useState("");
   const [sort, setSort] = useState<Sort>("set");
   const [jamsOnly, setJamsOnly] = useState(false);
@@ -54,11 +56,12 @@ export function SetlistFunctional({ entries }: { entries: SetlistEntry[] }) {
             <th aria-label="Segue">→</th>
             <th className="text-right">Time</th>
             <th>Jam</th>
+            <th aria-label="Listen"></th>
           </tr>
         </thead>
         <tbody>
           {rows.map((r) => (
-            <tr key={r.e.uniqueId}>
+            <tr key={r.e.uniqueId} className="nugs-row">
               <td className="text-faint">{r.set}</td>
               <td className="tabular-nums text-faint">{r.n}</td>
               <td className="font-semibold text-ink">
@@ -68,6 +71,14 @@ export function SetlistFunctional({ entries }: { entries: SetlistEntry[] }) {
               <td className="font-extrabold text-gold">{isSegue(r.e.transition) ? "›" : ""}</td>
               <td className="text-right tabular-nums text-muted">{r.e.trackTime ?? "—"}</td>
               <td>{r.e.isJamchart ? <span className="w2-star">★ JAM</span> : <span className="text-faint">·</span>}</td>
+              <td>
+                <NugsLink
+                  href={nugsTrackHref({ date: showDate, venue, song: r.e.song, set: r.e.setNumber, pos: r.e.position })}
+                  fallback={nugsWebFallback({ date: showDate, venue })}
+                  className="nugs-track"
+                  title={`Listen to ${r.e.song} on nugs`}
+                >▷</NugsLink>
+              </td>
             </tr>
           ))}
         </tbody>

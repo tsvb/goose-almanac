@@ -2,8 +2,10 @@ import { groupSets, isSegue } from "./shared";
 import { Footnotes, DocSection } from "../doc";
 import type { SetlistEntry } from "@/lib/queries/shows";
 import { RETURN_LABEL } from "@/lib/queries/format";
+import { NugsLink } from "../nugs-link";
+import { nugsTrackHref, nugsWebFallback } from "@/lib/nugs";
 
-export function SetlistMinimal({ entries }: { entries: SetlistEntry[] }) {
+export function SetlistMinimal({ entries, showDate, venue }: { entries: SetlistEntry[]; showDate: string; venue: string | null }) {
   if (entries.length === 0) {
     return <p>No setlist has been recorded for this show yet.</p>;
   }
@@ -24,7 +26,7 @@ export function SetlistMinimal({ entries }: { entries: SetlistEntry[] }) {
                 const nid = `n-${e.uniqueId}`;
                 const fn = e.isJamchart && e.jamchartNotes ? noteIndex.get(nid) : undefined;
                 return (
-                  <tr key={e.uniqueId}>
+                  <tr key={e.uniqueId} className="nugs-row">
                     <td className="num" style={{ width: "1.6rem" }}>{i + 1}</td>
                     <td>
                       {e.slug ? <a href={`/songs/${e.slug}`}>{e.song}</a> : e.song}
@@ -33,6 +35,13 @@ export function SetlistMinimal({ entries }: { entries: SetlistEntry[] }) {
                       {e.isDustedOff ? <span className="doc-crumb"> [{RETURN_LABEL} · {e.gap}]</span> : null}
                     </td>
                     <td className="num">{e.trackTime ?? ""}</td>
+                    <td className="num">
+                      <NugsLink
+                        href={nugsTrackHref({ date: showDate, venue, song: e.song, set: e.setNumber, pos: e.position })}
+                        fallback={nugsWebFallback({ date: showDate, venue })}
+                        className="nugs-track"
+                      >listen</NugsLink>
+                    </td>
                   </tr>
                 );
               })}
