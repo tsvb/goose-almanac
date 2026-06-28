@@ -1,6 +1,7 @@
 import { groupSets, isSegue } from "./shared";
 import { Footnotes, DocSection } from "../doc";
 import type { SetlistEntry } from "@/lib/queries/shows";
+import { RETURN_LABEL } from "@/lib/queries/format";
 
 export function SetlistMinimal({ entries }: { entries: SetlistEntry[] }) {
   if (entries.length === 0) {
@@ -26,9 +27,10 @@ export function SetlistMinimal({ entries }: { entries: SetlistEntry[] }) {
                   <tr key={e.uniqueId}>
                     <td className="num" style={{ width: "1.6rem" }}>{i + 1}</td>
                     <td>
-                      {e.song}
+                      {e.slug ? <a href={`/songs/${e.slug}`}>{e.song}</a> : e.song}
                       {fn ? <sup><a href={`#${nid}`}>{fn}</a></sup> : null}
                       {isSegue(e.transition) ? " >" : ""}
+                      {e.isDustedOff ? <span className="doc-crumb"> [{RETURN_LABEL} · {e.gap}]</span> : null}
                     </td>
                     <td className="num">{e.trackTime ?? ""}</td>
                   </tr>

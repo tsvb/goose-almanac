@@ -9,7 +9,7 @@ function entry(p: Partial<SetlistEntry>): SetlistEntry {
     songId: 1, song: "X", slug: null, setType: "Set", setNumber: "1",
     position: 1, trackTime: null, transition: null, isJamchart: false,
     jamchartNotes: null, isJam: false, isReprise: false, isOriginal: true,
-    originalArtist: null, footnote: null, ...p,
+    originalArtist: null, footnote: null, gap: null, isDustedOff: false, ...p,
   };
 }
 
@@ -34,5 +34,10 @@ describe("SetlistFunctional", () => {
     expect(html).toContain("Filter songs");
     expect(html).toContain("Tumble");
     expect(html).toContain("Yeti");
+  });
+  it("links the song and marks a Dusted Off return", () => {
+    const html = renderToStaticMarkup(<SetlistFunctional entries={[entry({ song: "Hot Tea", slug: "hot-tea", gap: 52, isDustedOff: true })]} />);
+    expect(html).toContain('href="/songs/hot-tea"');
+    expect(html).toContain("Dusted Off");
   });
 });

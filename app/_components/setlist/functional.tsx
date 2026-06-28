@@ -3,7 +3,7 @@
 import { useMemo, useState } from "react";
 import { groupSets, isSegue } from "./shared";
 import type { SetlistEntry } from "@/lib/queries/shows";
-import { trackSeconds } from "@/lib/queries/format";
+import { trackSeconds, RETURN_LABEL } from "@/lib/queries/format";
 
 type Sort = "set" | "long" | "az";
 
@@ -61,7 +61,10 @@ export function SetlistFunctional({ entries }: { entries: SetlistEntry[] }) {
             <tr key={r.e.uniqueId}>
               <td className="text-faint">{r.set}</td>
               <td className="tabular-nums text-faint">{r.n}</td>
-              <td className="font-semibold text-ink">{r.e.song}</td>
+              <td className="font-semibold text-ink">
+                {r.e.slug ? <a href={`/songs/${r.e.slug}`} className="hover:underline">{r.e.song}</a> : r.e.song}
+                {r.e.isDustedOff ? <span className="w2-badge gold ml-2">{RETURN_LABEL} · {r.e.gap}</span> : null}
+              </td>
               <td className="font-extrabold text-gold">{isSegue(r.e.transition) ? "›" : ""}</td>
               <td className="text-right tabular-nums text-muted">{r.e.trackTime ?? "—"}</td>
               <td>{r.e.isJamchart ? <span className="w2-star">★ JAM</span> : <span className="text-faint">·</span>}</td>

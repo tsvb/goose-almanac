@@ -9,6 +9,8 @@ import type { Experience } from "@/lib/experience";
 
 const NAV = [
   { href: "/shows", label: "Shows" },
+  { href: "/songs", label: "Songs" },
+  { href: "/stats", label: "Stats" },
   { href: "/on-this-day", label: "On This Day" },
   { href: "/venues", label: "Venues" },
   { href: "/tours", label: "Tours" },

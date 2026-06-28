@@ -1,6 +1,7 @@
+import Link from "next/link";
 import { Flame } from "../marks";
 import { clsx } from "../clsx";
-import { trackSeconds, formatDuration } from "@/lib/queries/format";
+import { trackSeconds, formatDuration, RETURN_LABEL } from "@/lib/queries/format";
 import type { SetlistEntry } from "@/lib/queries/shows";
 import { groupSets, isSegue } from "./shared";
 
@@ -58,12 +59,15 @@ export function SetlistFancy({ entries }: { entries: SetlistEntry[] }) {
                     </span>
                     <span className="flex-1 leading-snug">
                       {segFromPrev && <span className="mr-1 select-none text-gold">›</span>}
-                      <span className="text-[1.02rem] text-ink">{e.song}</span>
+                      {e.slug
+                        ? <Link href={`/songs/${e.slug}`} className="text-[1.02rem] text-ink hover:underline">{e.song}</Link>
+                        : <span className="text-[1.02rem] text-ink">{e.song}</span>}
                       {e.isJamchart && (
                         <span title={e.jamchartNotes ?? "Jam chart"}>
                           <Flame className="ml-1.5 inline h-[15px] w-[15px] -translate-y-px text-gold" strokeWidth={1.7} />
                         </span>
                       )}
+                      {e.isDustedOff && <span className="ml-2 rounded-full border border-gold/40 px-2 py-0.5 align-middle font-mono text-[0.6rem] text-gold">{RETURN_LABEL} · {e.gap}</span>}
                       {!e.isOriginal && e.originalArtist && (
                         <span className="ml-2 align-baseline text-xs italic text-faint">{e.originalArtist}</span>
                       )}
