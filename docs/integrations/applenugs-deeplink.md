@@ -30,6 +30,27 @@ applenugs://show/2024-04-20?artist=Goose&venue=The%20Salt%20Shed  # listen, venu
 applenugs://show/2026-05-30?artist=Goose&media=video              # watch (video)
 ```
 
+### Track-level (jump to one performance)
+
+```
+applenugs://show/<YYYY-MM-DD>?artist=Goose&song=<title>&set=<n>&pos=<n>[&venue=][&media=]
+```
+
+| Part | Notes |
+|------|-------|
+| `song` | The song **title** (percent-encoded), matched against the resolved container's nugs track titles. |
+| `set` / `pos` | The setlist `setNumber` / `position` — disambiguate repeats/covers within the show. |
+
+The app resolves the show (above), then finds the matching track and starts playback
+there. Track-level links only *work* once the app adds track matching; the Almanac
+emits them regardless.
+
+### Encoding
+
+Query values are **percent-encoded with `%20` for spaces** (e.g. `song=Hot%20Tea`).
+Do not use `+` for spaces — Swift's `URLComponents.queryItems` does not decode `+` to a
+space, so a `+` would reach the app literally.
+
 ## Resolution (app side)
 
 The app turns `artist + date (+ venue, media)` into a nugs container, reusing methods
