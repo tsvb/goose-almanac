@@ -7,6 +7,8 @@ import { ArrowRight, Calendar, MapPin, Disc } from "./_components/marks";
 import { getOverviewStats } from "@/lib/queries/stats";
 import { getRecentShows, getUpcomingShows, getOnThisDay } from "@/lib/queries/shows";
 import { compact, yearOf, formatMonthDay, formatLongDate, dateParts, locationLine, showHref } from "@/lib/queries/format";
+import { getExperience } from "@/lib/experience.server";
+import { Doc, MetaTable, ShowTable, DocSection } from "./_components/doc";
 
 function Stat({ value, label }: { value: string; label: string }) {
   return (
@@ -24,6 +26,33 @@ export default async function Home() {
     getUpcomingShows(4),
     getOnThisDay(),
   ]);
+  const experience = await getExperience();
+
+  if (experience === "minimal") {
+    return (
+      <Container className="py-8">
+        <Doc>
+          <h1>Goose Almanac</h1>
+          <p>An almanac of every Goose show — setlists, segues, jams, venues, and tours. Setlist data from <a href="https://elgoose.net" target="_blank" rel="noreferrer">elgoose.net</a>.</p>
+          <MetaTable rows={[
+            { k: "Shows", v: compact(stats.showsPlayed) },
+            { k: "Songs", v: compact(stats.songs) },
+            { k: "Venues", v: compact(stats.venues) },
+            { k: "Performances", v: compact(stats.performances) },
+            ...(stats.firstDate ? [{ k: "First show", v: stats.firstDate }] : []),
+            ...(stats.lastPlayedDate ? [{ k: "Last show", v: stats.lastPlayedDate }] : []),
+          ]} />
+          {onThisDay.length > 0 && <DocSection title="On this day"><ShowTable shows={onThisDay.slice(0, 6)} /></DocSection>}
+          <DocSection title="Recent shows"><ShowTable shows={recent} /></DocSection>
+          {upcoming.length > 0 && <DocSection title="Upcoming"><ShowTable shows={upcoming} /></DocSection>}
+          <DocSection title="Browse">
+            <p><Link href="/shows">All shows</Link> · <Link href="/venues">Venues</Link> · <Link href="/tours">Tours</Link> · <Link href="/on-this-day">On this day</Link></p>
+          </DocSection>
+        </Doc>
+      </Container>
+    );
+  }
+
   const sinceYear = stats.firstDate ? yearOf(stats.firstDate) : 2014;
   const todayLabel = onThisDay.length ? formatMonthDay(onThisDay[0].date) : "";
 
