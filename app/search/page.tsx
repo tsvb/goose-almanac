@@ -8,6 +8,8 @@ import { MapPin } from "@/app/_components/marks";
 import { searchShows } from "@/lib/queries/shows";
 import { searchVenues, searchTours } from "@/lib/queries/dimensions";
 import { locationLine, formatShortDate } from "@/lib/queries/format";
+import { getExperience } from "@/lib/experience.server";
+import { Doc, Breadcrumb, ShowTable, EntityTable, DocSection } from "@/app/_components/doc";
 
 type Props = { searchParams: Promise<{ q?: string }> };
 
@@ -54,6 +56,26 @@ export default async function SearchPage({ searchParams }: Props) {
   ]);
 
   const total = shows.length + venues.length + tours.length;
+  const experience = await getExperience();
+
+  if (experience === "minimal") {
+    return (
+      <Container className="py-8">
+        <Doc>
+          <Breadcrumb trail={[{ href: "/", label: "Goose Almanac" }, { label: "Search" }]} />
+          <h1>{term ? `Search: ${term}` : "Search"}</h1>
+          {!term ? <p>Enter a query in the address bar: <code>/search?q=red+rocks</code></p> : (
+            <>
+              {shows.length > 0 && <DocSection title="Shows"><ShowTable shows={shows} /></DocSection>}
+              {venues.length > 0 && <DocSection title="Venues"><EntityTable rows={venues.map((v) => ({ href: `/venues/${v.venueId}`, name: v.name, sub: locationLine(v.city, v.state, v.country), count: v.shows }))} /></DocSection>}
+              {tours.length > 0 && <DocSection title="Tours"><EntityTable rows={tours.map((t) => ({ href: `/tours/${t.tourId}`, name: t.name, count: t.shows }))} /></DocSection>}
+              {shows.length === 0 && venues.length === 0 && tours.length === 0 && <p>No results for &ldquo;{term}&rdquo;.</p>}
+            </>
+          )}
+        </Doc>
+      </Container>
+    );
+  }
 
   return (
     <>

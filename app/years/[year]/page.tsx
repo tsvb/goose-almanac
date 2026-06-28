@@ -7,6 +7,8 @@ import { ArrowLeft, ArrowRight } from "@/app/_components/marks";
 import { listShows } from "@/lib/queries/shows";
 import { listYears } from "@/lib/queries/dimensions";
 import { compact } from "@/lib/queries/format";
+import { getExperience } from "@/lib/experience.server";
+import { Doc, Breadcrumb, ShowTable } from "@/app/_components/doc";
 
 type Params = { params: Promise<{ year: string }> };
 
@@ -39,6 +41,21 @@ export default async function YearPage({ params }: Params) {
   const idx = yearsWithShows.indexOf(year);
   const prevYear = idx > 0 ? yearsWithShows[idx - 1] : null;
   const nextYear = idx < yearsWithShows.length - 1 ? yearsWithShows[idx + 1] : null;
+
+  const experience = await getExperience();
+
+  if (experience === "minimal") {
+    return (
+      <Container className="py-8">
+        <Doc>
+          <Breadcrumb trail={[{ href: "/", label: "Goose Almanac" }, { href: "/shows", label: "Shows" }, { label: String(year) }]} />
+          <h1>{year}</h1>
+          <p className="doc-crumb">{rows.length} {rows.length === 1 ? "show" : "shows"}</p>
+          <ShowTable shows={rows} />
+        </Doc>
+      </Container>
+    );
+  }
 
   return (
     <>

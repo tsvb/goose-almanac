@@ -4,6 +4,8 @@ import { ShowCard } from "@/app/_components/show-card";
 import { Calendar } from "@/app/_components/marks";
 import { getOnThisDay } from "@/lib/queries/shows";
 import { formatMonthDay, compact } from "@/lib/queries/format";
+import { getExperience } from "@/lib/experience.server";
+import { Doc, Breadcrumb, ShowTable } from "@/app/_components/doc";
 
 export const metadata: Metadata = { title: "On This Day" };
 
@@ -11,6 +13,19 @@ export default async function OnThisDayPage() {
   const rows = await getOnThisDay();
 
   const title = rows.length > 0 ? formatMonthDay(rows[0].date) : "On this day";
+  const experience = await getExperience();
+
+  if (experience === "minimal") {
+    return (
+      <Container className="py-8">
+        <Doc>
+          <Breadcrumb trail={[{ href: "/", label: "Goose Almanac" }, { label: "On this day" }]} />
+          <h1>On this day</h1>
+          {rows.length === 0 ? <p>No Goose shows on today&apos;s date.</p> : <ShowTable shows={rows} />}
+        </Doc>
+      </Container>
+    );
+  }
 
   return (
     <>

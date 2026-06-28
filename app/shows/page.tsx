@@ -7,6 +7,7 @@ import { listShows } from "@/lib/queries/shows";
 import { listYears } from "@/lib/queries/dimensions";
 import { compact } from "@/lib/queries/format";
 import { getExperience } from "@/lib/experience.server";
+import { Doc, Breadcrumb, ShowTable } from "@/app/_components/doc";
 
 type SearchParams = Promise<{ year?: string; dir?: string; page?: string }>;
 
@@ -62,6 +63,30 @@ export default async function ShowsBrowsePage({
   const countLine = year
     ? `${compact(total)} ${total === 1 ? "show" : "shows"} in ${year}`
     : `${compact(total)} ${total === 1 ? "show" : "shows"} · ${dir === "desc" ? "newest first" : "oldest first"}`;
+
+  if (experience === "minimal") {
+    return (
+      <Container className="py-8">
+        <Doc>
+          <Breadcrumb trail={[{ href: "/", label: "Goose Almanac" }, { label: "Shows" }]} />
+          <h1>{year ? `Shows in ${year}` : "All shows"}</h1>
+          <p className="doc-crumb">{countLine}</p>
+          <p className="doc-crumb">
+            Years: <Link href={buildHref({ year: null })}>All</Link>
+            {years.map((y) => (<span key={y.year}> · <Link href={buildHref({ year: y.year })}>{y.year}</Link></span>))}
+          </p>
+          <ShowTable shows={rows} />
+          {totalPages > 1 && (
+            <p className="doc-crumb">
+              {page > 1 ? <Link href={buildHref({ page: page - 1 })}>← Previous</Link> : null}
+              {" "}Page {page} of {totalPages}{" "}
+              {page < totalPages ? <Link href={buildHref({ page: page + 1 })}>Next →</Link> : null}
+            </p>
+          )}
+        </Doc>
+      </Container>
+    );
+  }
 
   return (
     <>
