@@ -49,7 +49,7 @@ export function ShowTable({ shows }: { shows: ShowSummary[] }) {
       </thead>
       <tbody>
         {shows.map((s) => (
-          <tr key={s.showId}>
+          <tr key={s.showId} id={`show-${s.showId}`} className="show-anchor">
             <td className="nowrap">
               <Link href={showHref(s.date, s.order)}>{s.date}</Link>
             </td>

@@ -239,6 +239,54 @@ export async function listShows(filter: ShowListFilter): Promise<{ rows: ShowSum
   return { rows, total };
 }
 
+/**
+ * Locate the most recent show that has already happened (date <= today) within
+ * the active filter, and work out which page it lands on given the current sort
+ * direction and page size — so the UI can deep-link straight to it.
+ */
+export async function findLatestPastShow(
+  filter: ShowListFilter,
+): Promise<{ showId: number; date: string; isToday: boolean; page: number } | null> {
+  const perPage = filter.perPage ?? 30;
+  const conds = [];
+  if (filter.year) conds.push(sql`extract(year from ${shows.showDate}) = ${filter.year}`);
+  if (filter.tourId) conds.push(eq(shows.tourId, filter.tourId));
+  if (filter.venueId) conds.push(eq(shows.venueId, filter.venueId));
+  const filterWhere = conds.length ? and(...conds) : undefined;
+  const withFilter = (extra: ReturnType<typeof sql>) =>
+    filterWhere ? and(filterWhere, extra) : extra;
+
+  const [target] = await db
+    .select({
+      showId: shows.showId,
+      date: shows.showDate,
+      order: shows.showOrder,
+      isToday: sql<boolean>`${shows.showDate} = current_date`,
+    })
+    .from(shows)
+    .where(withFilter(sql`${shows.showDate} <= current_date`))
+    .orderBy(desc(shows.showDate), desc(shows.showOrder))
+    .limit(1);
+  if (!target) return null;
+
+  const ord = target.order ?? 1;
+  const cmp =
+    filter.dir === "asc"
+      ? sql`(${shows.showDate}, coalesce(${shows.showOrder}, 1)) <= (${target.date}::date, ${ord})`
+      : sql`(${shows.showDate}, coalesce(${shows.showOrder}, 1)) >= (${target.date}::date, ${ord})`;
+  const [{ rank }] = await db
+    .select({ rank: sql<number>`count(*)::int` })
+    .from(shows)
+    .where(withFilter(cmp));
+
+  return {
+    showId: target.showId,
+    date: target.date,
+    isToday: Boolean(target.isToday),
+    page: Math.max(1, Math.ceil(rank / perPage)),
+  };
+}
+
 export async function searchShows(q: string, limit = 24): Promise<ShowSummary[]> {
   const like = `%${q}%`;
   return baseShowQuery()

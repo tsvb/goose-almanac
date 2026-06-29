@@ -26,7 +26,7 @@ export function ShowList({ rows, experience }: { rows: ShowSummary[]; experience
   return (
     <ul className="surface-card divide-y divide-line-soft">
       {rows.map((s) => (
-        <li key={s.showId}>
+        <li key={s.showId} id={`show-${s.showId}`} className="show-anchor">
           <ShowRow show={s} />
         </li>
       ))}
