@@ -29,12 +29,12 @@ of band via the sync job, so page loads stay fast and never depend on the elgoos
 
 ### 1. GitHub repo — ✅ done
 
-Public repo at `https://github.com/tsvb/goose-almanac`, `main` pushed.
+Public repo at `https://github.com/tsvb/goose-index`, `main` pushed.
 
 ### 2. Create the Neon database
 
 1. Sign in at [neon.tech](https://neon.tech) (GitHub login is easiest).
-2. **Create a project** (e.g. `goose-almanac`, region close to you).
+2. **Create a project** (e.g. `goose-index`, region close to you).
 3. Open **Connection Details** and copy the **pooled** connection string. It looks like:
    ```
    postgres://USER:PASSWORD@ep-xxxx-pooler.REGION.aws.neon.tech/neondb?sslmode=require
@@ -54,13 +54,13 @@ DATABASE_URL='<neon-pooled-url>' npm run verify        # expect: VERIFY OK
 ### 4. Create the Vercel project
 
 1. Sign in at [vercel.com](https://vercel.com) with GitHub.
-2. **Add New → Project**, import **`tsvb/goose-almanac`**. Framework auto-detects as Next.js.
+2. **Add New → Project**, import **`tsvb/goose-index`**. Framework auto-detects as Next.js.
 3. Before the first deploy, add **Environment Variables**:
    | Name | Value |
    |------|-------|
    | `DATABASE_URL` | the **pooled** Neon string from step 2 |
-   | `ELGOOSE_USER_AGENT` | _(optional)_ `GooseAlmanac/1.0 (+https://github.com/tsvb/goose-almanac)` |
-4. **Deploy.** It goes live at `https://goose-almanac.vercel.app` (or similar).
+   | `ELGOOSE_USER_AGENT` | _(optional)_ `GooseIndex/1.0 (+https://github.com/tsvb/goose-index)` |
+4. **Deploy.** It goes live at `https://goose-index.vercel.app` (or similar).
 
 ### 5. Nightly data refresh (GitHub Action)
 
@@ -70,7 +70,7 @@ It reads the connection string from a repo secret — set to the **unpooled** (d
 string, since a bulk job is happiest off PgBouncer:
 
 ```bash
-gh secret set DATABASE_URL --repo tsvb/goose-almanac --body '<neon-UNPOOLED-url>'
+gh secret set DATABASE_URL --repo tsvb/goose-index --body '<neon-UNPOOLED-url>'
 ```
 
 The workflow also has a **Run workflow** button (manual trigger) on the repo's Actions tab.

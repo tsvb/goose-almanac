@@ -29,7 +29,7 @@ jobs:
       - name: Sync elgoose → database
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
-          ELGOOSE_USER_AGENT: "GooseAlmanac/1.0 (+https://github.com/tsvb/goose-almanac; nightly sync)"
+          ELGOOSE_USER_AGENT: "GooseIndex/1.0 (+https://github.com/tsvb/goose-index; nightly sync)"
         run: npm run sync
       - name: Verify integrity
         env:
